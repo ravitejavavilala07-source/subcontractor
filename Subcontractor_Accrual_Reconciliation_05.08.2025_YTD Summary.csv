@@ -1,0 +1,885 @@
+﻿applicant_number,consultant_name,vendor_name,ytd_hours_billed,ytd_hours_paid,ytd_amount_billed,ytd_amount_paid,ytd_accrual_amount
+500390,"Quicquaro, Brian","Noah Consulting, LLC",16949.398,0,2919474.34,0,2919474.34
+500054,"Koppu, Jeevan",Aspire Consulting,27935,0,2644778.75,0,2644778.75
+500286,"Mandala, Nishanth Reddy",Tek Systems,31333,0,2360235.6,0,2360235.6
+500396,"Sudham, Rammohan",Tek Systems,29239,0,2265020.8,0,2265020.8
+500047,"Kancharla, Venkata",Corvus Technology Resources,25372.61,0,2198138.58,0,2198138.58
+500081,"Nukala, Venkat","Thought Creek, Inc",26763,0,2100574.63,0,2100574.63
+500100,"Rudroju, Bharathudu",Judge Technical Staffing,25002.25,0,2066148.52,0,2066148.52
+500038,"Garlapati, Sivarama",McInnis Consulting Services Inc,23283.864,0,1978333.4,0,1978333.4
+500043,"Gundu Subhash, Sunil",Gardner Resources,25152,0,1895871.7,0,1895871.7
+500545,"KALAGADANDU, SANKARA RAO",Infobahn Softworld Inc,24511,0,1820644,0,1820644
+500039,"Garre, Venkata Kartheek",Tek Systems,27708,0,1750693.31,0,1750693.31
+500031,"Devangam, Sreenivasulu","RadGov, Inc",23644,0,1731588.28,0,1731588.28
+500552,"Bandari, Harish Kumar",Logix Guru Inc.,23223,0,1715084,0,1715084
+500084,"Paliwal, Nitin",Acclaim Systems Inc,17518,0,1688296.28,0,1688296.28
+500193,"Dodda, Sudarshan","iTech US, Inc",21697.5,0,1660043.41,0,1660043.41
+500359,"Koothrappally James, Bijo",Inter-American Development Bank,15939.25,0,1620344.56,0,1620344.56
+500436,"Thota, Praveen Kumar R",BCforward,24148.5,0,1606636.28,0,1606636.28
+500005,"Ambati, Naveen",McInnis Consulting Services Inc,17323,0,1492691.48,0,1492691.48
+500167,"Nalabolu, Kalinga  Reddy",Global Commerce and  Information (Global CI),20631.75,0,1442358.95,0,1442358.95
+500128,"Yejella, Sharmila",Tek Systems,20269.5,0,1440243.97,0,1440243.97
+500015,"Batti, Sudhir Kumar",Randstad Technologies,12962,0,1398092.58,0,1398092.58
+500078,"Narayanan, Sreevatsan",NTECH Solutions Inc,22417,0,1384567.28,0,1384567.28
+500413,"Rayekanti, Sharada",The Matlen Silver Group Inc.,20148,0,1372929.64,0,1372929.64
+500417,"Vasanthapuram, Gangadhar","iTech US, Inc",16937,0,1326805.04,0,1326805.04
+500425,"Bondugula, Gautham",Tek Systems,19348.2,0,1321635.09,0,1321635.09
+500124,"Vunnava, Sreelatha",EttainGroup,17189.5,0,1280409.3,0,1280409.3
+500236,"Duggirala, Rakesh Krishna","iTech US, Inc.",15800,0,1277416,0,1277416
+500013,"Banda, Sreenivasulu","ICONMA, Inc.",18837,0,1252968.8,0,1252968.8
+500192,"Bagrodia, Princy","iTech US, Inc",18098,0,1214342.9,0,1214342.9
+500415,"Veeramachaneni, NagaSai Amith Kumar",CES Enterprise LLC ( USA),18426.8,0,1186593.1,0,1186593.1
+500478,"Vuyyuri, Naresh",Tek Systems,15888,0,1185707.57,0,1185707.57
+500428,"Patra, Gangadhar",Architech Solutions,12368,0,1182785.56,0,1182785.56
+500200,"Madhavaram, Priyanka","Digital Intelligence Systems, LLC (DISYS)",13632.5,0,1142384.06,0,1142384.06
+500780,"Singh, Abhishek","iTech US, Inc",11892.5,0,1129348.73,0,1129348.73
+500062,"Lokala, Siva","NTT DATA, Inc",15786,0,1124306.29,0,1124306.29
+500146,"Chintakrinda, Vijay",CompuGain LLC,12054,0,1121589.28,0,1121589.28
+500492,"Mohammed, Zahed Ali",Tek Systems,15207.5,0,1121106.06,0,1121106.06
+500010,"Araveti, Praveen Kumar",Diversant LLC,7770,0,1120370.42,0,1120370.42
+500577,"YERAMALA, RAJA SEKHAR REDDY","Next Level Business Services, Inc.",12644,0,1099578.16,0,1099578.16
+500500,"Munukutla, Viswa Phani Kiran",Pontoon Solutions Inc.,10325,0,1098449.97,0,1098449.97
+500393,"Vadlamudi, Venkat",Optimus LLC,20962.5,0,1093328,0,1093328
+500612,"Marneni, Pavan Kumar",Intime Info,13294,0,1063276,0,1063276
+500022,"Brar, Amrinder",Tek Systems,18778.5,0,1014771.72,0,1014771.72
+500296,"Mannam, Subash",SyApps LLC,12902,0,992135,0,992135
+500120,"Veeramachaneni, Naga Sai Anil Kumar",Tek Systems,14569,0,968472.83,0,968472.83
+500090,"Pentapalli, Arun","RF Excel, Inc.",14858,0,965570,0,965570
+500095,"Puli, Venkata",International Solutions group Inc,10249,0,964344.25,0,964344.25
+500350,"Phaneendra Reddy, Karri","Rangam Consultants,Inc",13962.48,0,935357.44,0,935357.44
+500321,"Manne, Praveen Kumar","iTech US, Inc.",11115,0,873419,0,873419
+500639,"Balusamy, Ramanaprabu",Multivision Inc,13130,0,859777.63,0,859777.63
+500162,"Desamsetty, Dileep",Route Intel LLC (DBA Well Route LLC),9939,0,837489,0,837489
+500394,"Amodia, Agnel",Judge Technial Staffing (Judge),11075,0,836551.36,0,836551.36
+500371,"Mirza, Jafar","iTech US, Inc.",9092.5,0,811806.5,0,811806.5
+500083,"Pakalapati, Vikram",Matrix Solutions Corporation,10818.5,0,809911.38,0,809911.38
+500075,"Nadimpally, Rajendra",Xylo Technologies Inc,11417,0,799445,0,799445
+500801,"Lakshmi Narayana, Divya","E-Solutions, Inc.",14377,0,791095,0,791095
+500223,"Yaparthi, Srujan",System Edge LLC,10538.5,0,777057,0,777057
+500462,"Vaghasiya, Soham",Apetan Consulting LLC,14406.5,0,768545.5,0,768545.5
+500006,"Ambikapathy, Aravind",Genesis Corp,7586.5,0,759766,0,759766
+500567,"Sunkara, Lakshmi Tejaswi",Copper Mobile,13337,0,737663.02,0,737663.02
+500096,"Rakvi, Pranish","ANDEO Group, LLC.",11308,0,723350.2,0,723350.2
+500121,"Vejerla, Venu",Needles Inc,9837,0,705084.75,0,705084.75
+500537,"Tera, Manisha","iTech US, Inc",14240,0,702482.37,0,702482.37
+500025,"Chen, Qixin","iTech US, Inc",10920.5,0,661255.5,0,661255.5
+500461,"MISTRY, AMITKUMAR K","Infinity Consulting Solutions, Inc",8695,0,646123,0,646123
+500733,"Abdullah I Alaska
+, Nasser
+",Oreva Technologies,12245,0,619148,0,619148
+500493,"Yarlagadda, Bharadwaj","iTech US, Inc",9776,0,589680,0,589680
+500089,"Peddy, Vijay Kumar","Mastech, Inc.",7131,0,589410,0,589410
+500399,"Shah, Nishal K",Tekserve Corp,10280,0,588968,0,588968
+500027,"Chintamaneni, Kartik","iTech US, Inc",10027,0,588891.58,0,588891.58
+500949,"Murthy, Parag",Kforce Inc,5838,0,586704.25,0,586704.25
+500668,"Attaluru, Siva Prasad",Evolutionary Data Progressive Systems (EDPSI),8045.5,0,586087.5,0,586087.5
+500349,"Vemuri, Pragna","BOSS Technologies, Inc.",12182,0,582702.06,0,582702.06
+500507,"Pendyala, Srinath",Eliassen Group LLC,10331,0,575707.9,0,575707.9
+500752,"Ghadage, Vijay Prakash",Kforce Inc,7312,0,570336,0,570336
+500632,"Kundeti, Sankarnath",Simplion Technologies Inc,10004,0,569828,0,569828
+500714,"Salimath, Sridevi","iTech US, Inc",9835.5,0,569790,0,569790
+500073,"Mortala, Rahul Reddy","Addon Technologies, Inc.",7764.5,0,569263.5,0,569263.5
+500616,"Gondi, Shafali","iTech US, Inc",10236,0,566518.8,0,566518.8
+500149,"Lin, Chi",TCC Software Solutions,12002,0,563488,0,563488
+500113,"Taralekar, Abhishek","Mid-Del Group, LLC",8935,0,562175,0,562175
+500366,"Hussain, Nizar",Tek Systems,9407,0,561836.16,0,561836.16
+500119,"Trivedi, Purav",IDC Technologies,10807,0,560300.16,0,560300.16
+500933,"Kohir, Nirup Reddy",Thretha Inc.,7736,0,554960,0,554960
+500843,"Tuggudem, Saikumar","Mastech Digital Technologies, Inc.",7649,0,549608,0,549608
+500061,"Lingala, Rakesh",Sigma Resources LLC,10024.06,0,548792.4,0,548792.4
+500408,"Annapureddy, Sri Laxmi",Experis,9568,0,548259.76,0,548259.76
+500815,"Kongara, Ajay Surya",Tekis Hub,5871,0,547630.41,0,547630.41
+500069,"Mohammad, Tousif Ali",eTeam,9821,0,540119,0,540119
+500403,"Unnam, Padmaja",Zodiac,10057,0,536616,0,536616
+500392,"Desai, Apurva Anil",Panzer Solutions,11739,0,535999.82,0,535999.82
+500746,"Villa, Veera Reddy",Saransh Inc.,6414,0,531271.92,0,531271.92
+500703,"Soni, Munmun",ASN Technologies Inc,9079.5,0,530954.04,0,530954.04
+500049,"KARUNANIDHI, GOWTHAMAN",Bucher and Christian Consulting Inc,9147.96,0,530473.11,0,530473.11
+500011,"Arora, Megha",Software Specialists,7512.5,0,525875,0,525875
+500152,"Patki, Vrushali Balwant","iTech US, Inc",9859,0,525689,0,525689
+500147,"Sherigar, Prashant",Bank United,5937,0,525105,0,525105
+500550,"Pise, Rajat Jaiprakash","iTech US, Inc",9237,0,518236,0,518236
+500036,"Gandhi, Bhavik",Empower Consultancy Services Inc,8536,0,518108,0,518108
+500496,"Naidu, Nagaraju",Promantis,6880,0,514712,0,514712
+500501,"Beldar, Fayaz",Pontoon Solutions Inc.,4184,0,505989.6,0,505989.6
+500050,"Katragadda, Suman Kumar","Vision Technology Services, LLC",8172,0,501283,0,501283
+500627,"Kommuguri, Shainy",Tek Systems,10492,0,496208.06,0,496208.06
+500423,"Vempati, Suresh A.",Infosys,5552,0,480409.6,0,480409.6
+500502,"Ravinutala, SaiVeera",Logix Guru Inc.,9016,0,478920,0,478920
+500229,"Rathore, Rajdeep Singh",The Matlen Silver Group Inc.,9279,0,477612.61,0,477612.61
+500479,"Singh, Harkamal",Tek Systems,6802,0,477596.88,0,477596.88
+500786,"Lingaraj, Prakash",RIIM LLC,5840,0,458720,0,458720
+500238,"Kotha, Sathwik Reddy",Tek Systems,8856,0,450829.44,0,450829.44
+500088,"Patil, Laxmikant","K-Force, Inc.",6272,0,449980.07,0,449980.07
+500267,"Chekuri, Karthik",OpenSoft Inc.,8021,0,446320,0,446320
+500447,"Mehta, Jiger Jayesh","Innovatis Technologies, LLC",8830.5,0,443997.5,0,443997.5
+500035,"Gadipalli, Raghuveer Reddy",Satnam Data Systems Inc,6925,0,438725,0,438725
+500683,"Kalra, Balvinder Singh",Tek Systems,5417.09,0,436374.2,0,436374.2
+500283,"Bandameedi, RamaKrishna",LVN Consulting Corp,5991,0,434620,0,434620
+500818,"Kothakapu, Akhila",TCC Software Solutions,6882,0,433785,0,433785
+500003,"Alkazimi, Anas","iTech US, Inc",6333,0,433495,0,433495
+500170,"Nguyen, Cuong",Think Development INC,11445,0,431554.88,0,431554.88
+500228,"Chinninti, Anup Reddy",Tek Systems,7837,0,424858.46,0,424858.46
+500166,"Galagali, Pooja Jayathirth","Xchangesoftware, Inc",7859,0,421719,0,421719
+500948,"Kalagadandu, Thanuja",TechnosoftPro LLC,5696,0,419288,0,419288
+500389,"Raza, Muhammad Ali",Infosys,3837,0,416873.21,0,416873.21
+500042,"Gundu, Suman",Icon Medical Network Inc,5436,0,414836.16,0,414836.16
+500792,"Katta, Sai Krishna Reddy",Kaygen Inc.,8408,0,412560,0,412560
+500470,"Bodepudi, Soumya",Optime Tech LLC,8463.5,0,411378,0,411378
+500448,"Kantipudi, Abhinay Aaron","Innovatis Technologies, LLC",7949.25,0,407287.5,0,407287.5
+500572,"Illa, Mahendar Kumar",Pontoon Solutions Inc.,4705,0,406054.88,0,406054.88
+500534,"Ponugoti, Shireesha",Source infotech,8049.5,0,405012.5,0,405012.5
+500663,"Sadanandan, Deepu",Infosys,5778,0,404311.02,0,404311.02
+500805,"Puttaswamy, Yashaswi",Incubit LLC,5741,0,401870,0,401870
+500368,"Bandi, Rashmi Bhavani",Niche Soft Solutions,6794,0,401618.5,0,401618.5
+500637,"Tirunagari, Divya",TEKsystems Inc,5719,0,399748.34,0,399748.34
+500676,"Chilakamarri, Ram",Pontoon Solutions Inc.,4811,0,399710.4,0,399710.4
+500480,"Waqar, FNU",Logix Guru Inc.,5453,0,394439,0,394439
+500330,"Yalamanchili, Sindhuja",Compunnel Software Group,6856,0,391936,0,391936
+500900,"Veeramachaneni, Venkatesh","Techno-Comp, Inc",4400,0,391033.28,0,391033.28
+500300,"Thagella, Sandeep",Infosys,4904,0,388062.4,0,388062.4
+500387,"Kumar, Vishal",Infosys,5623,0,387549.49,0,387549.49
+500548,"Ramachandran, Rajesh",Tek Systems,5488,0,387416.4,0,387416.4
+500222,"Palempallinallappagari, Mallikarjun Reddy",Tek Systems,6666,0,384655.18,0,384655.18
+500732,"Yadlapalli, Surya",Pontoon Solutions Inc.,4604,0,384084.4,0,384084.4
+500402,"Murari, Keerthana",IIT Inc.,6697,0,383076.25,0,383076.25
+500253,"Rammanohar, Vignesh",Infosys,5000,0,381538.08,0,381538.08
+500673,"Koppu, Jeevitha","iTech US, Inc",6856,0,379784,0,379784
+500836,"Sriramoju, Lavanya Rani","Diverse Lynx, LLC",6643,0,379624.18,0,379624.18
+500420,"Manisekar, Prabhu",Sage IT Inc,7149.5,0,377323.15,0,377323.15
+500699,"Govindarajan, Udhayakumar",Tek Systems,4061,0,374957.18,0,374957.18
+500303,"Chenna, Soumya",Resource Research Company (RSC Solutions)),7946,0,370110,0,370110
+500937,"Cherukuri, Krishna Madhuri","IDC Technologies, Inc",5028,0,360557.88,0,360557.88
+500295,"Toppo, Mayank",Spotline LLC.,6673,0,357749,0,357749
+500344,"Vepa, Krishna",Infosys,3822,0,357661.08,0,357661.08
+500057,"Liang, Xin","iTech US, Inc",6876,0,356602,0,356602
+500586,"Yennamaneni, Rohin","Diverse Lynx, LLC",6647,0,356384.34,0,356384.34
+500398,"Vastrad, Shwetha B",CES Enterprise LLC,7168,0,352182,0,352182
+500856,"Roychowdhury, Taniya","iTech US, Inc",6240,0,349316.35,0,349316.35
+500712,"Chittiboyina, Dhir",Unison Systems Inc.,4212,0,349040,0,349040
+500375,"Narayanan, Supraja",Infosys,2594.008,0,346252.94,0,346252.94
+500710,"Esquivel, Gabo",Infosys Limited,2799,0,341478,0,341478
+500239,"Pamarthi, Krishna Prasad",Tek Systems,6512,0,340622.87,0,340622.87
+500958,"Anne, Sampath","iTech US, Inc",3987,0,338895,0,338895
+500747,"Gampa, Sresht Kumar",Pontoon Solutions Inc.,5416,0,337354.76,0,337354.76
+500158,"Wang, Xuan",Itbrainiac Inc,6986,0,334363,0,334363
+500748,"Devalokam Gangadhariah, Veena","E-Solutions, Inc.",4660,0,330804,0,330804
+500860,"Jagatheesh Kannan, Sheeba","iTech US, Inc.",5978,0,328790,0,328790
+500677,"Kalapala, Sravya","Diverse Lynx, LLC",6034,0,325712.99,0,325712.99
+500252,"Shaik, Arif Basha",Infosys,4268,0,321783.34,0,321783.34
+500941,"Nayan, Sushma","iTech US, Inc",3980,0,318400,0,318400
+500014,"Batchu, Satyanarayana","iTech US, Inc",3302,0,317652.4,0,317652.4
+500494,"Mannam, Sandeep",Tek Systems,5428,0,315944.56,0,315944.56
+500445,"Kaki, Sravya",Experis,6844,0,314645.68,0,314645.68
+500738,"Tibadiya, Ankit Maganbhai
+",TCC Software Solutions,5570.5,0,313005,0,313005
+500427,"Karicheti, Aparna",Auritas LLC,7210,0,306903,0,306903
+500214,"Pinninti, Tejaswi",Tek Systems,5730,0,304813.9,0,304813.9
+500177,"Zhang, Shuo",Cybersearch,3646,0,303629.7,0,303629.7
+500517,"Jain, Apurv",Tek Systems,6150,0,299167.9,0,299167.9
+500225,"Umesh, Abhishek","Clarendon Partners, LLC",3512,0,298692.98,0,298692.98
+500443,"Nallamilli, Prahalad Reddy",Pyramid Consulting Inc,5564.55,0,296973.18,0,296973.18
+500812,"Patil, Anupriya Dinkar",VDart Inc,4550,0,295750,0,295750
+500122,"Velakaturi, Prasanth",Info-Matrix Corporation,5566,0,295002.5,0,295002.5
+500831,"Palla, Thomas Reddy",Judge Group,4568.5,0,295002,0,295002
+500145,"Donda, Ravi Kumar","iTech US, Inc",3273,0,294570,0,294570
+500974,"Juluri, Gowtham",Tek Systems,5050,0,294000.1,0,294000.1
+500919,"Chaparla, Sirisha",Pivotal Technologies,4416,0,289728,0,289728
+500551,"Mathivanam, Yoga Shiva",Experis,5069.5,0,288740.3,0,288740.3
+500466,"Katkuri, Sai Krishna",Tek Systems,4560,0,288705.92,0,288705.92
+500172,"Mohammed, Adiluddin",Randstad Technologies,4328,0,285309.04,0,285309.04
+500291,"Ramagiri, Nikhitha",Tek Systems,5689,0,283047.6,0,283047.6
+500457,"Katikam, Anusha","iTech US, Inc.",5296,0,282576,0,282576
+500916,"Erna, Kavitha","Pinnacle Software Consulting, Inc.",5021,0,276155,0,276155
+500205,"Ghelani, Sandip",Panzer Solutions LLC,5299,0,275707,0,275707
+500750,"Katragadda, Gopi Krishna",Pontoon Solutions Inc.,3736,0,275100,0,275100
+500785,"Chebbayam, Divya","iTech US, Inc",4200,0,274584,0,274584
+500367,"Mandila, Kiran",Infosys,2804,0,273098.56,0,273098.56
+500911,"Pareek, Sangeeta",Kforce Inc,4203,0,271762.5,0,271762.5
+500575,"Ganji, Kiran Kumar",Pontoon Solutions Inc.,4694,0,270513.43,0,270513.43
+500756,"Lattupelli, Varun",Pontoon Solutions Inc.,2696,0,269851.16,0,269851.16
+500070,"Mohammed, Elias",VOLT Technical Resources,3728,0,269195.9,0,269195.9
+500654,"Pothinedi, Vidyasaran","iTech US, Inc",4688,0,267216,0,267216
+500262,"Chowdary Sunkara, Seetharamaiah",Infosys,3832,0,266235.2,0,266235.2
+500137,"Feng, Jiankun",IDC Technologies,6695,0,265598,0,265598
+500357,"Deokar, Kishor Namdeo				
+",Infosys,3248,0,263961.28,0,263961.28
+500325,"Mohammed Kabiruddin, FNU","iTech US, Inc",4789,0,263742.85,0,263742.85
+500348,"Bukka, Sharath Chandra",Infosys,3572,0,258630.24,0,258630.24
+500523,"Kondapalli, Tarun",Pontoon Solutions Inc.,4586,0,258481.04,0,258481.04
+500471,"Nidaganti, Sowjanya",360 IT Professionals Inc,5521,0,258125.2,0,258125.2
+500490,"Palandurkar, Pranit",RSC Solutions (Resource Search Company),7040,0,257560,0,257560
+500641,"Gupta, Gaurav",Instant Technology LLC,4288,0,256680,0,256680
+500136,"Jiang, Fei",TCC Software Solutions,5065,0,255836,0,255836
+500142,"Liu, Hao",Resource Research Company (RSC Solutions)),7262,0,254170,0,254170
+500730,"Patil, Bhaiyya Shalik",M3bi LLC,3777,0,253059,0,253059
+500412,"Peddi, Avinash",Last Word Consulting Inc.,6271,0,250840,0,250840
+500370,"Kotha, Sahithi",IDC Technologies,5523,0,250446,0,250446
+500380,"Kudarvalli, Avinash","iTech US, Inc",4528,0,250040,0,250040
+500825,"Lingareddy, Sravanthi",Pontoon Solutions Inc.,4493,0,249536.5,0,249536.5
+500826,"Karunakaran, Esther Golda",ITBMS Inc.,6464,0,245632,0,245632
+500305,"Maryada, Rohit Reddy",Tek Systems,4759.5,0,245368.29,0,245368.29
+500278,"Kulkarni, Raghavendra",Infosys,3902.5,0,243742.59,0,243742.59
+500191,"Chang, Shuo",Resource Research Company (RSC Solutions)),5976,0,243066,0,243066
+500965,"Ramamoorthy, Sureka","iTech US, Inc",4044,0,242640,0,242640
+500401,"Ravuri, Kumara",Infobahn Softworld Inc,3304,0,242608,0,242608
+500056,"Krishna  Kumar, Avinash",Oxford Solutions Inc.,4409,0,242495,0,242495
+500636,"Surve, Siddhant",Meridian Technologies Inc,3872,0,241828.75,0,241828.75
+500655,"Kattamuri, Susmitha",Pontoon Solutions Inc.,3201,0,241583.2,0,241583.2
+500176,"Prasanna, Anu",Tek Systems,4404.5,0,239686.93,0,239686.93
+500573,"Cherukuri, Sameera","iTech US, Inc",2656,0,239040,0,239040
+500515,"Byreddy, Sai Syam Sameer",Data Vision-Inc.,4144,0,238660,0,238660
+500482,"Phadnis, Navaneet",360 IT Professionals Inc,5047,0,237737.45,0,237737.45
+500093,"Pothugunta, Prameela","iTech US, Inc",2928,0,237680,0,237680
+500419,"Tottempudi, Srinivasarao",Last Word Consulting Inc.,4716,0,232565,0,232565
+500721,"Ande, Sai Krishna","iTech US, Inc",4456,0,231712,0,231712
+500707,"Bengaluru, Mukesh Siddabyregowda","IDC Technologies, Inc",4898,0,229693.79,0,229693.79
+500008,"ANIGANDLA, SUBASH",OKAYA INC.,3117,0,229619.4,0,229619.4
+500001,"Abdellahi, Abddellahi Mohamed Vall Ben",NGUSoft Inc,4072,0,228032,0,228032
+500841,"Uppala, Likitha","IDC Technologies, Inc",3645,0,225990,0,225990
+500290,"Konda, Raja Narendra Reddy",Vectorsoft Inc.,5266,0,225890,0,225890
+500697,"Muzaffar, Sajeel","iTech US, Inc",3759,0,225480,0,225480
+500356,"Rajasekaran, Dhanagopal",Infosys,2392,0,221592.96,0,221592.96
+500284,"Eega, Manikya Reddy",Tek Systems,3256,0,221031.6,0,221031.6
+500195,"Zheng, Yafei",SCI Group,4668,0,220495,0,220495
+500320,"Chintamaneni, Prashant",Infosys,1645.04,0,220435.36,0,220435.36
+500749,"Chandiramani, Satyam P",Pegasys Information Technologies Inc.,3381,0,219765,0,219765
+500660,"Doddi, Ramya",Randstad Technologies,4501,0,217170,0,217170
+500045,"Jarugula, Revanth","iTech US, Inc",2732,0,215828,0,215828
+500862,"Thulava, Yedukondalu",Compunnel Software Group,2923.1,0,215517,0,215517
+500125,"Wang, Wenfei",Exatech Inc,4571,0,214728,0,214728
+500087,"Pasagadi, Naveen",Fidelis Software Solutions LLC,3378.5,0,211743.25,0,211743.25
+500055,"KOTHURI, SAI PRASHANTH",MODIS Inc,3004,0,210280,0,210280
+500473,"PANDURANG TODKAR, ROHIT","iTech US, Inc",4464,0,209990.4,0,209990.4
+500580,"Lokhande, Sachin",Pontoon Solutions Inc.,2695,0,209672.71,0,209672.71
+500978,"Rahman, MD Zahidur","iTech US, Inc",3224,0,209560,0,209560
+500085,"Pan, Yu",eTeam,5103.5,0,208886,0,208886
+500227,"Talluri, Sowmya Priya","iTech US, Inc.",3992,0,207777.6,0,207777.6
+500315,"Sinha, Kishore Kunal",Infosys,4971,0,206510.64,0,206510.64
+500510,"Shanmugam, Sreevidya",Software People Inc,4179.5,0,206333.49,0,206333.49
+500109,"Singh, Sugandha",USM Business System Inc,4586,0,205874,0,205874
+500980,"Kothapalli, Veerendhar",TCC Software Solutions,3301,0,204881,0,204881
+500164,"Thakur, Vikash Singh",The Matlen Silver Group Inc.,2964,0,204629.11,0,204629.11
+500664,"Mudigondla, Sreevenu","Accuro Group,Inc",4682,0,204002,0,204002
+500086,"Pan, Yuping",Tek Systems,4829,0,203919.22,0,203919.22
+500569,"Navuluri, Manohar",Pontoon Solutions Inc.,2764.5,0,202923.27,0,202923.27
+500674,"Chavali, Sailaja",Tekis Hub,3855,0,200460,0,200460
+500388,"Paladugu, Kiran Kumar Chowdary",ThemeSoft Inc,4156.5,0,199139.5,0,199139.5
+500092,"POONAWALA, TASNEEM","NTT DATA, Inc",3979,0,198950,0,198950
+500870,"Pandey, Geetanjali","cyberThink, Inc.",3840,0,198376,0,198376
+500210,"Zhu, Yufeng",Adroit Software and Consulting Inc.,3937.5,0,198291.5,0,198291.5
+500196,"Kanukunta, Sayeeshwari",Strategic Staffing Solutions.L.C.,2607,0,197390,0,197390
+500472,"Goli, Sagar Sreenivas",Corporate Systems Associates Inc.,4615,0,196260,0,196260
+500346,"Mullangi, Naga",Infosys,1864,0,195636,0,195636
+500487,"Bijjam, Anilkumar",Pontoon Solutions Inc.,2288,0,195074.88,0,195074.88
+500489,"Kattiyan Ramamoorthy, Krishna Murthy","iTech US, Inc",3096,0,194851.73,0,194851.73
+500651,"Singh, Layawayla Akash",Highland Principals,3224,0,193440,0,193440
+500855,"Bandakadi, Venkat Ramreddy",Pontoon Solutions Inc.,1965,0,192864,0,192864
+500231,"Kanneganti, Amrit Krishna",Experis,4348,0,192836,0,192836
+500363,"Aetukuri, Karteek",IDC Technologies,2642,0,192740,0,192740
+500592,"Ramanna, Vidya Margodanahalli",ATD Technology LLC.,3848,0,192528.02,0,192528.02
+500220,"Chamata, Alekhya",Experis,4792,0,192099,0,192099
+500754,"Devarakonda Kankurthy, Santhosh Kumar",Pontoon Solutions Inc.,2116,0,191396.8,0,191396.8
+500294,"Chirumalla, Upendra","Allegiance Consulting, Inc.",3712,0,191300,0,191300
+500071,"Mohammed, Jahangeer",Experis,2570,0,190800,0,190800
+500740,"Sudrik, Sandip",Pontoon Solutions Inc.,2265,0,189162.4,0,189162.4
+500566,"Kotapati, Sri Krishna Chaitanya",Daybreak IT Solutions,3143,0,188580,0,188580
+500381,"TAGADPALLEWAR, SUDESH CHITT","iTech US, Inc",3686,0,187320,0,187320
+500816,"Dasari, Vyshali",MBI LLC,2872,0,186680,0,186680
+500138,"Wu, Lihao",Resource Research Company (RSC Solutions)),5330,0,186550,0,186550
+500410,"Mysarla, Panchajanya",Tek Systems,4805,0,186343.2,0,186343.2
+500669,"Senamalla, Sriharshini",Rose International Inc,4136.47,0,186142.95,0,186142.95
+500219,"Alla, Jeevan Reddy",Ameri And Partners Inc,3640,0,185448,0,185448
+500787,"Katte, Prashant",Pontoon Solutions Inc.,1792,0,184749.6,0,184749.6
+500967,"Pal, Pradeep",Judge Group,2920,0,184640,0,184640
+500139,"Babbar, Preeti","VIVA USA, Inc.",3601,0,184112.16,0,184112.16
+500046,"Kamani, Vamsi","iTech US, Inc",2876.5,0,184096,0,184096
+500977,"Janarthanam, Divya","iTech US, Inc",3400,0,182750,0,182750
+500422,"Potlapally, Vamshi Vardhan Rao",VDart Inc,3216,0,182186.58,0,182186.58
+500188,"Khichy, Manish",PTG Inc,3361,0,181795,0,181795
+500440,"Kuchibhotla, Anudeep",Resource Research Company (RSC Solutions)),4945,0,181531,0,181531
+500323,"Parmar, Neha",Zeva Technology,3626.5,0,181325,0,181325
+500625,"Mudireddy, Vamsi Vardhan Reddy",Pontoon Solutions Inc.,2119,0,180565.9,0,180565.9
+500189,"Zang, Guangshuo",Resource Research Company (RSC Solutions)),4488,0,180560,0,180560
+500130,"Yu, Peng",Trans American Information System,3771,0,180234,0,180234
+500817,"Banait, Pooja Amol",Techorbit Inc.,3468,0,179416.81,0,179416.81
+500751,"Amgain, Ishwor",Tek Systems,2944,0,179222.69,0,179222.69
+500771,"Gaddam, Tarun Reddy","Agreeya Solutions, Inc.",2980,0,178800,0,178800
+500268,"Mathi, Chanakkya",Itbrainiac Inc,3436,0,178672,0,178672
+500877,"Krishnapatnam, Supriya",Sonata Software North America Inc.,3075,0,178419,0,178419
+500727,"Karri, Jayadeep Reddy",Tek Systems,3501,0,178197,0,178197
+500464,"Bingi, Mounika",DataBase Solutions Inc.,3949,0,177705,0,177705
+500453,"Mukunda, Anil","SYSTEMS AMERICA, Inc.",2728,0,177142,0,177142
+500956,"Khandelwal, Garima",Gardner Resources Consulting LLC,2375.5,0,176716.5,0,176716.5
+500180,"Kambli, Sonam",Itbrainiac Inc,3688,0,176393.62,0,176393.62
+500182,"Ramreddy, Arvind Reddy",Clairvoyant Techno Solutions,3568,0,175888,0,175888
+500179,"Thirunavukkarasu, Balaji",IDC Technologies,3168,0,175678.98,0,175678.98
+500151,"Liu, Wuji",TCC Software Solutions,3896,0,175320,0,175320
+500553,"Gundavarapu, Karthik","Diverse Lynx, LLC",3896,0,174350.31,0,174350.31
+500289,"Dowalappa Gari, Ravikiran",ThemeSoft Inc,3496,0,172472,0,172472
+500984,"Sundaresh, Disha Mayasandra","iTech US, Inc",2456,0,171920,0,171920
+501002,"Rifat, Nafiz Imtiaz",TCC Software Solutions,2520,0,171360,0,171360
+500701,"Li, Zhihao",Randstad Technologies LLC,4609,0,171177,0,171177
+500141,"Sun , Bo",Resource Research Company (RSC Solutions)),4736,0,170810,0,170810
+500204,"Wang, Xinyi",Resource Research Company (RSC Solutions)),3744,0,170280,0,170280
+500898,"Das, Tanushree",Info-Matrix Corporation,2503,0,170204,0,170204
+500594,"Kumbum, Dinesh Reddy",Pontoon Solutions Inc.,2873,0,169636.47,0,169636.47
+500924,"Shaik, Imran",Mresult,2232,0,167400,0,167400
+500784,"Aravindakshan, Vipindas",Pontoon Solutions Inc.,2186,0,167207.04,0,167207.04
+500458,"Ravi, Akhila",Resource Research Company (RSC Solutions)),4600,0,166480,0,166480
+500107,"Shrestha, Rojan",Trans American Information System,3304,0,165200,0,165200
+500237,"Cui, Rui",SGIC Cloud Technologies INC,3114,0,165042,0,165042
+500460,"Meshram, Sanghshree P",Saxon Global Inc,3367,0,164399,0,164399
+500449,"Addanki, Harish",Newron Tech,473,0,163856,0,163856
+500725,"Kondreddy, Rohini Kumari",CGS Technology Associates Inc.,3112,0,163808,0,163808
+500833,"Borela, Mohana Deepthi",ERPMARK INC.,2736,0,158688,0,158688
+500790,"Goel, Shelly",Kforce Inc,2616,0,156560,0,156560
+500584,"Maridi, Pavan Kumar",Pontoon Solutions Inc.,1792,0,156298.24,0,156298.24
+500585,"Narra, Hareesha",Pontoon Solutions Inc.,1792,0,156298.24,0,156298.24
+500328,"Nagalla, Phani Kumar",Diversified Systems Inc,2688,0,155904,0,155904
+500524,"Thirunagari, Divya",Pyramid Consulting Inc,2432,0,155564.8,0,155564.8
+500560,"Putchala, Srinivasa Kalayn Chakravarthy",Pontoon Solutions Inc.,2196,0,154879.25,0,154879.25
+500463,"Bolla, Madhuri",Tek Systems,3517,0,154824.35,0,154824.35
+500260,"Guruswamy, Gokulnath Annamali",Infosys,2400,0,153836.16,0,153836.16
+500525,"Natarajan, Nirupama",Dynamic Computing Services,3051,0,152550,0,152550
+500897,"Ganapuram, Divya",ASCII Group LLC,2680,0,148578.76,0,148578.76
+500608,"Puvvula, Tejaswi","iTech US, Inc",3268,0,147060,0,147060
+500455,"Manavapati, Suman",Pontoon Solutions Inc.,2143,0,147012.54,0,147012.54
+500485,"Ruan, Xuchu",Pontoon Solutions Inc.,2224,0,146027.84,0,146027.84
+500333,"Pandurangan, Hariharan",Infosys,1944,0,145560,0,145560
+500374,"Ravilisetty, Venkat",Infosys,2248,0,145267.2,0,145267.2
+500872,"Chennaboina, Shiva Prasad","Techno-Comp, Inc",2167,0,145081,0,145081
+501003,"Pathak, Ashwin",Tek Systems,1832,0,144966.16,0,144966.16
+500797,"Kadoo, Priyanka Vishweshwar",V3Tech Solutions Inc.,2400,0,144000,0,144000
+500276,"Sampath, Malathy",Infosys,1816,0,143464,0,143464
+500342,"Praharaj, Manas",Infosys,1575,0,141750,0,141750
+500169,"Dhaneswaran, Sangeetha","OpenOsmium,Inc",2172,0,141180,0,141180
+500681,"Joshi, Kavita",Pontoon Solutions Inc.,2112,0,140983.04,0,140983.04
+500421,"Syed, Fazlur Rahiman","iTech US, Inc",2496,0,140876.64,0,140876.64
+500530,"Katkam, Sandeep",Pontoon Solutions Inc.,2208,0,140649.6,0,140649.6
+500883,"Ashok Marathe, Sampada","Luxoft USA, Inc.",1744,0,139520,0,139520
+500226,"Jonnalagadda, Kiran",Infosys,1574,0,139440,0,139440
+500946,"Sarangi, Sidhartha",Sapphire Software Solutions Inc.,2344,0,139299.2,0,139299.2
+500936,"Kotha, Goutham Goud","Techno-Comp, Inc",1900,0,136800,0,136800
+500988,"Korna, Supraja",TransAmerica Technology Services,2559.5,0,135653.5,0,135653.5
+500217,"Bhattiprolu, Yashasvi",IDC Technologies,3104,0,134715.51,0,134715.51
+500835,"Bhoomica Annamaneni, Sindhura",Allwyn Corporation,1668.5,0,134480,0,134480
+500777,"Bhandari, Geetanjali","iTech US, Inc",2040,0,132600,0,132600
+500060,"Lin, Heng",Aurus Inc,2280,0,132120,0,132120
+500891,"Kumari, Shikha","Ridge IT Solutions, Inc.",2812,0,131220,0,131220
+500832,"Mathur, Swati",VDart Inc,2624,0,131200,0,131200
+500311,"Basnet, Manish",Infosys,3124.504,0,130419.41,0,130419.41
+500351,"Naidu, Apoorva Arvind",Infosys,2240,0,129460.64,0,129460.64
+500037,"GANGULLAPATTU, SUCHETA","Vanceva Technologies, Inc",2310,0,129360,0,129360
+500871,"Faisal, Muhammad Ali",Ashley Tech Solutions,1528,0,129080,0,129080
+500603,"Cheeti, Divya",TCC Software Solutions,2580,0,129000,0,129000
+500808,"Ram, Bhargava",Core Resource Group Inc,1971,0,128115,0,128115
+500521,"Baluswamy, Ramana Prabhu","iTech US, Inc",2936,0,127800,0,127800
+500372,"Mehrotra, Bhumika",Infosys,1753,0,127723.14,0,127723.14
+500506,"Punna, Shivagnani",Senryo Technologies,2816,0,127495,0,127495
+500185,"Somepalli, Priyanka",Infosys,2120,0,127200,0,127200
+500469,"Bavikati, Bharat Kumar","Digital Intelligence Systems, LLC (DISYS)",1780,0,127175,0,127175
+500144,"Chikene, Shirees				h
+",DCM USA,2382.5,0,124457.5,0,124457.5
+500341,"Guragain, Krishna",Infosys,3136,0,124179.2,0,124179.2
+500198,"Inapurapu, Manjula",Infosys,1984,0,123008,0,123008
+500880,"Vadeyker, Deepika","Techno-Comp, Inc",1964,0,121768,0,121768
+501000,"Mamidala, Sri Krishna Swathi",Thretha Inc.,1872,0,121680,0,121680
+500497,"JeyaPrakash, Tharini",Zebra-net,1786,0,121448,0,121448
+500905,"Ponniah, Hemalatha","Pinnacle Software Consulting, Inc.",2512,0,120576,0,120576
+500186,"ZUO, LUO",SYSTEL INC,2811,0,120164,0,120164
+500327,"Garg, Aseem Ratan",Infosys,1805,0,119850.28,0,119850.28
+500269,"Gurram, Rohit Reddy",Experis,2497,0,118799,0,118799
+501004,"Vodapally, Manjula",TCC Software Solutions,1916,0,118792,0,118792
+500024,"Chandaluri, Kiran Kumar",Sterling Technology Group,1472,0,117760,0,117760
+500772,"Naik, Pooja Yashavant","iTech US, Inc",2430,0,117166.93,0,117166.93
+500316,"Patel, Pratik",Infosys,2799.04,0,117035.52,0,117035.52
+500308,"Kasu, Dinesh Reddy","iTech US, Inc",2648,0,116476.74,0,116476.74
+500615,"Akula, Venkatanagendra",Pontoon Solutions Inc.,1648,0,116295.69,0,116295.69
+501011,"Xia, Minqian",ENFEC LLC,1784,0,115960,0,115960
+500741,"Namala		
+, Arun Kalyan Reddy",Pontoon Solutions Inc.,1664,0,114620.8,0,114620.8
+500439,"Maddi, Prasanna",Infosys,2112,0,114558.4,0,114558.4
+500160,"Khatri, Anand",CIBT Visas,1622,0,113380,0,113380
+500156,"Shi, Ke",Norwin Technologies,2262,0,113100,0,113100
+500847,"Badugu, Sowmya",Pontoon Solutions Inc.,1825,0,112613.76,0,112613.76
+500770,"Mittal, Anmol",Accion Labs,2380,0,112354.7,0,112354.7
+500576,"Guntika, Avinash",Pontoon Solutions Inc.,1464,0,111908.16,0,111908.16
+500906,"Bantu, Ashok","Agreeya Solutions, Inc.",1200,0,111600,0,111600
+500546,"Panchigar, Pratik",The MM Group,2460.75,0,110733.75,0,110733.75
+500887,"Awasthy, Abhilasha","iTech US, Inc",1841,0,110400,0,110400
+500979,"HEGGADIHALLI RAMEGOWDA, TRILOK","iTech US, Inc",2248,0,110331.84,0,110331.84
+500774,"Karri, Vineet Reddy",Nuanza Inc.,2204,0,110200,0,110200
+500201,"Teegavarapu, Sudha Murthy",Infosys,2200,0,110000,0,110000
+500258,"Gatti, Venkat",Infosys,1320,0,109560,0,109560
+500134,"Wang, Peng",New York Technology Partners Inc.,2180,0,109000,0,109000
+500644,"Vijay, Srinivasan",Pontoon Solutions Inc.,1384,0,108916.77,0,108916.77
+500335,"Deo, Anagha",Infosys,1344,0,108864,0,108864
+500914,"Parupalli, Naga Swetha",Powerhiree Consulting Inc.,1544,0,108080,0,108080
+500535,"Rapaka, Sai Sridhar",Pontoon Solutions Inc.,1672,0,106506.4,0,106506.4
+500354,"Suman, Amitesh",Infosys,1601,0,106387.28,0,106387.28
+500064,"MANADALAPU, SRINIVASA","CCM Consultaning Services, Inc",2360,0,106200,0,106200
+500197,"Sayappa, Prakash",Infosys,1128,0,104904,0,104904
+500018,"Bhanvadia, Amita",Manpower Professional Services Inc (Xperis),1647,0,103761,0,103761
+500168,"Teng, Ming",Resource Research Company (RSC Solutions)),2948,0,103180,0,103180
+500623,"Bingi, Mounika",Modis,1782,0,103063,0,103063
+500115,"Tio, Erwin","NTT DATA, Inc",1924,0,102780,0,102780
+500658,"Kotrakona, Lohith",Teksystems,1918,0,102391.3,0,102391.3
+500591,"Enagandula, Vijay Babu",IDC Technologies,1472,0,102304,0,102304
+500111,"Song, Xiaoxia",TCC Software Solutions,2138.5,0,102158.05,0,102158.05
+500298,"Jaiswal, Aakash",Source infotech,1782,0,101952,0,101952
+500246,"Maddala, Sruthi","iTech US, Inc.",1412,0,101664,0,101664
+500884,"Chekka, Lakshmi Priyanka",Q1 Technologies Inc.,1781,0,101517,0,101517
+500048,"Kandrigal, Abhishek","Quest Solutions, Inc.",1636,0,101432,0,101432
+500248,"Vasireddy, Jagadeesh",Infosys,999,0,100899,0,100899
+500378,"Veettil, Santhosh",Infosys,1392,0,100224,0,100224
+500499,"Bodigum, Srinivas",Syntel Inc.,1336,0,100200,0,100200
+500844,"Sharma, Aishawarya",Randstad Technologies,1916,0,99632,0,99632
+500098,"Reid, Brian",Magic Hat Consulting,1973,0,98847.1,0,98847.1
+500099,"Roy Chowdhury, Shamik",Sigma Resources LLC,2114,0,98196,0,98196
+500842,"Parmar, Ashita Singh","Global Bridge InfoTech, Inc.",1360,0,97920,0,97920
+500541,"Dubnansky, Jason",Pontoon Solutions Inc.,1609,0,97764.53,0,97764.53
+500431,"Gupta, Anuja","iTech US, Inc",1584,0,97642.56,0,97642.56
+500828,"Challa, Jayasree",Sysmind,1904,0,97104,0,97104
+500619,"Rajeshwari, Dhiliban Subramaniyan","IDC Technologies, Inc",2850,0,96481.3,0,96481.3
+500799,"Kalimuthuswamy, Madhumitha","iTech US, Inc",1153,0,95616,0,95616
+500533,"Fields, James",Pontoon Solutions Inc.,1158,0,95564.88,0,95564.88
+500968,"Velati, Kalyani",Focus America Inc.,1896,0,94800,0,94800
+500595,"Neralla, Rajkumar",Pontoon Solutions Inc.,1304,0,94566.08,0,94566.08
+500080,"NEELA, JHANSI LAXMI",American Recruiting and Consulting Group,2034,0,93564,0,93564
+501010,"Somagattu, Kula Sekharareddy",Tek Systems,952,0,91868,0,91868
+500282,"Gunupati, Mohan",Infosys,996,0,91632,0,91632
+500986,"Rogers, Alara","iTech US, Inc",1496,0,90657.6,0,90657.6
+500274,"Batchala, Sravan",Infosys,644,0,90160,0,90160
+500133,"Thammala, Raghavendra","iTech US, Inc.",2132,0,89388,0,89388
+500406,"Vivekanandan, Sasikala",Infosys,2067,0,89346,0,89346
+500890,"Nekkalapu, Divya",Source infotech,1784,0,89200,0,89200
+500806,"Jehan, Azra","Laiba Technologies, LLC",1776,0,88800,0,88800
+500397,"Neerudu, Srikanth Reddy",Fusion plus Solutions Inc.,1968,0,88560,0,88560
+501023,"Kosamia, Ronak Indrasinh",Tek Systems,1280,0,88250.48,0,88250.48
+500105,"Sheng, Shuwen","NTT DATA, Inc",1659,0,87927,0,87927
+500242,"Upadhyay, Tapish",Infosys,2475,0,87748.24,0,87748.24
+500243,"Sivaprakasam, Ilayaraja",Infosys,1618,0,87641,0,87641
+500353,"Elumalai, Ashwin",Infosys,1184,0,87616,0,87616
+500302,"Saripudi, Sruthi",Infosys,993,0,87384,0,87384
+500432,"Tera, Rohit Reddy",IDC Technologies,2895.4,0,86683.72,0,86683.72
+500251,"Narayanan, Senthil Nathan",Infosys,1328,0,86320,0,86320
+500987,"Balakrishnan, Ravi","iTech US, Inc",1431,0,86146.2,0,86146.2
+500544,"Phasale, Subodh Gautam",Senryo Technologies,2146,0,85835,0,85835
+501033,"Sunchu, Sathish",CompNova,1112,0,85812.8,0,85812.8
+500505,"Paul, Priyanka","iTech US, Inc",1724,0,85696,0,85696
+500720,"Gampala, Usha","iTech US, Inc",1904,0,85680,0,85680
+500942,"Bolishetti, Arun Babu","Techno-Comp, Inc",1224,0,84456,0,84456
+500292,"Pandiyan, Jayapal",Infosys,927.999,0,84447.91,0,84447.91
+500662,"Avirneni, Poojitha",Pontoon Solutions Inc.,904,0,84016.17,0,84016.17
+500694,"Majji, Nitesh","iTech US, Inc",1045,0,83600,0,83600
+500041,"Gu, Huawei","Saxon Global, Inc.",1600,0,83200,0,83200
+500867,"Chillara, Sukeerthy Venkata",Info-Matrix Corporation,1728,0,82944,0,82944
+500755,"Sharma, Deepak",Pontoon Solutions Inc.,1105,0,82555.76,0,82555.76
+500450,"Datla, Veer Venkatasatya",Infosys,1105,0,81818.8,0,81818.8
+500240,"Cherukuri, Anoosha","iTech US, Inc.",1291,0,81681,0,81681
+500418,"Kuchipudi, Gopi Krishna",Infosys,1248,0,80912,0,80912
+500529,"Yellamelli, Vijay Vamshi",Pontoon Solutions Inc.,1264,0,80516.8,0,80516.8
+500869,"Bhajana, Yamuna Devi","iTech US, Inc",1033,0,80496,0,80496
+500765,"Deshpande, Tanmay","iTech US, Inc",1672,0,80256,0,80256
+500610,"Pisati, Srinivas Reddy",Pontoon Solutions Inc.,1168,0,80124.8,0,80124.8
+500715,"Chappidi, HariKrishna",Pontoon Solutions Inc.,1240,0,79534.83,0,79534.83
+500097,"Regatte, Upendhar Reddy","ePromptus, Inc",831,0,79326,0,79326
+500570,"Sarfaraz, Nausheen",Reveille Technologies Inc.,2084,0,79192,0,79192
+500528,"Dashore, Manish",RSC Solutions (Resource Search Company),2084,0,79192,0,79192
+500148,"Mathew, George","CMC America, Inc",984,0,78720,0,78720
+501032,"Panda, Sushil Kumar","iTech US, Inc",1048,0,78600,0,78600
+500564,"Dakshinamurthy, Pranav",JB Software & Consulting Inc,1744,0,78310.57,0,78310.57
+500245,"Malasani, Sandeep","iTech US, Inc.",1076,0,77472,0,77472
+501035,"Yalamati, Anuhya Lakshmi",Innova Solutions,1040,0,76960,0,76960
+500118,"Trivedi, Alap",Sigma Resources LLC,18,0,76680,0,76680
+500620,"MANIMARAN, SANDHYA",Experis,1453,0,75809.8,0,75809.8
+500709,"Rodriguez, Kevin",Infosys Limited,620,0,75640,0,75640
+500526,"Dereddy, Venkata Ramana Reddy",Next Level Business Services,2138,0,75470,0,75470
+500536,"Paruchuri, Satish Kumar",Pontoon Solutions Inc.,1320,0,75287.51,0,75287.51
+500414,"Bairagoni, Divya",BCforward,1882,0,75000,0,75000
+500279,"Vollala, Rama Krishna",OpenSoft Inc.,1632,0,74992.5,0,74992.5
+500845,"Simhadri, Dharmika Devi",Incubit LLC,1240,0,74400,0,74400
+500630,"Sudom, Pragan",iTech,1240,0,74400,0,74400
+500520,"Eetaram, Lakshmi",Techlink Inc.,1945,0,74260,0,74260
+500665,"Thakur, Divya",Cygnus Professionals Inc,1480,0,74000,0,74000
+500643,"Veerapaneni, Venkatarao",Judge Group,1392,0,73776,0,73776
+500943,"Pamulapati, Sanjana","Techno-Comp, Inc",1064,0,73416,0,73416
+500688,"VASAMSETTY, TEJASWINI",Pontoon Solutions Inc.,792,0,73289.92,0,73289.92
+500568,"Narayana, Bharath Kumar Nelamangala Lakshmi",IDC Technologies,2092,0,73105,0,73105
+500355,"Penugonda, Murali Shankar",Infosys,1008,0,72576,0,72576
+500853,"Panchumarthi, Sri Lakshmi","Techno-Comp, Inc",1447,0,72225,0,72225
+500444,"MOHAPATRA, TAPAN KUMAR","iTech US, Inc.",962,0,72150,0,72150
+500718,"Nagpal, Aman",Swoon Group LLC,1304,0,71720,0,71720
+500365,"Kyama, Raghumalathi",Global Software Development Services,1016,0,71120,0,71120
+500708,"Morris, Evan",ASCII Group LLC,991,0,70897.34,0,70897.34
+500247,"LAMICHHANE, BISHNU",Infosys,1240,0,70680,0,70680
+500208,"Schupp, Rebecca",Infosys,1660,0,70550,0,70550
+500975,"Tuggudem, Swetha",Vidhwan Inc DBA e-Solutions,1560,0,70200,0,70200
+500263,"Banka, Priyanka","iTech US, Inc.",972,0,69984,0,69984
+500758,"Ekambaram, Srinivasan","iTech US, Inc",907,0,69979.91,0,69979.91
+500599,"Surepalli, Pavan Kumar","iTech US, Inc",1488,0,69936,0,69936
+500234,"Ni, Ye","iTech US, Inc.",1248,0,69888,0,69888
+501009,"Mohanchander, Roopini",Kforce Inc,1070,0,69550,0,69550
+500467,"Mishra, Shambhavi",Ettain Group,1085,0,69349,0,69349
+500964,"Shetty, Chaitra","iTech US, Inc",944,0,68912,0,68912
+500767,"Dommaraju, Thejeswini",Raps Consulting Inc.,1720,0,68800,0,68800
+500583,"Mehta, Rishi",Wynden Stark LLC dba GQR,1684,0,68464,0,68464
+501021,"Tirunagari, Indrani","iTech US, Inc",784,0,68208,0,68208
+500108,"Singh, Anshul","iTech US, Inc",1336,0,68136,0,68136
+500589,"Nagavkar, Sugat",Axius Technologies,1246,0,67786.4,0,67786.4
+500804,"Mohammed, Shareq Osmani",Health Help LLC,800,0,67600,0,67600
+500742,"Pulli, Rina Pandurang",Black Diamond Networks,1406,0,67488,0,67488
+500903,"Anandhabadmanaban, Sowmya","Laiba Technologies, LLC",1679,0,67032,0,67032
+500648,"Chanemougam, Lakshmi",UST Global INC,880,0,66880,0,66880
+500719,"Vullanki, Sri  Ranjitha",Acclaim Systems,1289.34,0,66767,0,66767
+500925,"Ravi, Ravikrishna",Overture Partners,764,0,66180,0,66180
+500416,"Adi, Shrusti",Simplion Technologies Inc,1648,0,65920,0,65920
+500218,"Chadha, Daniel",Knowledge Builders Inc,1012,0,65780,0,65780
+500271,"Chillara, Ravi",Infosys,664,0,65736,0,65736
+500249,"Krishnatry, Sunil",Infosys,544,0,65280,0,65280
+500383,"Patil, Amol",Infosys,968,0,64856,0,64856
+500178,"Shantidas, Marie Christina Solange",Infosys,996,0,64740,0,64740
+500257,"Chowdari, Karnam P",Infosys,704,0,64064,0,64064
+500735,"Nagalapura Ravindra, Vivek","IDC Technologies, Inc",1224,0,63785.5,0,63785.5
+500947,"Baral, Smaranika",Mresult,760,0,63080,0,63080
+500628,"Taletskiy, Konstantin",IDC Technologies,1204,0,62608,0,62608
+501042,"Patel, Suketu Shamalbhai","iTech US, Inc",736,0,62560,0,62560
+500959,"Linga Ramchander, Kireeti","iTech US, Inc",920,0,62560,0,62560
+500244,"Adhikari, Ritesh","Mastech Digital Technologies, Inc.",928,0,62176,0,62176
+500293,"Minnamo, Michael M.",Infosys,960,0,61440,0,61440
+500495,"Sajja, Sruthi",Last Word Consulting Inc.,1562.5,0,61158.49,0,61158.49
+500159,"Mushrif, Saurabh",IDC Technologies,1208,0,60116.79,0,60116.79
+500091,"Pillamari, Jayachandran",SCI Group,1176,0,59976,0,59976
+500066,"Mathew Rajkumar, Rosalind",IBIZ Group LLC,1348,0,59860,0,59860
+500642,"Kota, Anvesh Reddy",Pontoon Solutions Inc.,568,0,59844.61,0,59844.61
+500053,"KONERU, CHAITANYA",Pollux Consultancy Services,992,0,59520,0,59520
+500209,"Madala, Komali",Infosys,981,0,58860,0,58860
+500491,"Wolin, Kip",Pontoon Solutions Inc.,325,0,58604,0,58604
+500514,"Sarangapurkar, Raghavendra","The Computer Merchant, Ltd. (TCM)",784,0,58547,0,58547
+500675,"Vathsavai, Bhaskara Raju",Pontoon Solutions Inc.,656,0,58502.08,0,58502.08
+500809,"Nuthalapathi Rajkumar, Catherine Indira","Pinnacle Software Consulting, Inc.",1271,0,58466,0,58466
+500961,"Kaluvakunta, Samyuktha","iTech US, Inc",896,0,58240,0,58240
+500579,"Gupta, Jigyasa",YadsIT Solutions LLC,1452,0,58080,0,58080
+500347,"Wang, Qian",Valtech,1231,0,57857,0,57857
+500848,"Suresh Kumar, Sudha",United Software Group,1008,0,57456,0,57456
+500266,"VARAKANTHAM, SPANDANA","iTech US, Inc.",912,0,57456,0,57456
+501040,"Kasetti, Srinivas","iTech US, Inc",856,0,57352,0,57352
+500488,"Musku, Abhilash Reddy",Pontoon Solutions Inc.,724,0,56761.6,0,56761.6
+500163,"Chaudhari, Nikhila",RMK Consulting Inc,1034,0,56705.1,0,56705.1
+500899,"Chitneni, Vishnu Vardhan Rao",BlueHawk  LLC,680,0,56680,0,56680
+500259,"Singh, Shalabh",Infosys,608,0,56544,0,56544
+500716,"Nulu, Suneetha",Transcend Staffing Solutions LLC,923,0,56442,0,56442
+500339,"Kumari, Kiran",Infosys,924,0,56224,0,56224
+500250,"Nagappa, Srinivas",Infosys,604,0,56172,0,56172
+500280,"REDDY NANNURU, SRUTHIMA",Infosys,864,0,56160,0,56160
+500310,"Rivarola, Rebecca",Infosys,1330.504,0,55881.17,0,55881.17
+500272,"Subbarayan, Babu",Infosys,852,0,55380,0,55380
+500607,"Gadhiraju, Pavan Kumar",Nityo Inc.,1280,0,55334.4,0,55334.4
+500452,"Kushwaha, Ankur",BCforward,1804,0,55164.76,0,55164.76
+500549,"Kashyap, Amit Kumar Birjeshkumar",Next Level Business Services,1520,0,55000,0,55000
+500857,"Kolli, Santosh",Pontoon Solutions Inc.,920,0,54997.6,0,54997.6
+500645,"Morsu, Sharat",Copper Mobile,895,0,54984,0,54984
+501037,"Jagtap, Pratik Dilip",VDart Inc,984,0,54933.35,0,54933.35
+500849,"Taneja, Manish",KTEK Resourcing,752,0,54896,0,54896
+500518,"Bekal, Krithi Ananthakrishna",RSC Solutions (Resource Search Company),1493.5,0,54753,0,54753
+501047,"Atreysa, Sumedha Girish","iTech US, Inc",792,0,54252,0,54252
+500352,"Collins, Kelvin",Infosys,676,0,54172,0,54172
+500868,"Bolla, Sreepal Reddy",Pontoon Solutions Inc.,577,0,53625.6,0,53625.6
+500563,"Verma, Surya Kant",Pontoon Solutions Inc.,840,0,53508,0,53508
+500206,"Mihaila, Cristian",Infosys,484,0,52756,0,52756
+500819,"Chinthareddy, Harshitha Reddy","iTech US, Inc",845,0,52750,0,52750
+500902,"Holbert, Brandy Nicole",Pontoon Solutions Inc.,488,0,52606.4,0,52606.4
+500379,"Raut, Nilesh Shishupalji",US TECH Solutions,1141,0,52486,0,52486
+500656,"Kuthuru, Suman",Infosys Limited,656,0,52480,0,52480
+500265,"Mathivanan, Magendran",Xchanging Solutions (USA) Inc,1024,0,52224,0,52224
+500433,"Rai, Nikhil",Infosys,1160,0,51624,0,51624
+500362,"Adloor, Suresh Narasaraju",Infosys,640,0,51200,0,51200
+500044,"Indukuri, Veerendra",The Sartell Group,636,0,51172,0,51172
+500117,"Tripathi, Abhishek",Sigma Resources LLC,11.5,0,50813,0,50813
+500468,"SIVALANKA, KANAKA SRIVALLI","Synkriom, Inc",1488,0,50322,0,50322
+500498,"Sawkar, Sweta",RSC Solutions (Resource Search Company),1420,0,49700,0,49700
+500154,"Putta, Nirmalendar Rao",IDC Technologies,1153,0,49429,0,49429
+500561,"Sinha, Sameer",RSC Solutions (Resource Search Company),1288,0,48944,0,48944
+501024,"Bharne, Milind Arvind",SevenTablets Inc.,840,0,48720,0,48720
+500129,"Yeo, Cassagnon Harold","K-Force, Inc.",936,0,48624,0,48624
+500882,"Adunoori, Sailaja",Info Matrix Corporation,808,0,48480,0,48480
+500304,"Katte, Mukund",Infosys,536,0,48240,0,48240
+500638,"Archana, Gangidi","Pontoon Solutions, INC",792,0,48121.92,0,48121.92
+500373,"Kumaradevan, Arun Panjetty",Infosys,366.584,0,47924,0,47924
+500558,"HOLENARSIPURA, PRIYANKA MOHANKUMAR","iTech US, Inc",1840,0,47840,0,47840
+500904,"Shanawaz, Manzoor","Parmesoft, Inc.",996,0,47808,0,47808
+500476,"Gadepalli, Ashok Teja",Cignus Solution LLC,1024,0,47322.41,0,47322.41
+500571,"Aeradla, Jayanth Reddy",Pontoon Solutions Inc.,544,0,46914.56,0,46914.56
+500519,"Latha Sagam, Chaithanya",Paramount Software Solutions,1172,0,46880,0,46880
+500602,"PAI, SUDHEENDRA",IDC Technologies,485,0,46165,0,46165
+500800,"Janarthanan, Jamuna","IDC Technologies, Inc",637,0,45070.08,0,45070.08
+500631,"Kandhadi, Geetha Vani","Pontoon Solutions, Inc",704,0,44844.8,0,44844.8
+500981,"Rousselot, Fabian Arturo","iTech US, Inc",752,0,44819.2,0,44819.2
+500483,"Leitch, Stuart",Pontoon Solutions Inc.,536,0,44648.8,0,44648.8
+500360,"Manjappa, ShreeHarsha",Infosys,851.52,0,44279.04,0,44279.04
+500426,"Gokul Krishna, FNU",BCforward,1448,0,44241.12,0,44241.12
+500531,"Nayak, Shamir",Deegit Inc,681,0,44168,0,44168
+500377,"Chimmiri, Kiran",Infosys,592,0,43808,0,43808
+500659,"Vedam, Venkata Sriharsha","MATRIX Resources, Inc",513,0,43607.68,0,43607.68
+500033,"D'Souza, Louiza","RockCrest Technology Search, Inc",563,0,43400,0,43400
+500131,"ZHANG, XIN","iTech US, Inc",1960,0,43120,0,43120
+500026,"Chen, Yue",Axiom Consulting Group. Inc.,105,0,43037,0,43037
+501031,"Shankar, Nikhil Kashyap",AMA Global Technology Inc.,776,0,42680,0,42680
+501049,"Pathapati Damodara Naidu, Siritha","iTech US, Inc",656,0,42640,0,42640
+500954,"Narla, Saneeta",Sapphire Software Solutions Inc.,627,0,42636,0,42636
+500132,"Zhao, Qi","A 1 Consulting, Inc",760,0,41800,0,41800
+500962,"Kodam, Bhanu Sheetal","iTech US, Inc",717,0,40747.11,0,40747.11
+500680,"Sharrma, Pratima",Lorava,762.58,0,40049,0,40049
+500143,"Bokka, Shiva Chaitanya","ICONMA, Inc.",453,0,39954.6,0,39954.6
+501015,"Rachamalla, Narmada",R88 Inc.,658,0,39480,0,39480
+500724,"Kanderao, Vamshi Mohan",NTT DATA INC.,809,0,39168,0,39168
+500313,"Rajbhandari, Pujan",Infosys,927.5,0,38955,0,38955
+500312,"Gurung				
+, Poonam",Infosys,926,0,38892,0,38892
+500400,"Katamaneni, Harika",Infosys,680,0,38760,0,38760
+500803,"Yeddanapudy, SriNaga Jahnavi",Vings Technologies Limited,640,0,38400,0,38400
+500314,"Tandukar, Jenita",Infosys,901,0,37842,0,37842
+500581,"Mohammed, Abdul Hameed",Eteam Inc,784,0,37632,0,37632
+500486,"Munjuluri, Sesha Appa Rao",Prism Inc,576,0,37440,0,37440
+500539,"Mandala, Sambi Reddy",Vaspire Technologies,880,0,37200,0,37200
+500322,"Mannepalli, Soujanya","iTech US, Inc",667,0,37005,0,37005
+500382,"Agarwal, Ashish",Infosys,492,0,36900,0,36900
+500596,"Adulla, Akhil",Pontoon Solutions Inc.,504,0,36550.08,0,36550.08
+501014,"Yasmin, Nilufar",R88 Inc.,608,0,36480,0,36480
+500762,"Keisel-Stagnone, Nicholas","IDC Technologies, Inc",515,0,36458.17,0,36458.17
+500435,"Goomer, Rajiv",Infosys,544,0,36448,0,36448
+500331,"Gaddipati, Midhun Sai",Infosys,505,0,36360,0,36360
+500332,"Marciel, Tia",Infosys,697.72,0,36281.44,0,36281.44
+500288,"Watkin Beale, William Wilkerson",Infosys,536,0,35912,0,35912
+500532,"Kanneganti, Praneeth",RSC Solutions (Resource Search Company),944,0,35872,0,35872
+500540,"Patel, Nidhish Bhai Babu Bhai","Xchangesoftware, Inc",775,0,35593.5,0,35593.5
+500881,"Sadhu, Hemalatha","iTech US, Inc",665,0,35570.48,0,35570.48
+500199,"Karnati, Vijayalakshmi",Infosys,620,0,35340,0,35340
+500543,"Raghupatruni, Vysnava Nikhil",e&e Technical  Consultants  LLC,894,0,35313,0,35313
+500299,"Garimella, Vijaya Lakshmi",Infosys,664,0,35192,0,35192
+500556,"Bhimanandan, Mohan Krishna","Cubic Technologies, LLC",992,0,34720,0,34720
+500652,"Somasundaram, Arun Senthil",Elite IT Professionals Inc,992,0,34720,0,34720
+500917,"Jaffari, Farhan Iqbal","SoftSages Technology, LLC",578,0,34680,0,34680
+500989,"Long, Kevin","iTech US, Inc",684,0,34200,0,34200
+500477,"Gottumukkala, Sindhu",Innovecture,644,0,34071.38,0,34071.38
+500481,"Badala, Sangeeta",Pontoon Solutions Inc.,465,0,33997.38,0,33997.38
+500626,"Kondaveeti, Chandu Prasad",Pontoon Solutions Inc.,624,0,33633.6,0,33633.6
+500345,"Batchu, Anand",Infosys,480,0,33600,0,33600
+500791,"Khan, Naveed H",Nityo Infotech Corporation,560,0,33600,0,33600
+500646,"Morampudi, Anusha",Biogensys,520,0,32994,0,32994
+500796,"Tatikonda, Sai Chandu",Pontoon Solutions Inc.,466,0,32808.96,0,32808.96
+500516,"Jadiga Amarnath, Sainath",Pontoon Solutions Inc.,608,0,32771.2,0,32771.2
+500338,"Cox, Russell",Infosys,448,0,32368,0,32368
+500892,"Badam, Sai Haritha",SDK Technical Services Inc.,768,0,32256,0,32256
+500173,"Tarigoppala, Venkata Rohini",Cybersearch,920,0,32164.9,0,32164.9
+501052,"Mullapudi, Geethika",Experis,456,0,31920,0,31920
+501039,"Rolla, Sai Priyanka","iTech US, Inc",757,0,31725,0,31725
+501036,"Dua, Kriti","iTech US, Inc",488,0,31720,0,31720
+500522,"ARNOLD, THOMAS",Pontoon Solutions Inc.,588,0,31693.2,0,31693.2
+501053,"Tymofieieva, Kateryna",AMA Global Technology Inc.,528,0,31680,0,31680
+500318,"Kasuganti, Shanthan Rao",IDC Technologies,605.5,0,31530.22,0,31530.22
+500021,"Boppudi, Vamsidhar","Collaborative Consulting, LLC",315,0,31500,0,31500
+500110,"Sinha, Anirban",Network Objects Inc,480,0,30784,0,30784
+500670,"Mandadi, Sairam",Tek Systems,637.5,0,30759.29,0,30759.29
+500155,"Zhao, Jianwu",Priserve Consulting Inc,835,0,30758.54,0,30758.54
+500802,"Pole, Shravanti Sunil",Insigmainc,512,0,30720,0,30720
+500281,"Choudhury, Sourabh",Infosys,392,0,30576,0,30576
+500600,"Urkude, Nikhil Shuddhodhan",Nityo Inc.,768,0,30346.63,0,30346.63
+500685,"Jacob, Tamanam","iTech US, Inc",349,0,30325.71,0,30325.71
+500827,"Vijji, Vasavi",Digital Scripts Inc.,681,0,30306.74,0,30306.74
+500438,"Adari, Ravi Sankar","iTech US, Inc",504,0,30091.5,0,30091.5
+500030,"DESAI, MEDINI","K-Force, Inc.",597.5,0,29875,0,29875
+500386,"Mandali, Prasad",Tek Systems,2985,0,29850,0,29850
+500012,"Bagga, Vikram",Randel Solutions LLC,540,0,29700,0,29700
+500165,"Nangi, Sai Kumar",IDC Technologies,416,0,29535.44,0,29535.44
+500255,"Gadeela, Aravind Reddy",Tanisha Systems Inc.,840,0,29400,0,29400
+500578,"Chheda, Sneha Prafulkumar","Techgene Solutions, LLC",968,0,29310,0,29310
+500761,"Potluri, Nandagokul",Spectraforce Technologies Inc.,12257,0,912269.76,883200,29069.76
+500405,"Khan, Sayed","iTech US, Inc.",476,0,28560,0,28560
+500587,"Jayavelu, Hemamalini",Pontoon Solutions Inc.,448,0,28098.56,0,28098.56
+500002,"Addagatla, Saritha","NCS Technologies, Inc.",472,0,27848,0,27848
+501050,"Taylor, Arthur Ray","iTech US, Inc",553,0,27650,0,27650
+500275,"Patel, Tanmay",Agneto Inc.,552,0,27600,0,27600
+500340,"Nagalikar, Mayura",Infosys,424,0,27560,0,27560
+500798,"Repaka, Ushasri",Xchange Software Inc,512,0,27136,0,27136
+500691,"Kanthala Ratna, Praneeth Reddy",Tek Systems,1116.5,0,26850.56,0,26850.56
+500104,"Shah, Arpit",Sigma Resources LLC,6.45,0,26800,0,26800
+500023,"Chalasani, Vijay Kumar","Global Information Technology, Inc.",589,0,26505,0,26505
+500565,"GOPU, KRANTHI REDDY","Modis, Inc",508,0,26416,0,26416
+500343,"Bhamidipati, Jyotsna",Infosys,416,0,26208,0,26208
+501020,"Naik, Ajay Shrikrishna",AMA Global Technology Inc.,400,0,26000,0,26000
+500763,"Mallempudi, Archana","iTech US, Inc",404,0,25452,0,25452
+500588,"Mundru, Sivaparvathi",Pontoon Solutions Inc.,400,0,25088,0,25088
+500896,"Sribhashyam, Ruthvik",Agreeya Solutions,4,0,24894.79,0,24894.79
+500430,"Manepalli, Latha Manasa",Infosys,406,0,24360,0,24360
+500329,"Veeravalli, Ramakrishna",Tek Systems,363,0,24235.9,0,24235.9
+501058,"Soundara, Phouthavanh","iTech US, Inc",285,0,24225,0,24225
+500456,"Gudela, Tarun",ALLANK Technologies Inc,680,0,23800,0,23800
+501060,"Arvapalli, Sreedhar","iTech US, Inc",264,0,23760,0,23760
+500557,"Borampeta, Shashikanth Reddy",Pontoon Solutions Inc.,504,0,23461.2,0,23461.2
+500574,"Malczanek, Anthony Nicholas",IDC Technologies,41,0,23235.75,0,23235.75
+500728,"Dindukurthi, Ram Ganesh",Pam Ten Inc,288,0,23040,0,23040
+500671,"Chatterjee, Sreya","Concept Software and Services, Inc.",528,0,22704,0,22704
+500920,"Mummana, Seshagiri","Luxoft USA, Inc.",296,0,22496,0,22496
+500865,"Patel, Mahima Rakeshbhai",Info- Matrix Corporation,488,0,21960,0,21960
+500613,"Hazra, Abhirup",Ness Digital Engineering,432,0,21932.64,0,21932.64
+500307,"Purgason, David",Infosys,364,0,21840,0,21840
+500112,"TALLURI, SIVAKUMAR","The Computer Merchant, Ltd.",401,0,21649.63,0,21649.63
+500555,"Meduri, Murali",Pontoon Solutions Inc.,368,0,20917.12,0,20917.12
+500174,"Patil, Suyog",Mitchell Martin,312,0,20814.82,0,20814.82
+500598,"PATIL, BHUSHAN",Pontoon Solutions Inc.,336,0,20415.36,0,20415.36
+500635,"Oppula, Vineetha",Source Infotech Inc,532.5,0,20235,0,20235
+500793,"Singh, Shreyans",Voto Consulting LLC,403,0,20150,0,20150
+500224,"Karri, Phaneendra","Seascapeconsulting,LLC",420,0,19740,0,19740
+500711,"Rhyne, Andrew",Infosys Limited,160,0,19520,0,19520
+500411,"Mohammad, Abdul A",Deegit Inc,408,0,19492,0,19492
+500768,"Siddaramu, Chetan",Pontoon Solutions Inc.,216,0,19474.56,0,19474.56
+500451,"Ravuri, Venkata Krishna Suji",Infosys,272,0,19312,0,19312
+500235,"Singh, Sachneen","iTech US, Inc.",424,0,19080,0,19080
+500150,"Kamandula, Avinash",Ranstand Technologies,254,0,19050,0,19050
+500264,"Thornhill, Eugene","iTech US, Inc.",240,0,18720,0,18720
+500640,"Meka, Krishna Teja",Pontoon Solutions Inc.,271,0,18590.6,0,18590.6
+501018,"Davis, Ricky Daniel",SevenTablets Inc.,192,0,18432,0,18432
+500484,"Arora, Sumit",Pontoon Solutions Inc.,264,0,18110.4,0,18110.4
+500617,"Safvi, Yousra",US TECH Solutions,360,0,18000,0,18000
+500334,"Ngo, Darwin",Infosys,310,0,17980,0,17980
+500211,"Maganti, Bhaskar",Infosys,241,0,17834,0,17834
+500301,"Chikkaputtaiah, Rajeeva",Infosys,328,0,17712,0,17712
+500270,"Kataria, Suhas","NextGen Global Resources, LLC",353.5,0,17675,0,17675
+500700,"Alluri, Ravi Kishore",ASCII Group LLC,2688,0,17633.28,0,17633.28
+501055,"Vankadaru, Chaitanya Krishna Kanth",AMA Global Technology Inc.,320,0,17600,0,17600
+500672,"Jaddu Lal, Deepak Chand Yadav",Pontoon Solutions Inc.,248,0,17498.88,0,17498.88
+500593,"Kulla, Mounika",Source infotech,424,0,17384,0,17384
+500317,"Vaitla, Praveen",Source infotech,432,0,17280,0,17280
+500437,"Alla, Sai Lakshmi",Avna Global Inc.,480,0,16740,0,16740
+500605,"Bai, Qing",Pontoon Solutions Inc.,240,0,15993.6,0,15993.6
+500696,"Ramirez Avalos, Marco Antonio",ASCII Group LLC,2928,0,15986.88,0,15986.88
+500297,"Casey, Stephen",Infosys,264,0,15840,0,15840
+501005,"Allahwala, Masood",SevenTablets Inc.,2592,0,15552,0,15552
+500215,"Chintapatla, Radhika",SA Technologies Inc,328,0,15416,0,15416
+500547,"Koppisetty, Jahnavi",Pontoon Solutions Inc.,280,0,15092,0,15092
+501061,"Yathirajam, Shyam Sundhar",AMA Global Technology Inc.,272,0,14960,0,14960
+500202,"Kodeboyina, Srikanth",Infosys,248,0,14880,0,14880
+500077,"Nallanie, Anil","iTech US, Inc",344,0,14792,0,14792
+500336,"Vishwanahan, Mahalakshmi",Infosys,264,0,14784,0,14784
+500287,"Subba Rao, Rama",Infosys,240,0,14400,0,14400
+500326,"Bade, Narendra",CompNova,314,0,14130,0,14130
+500052,"Khatiwada, Naveena","iTech US, Inc",336,0,14112,0,14112
+500454,"Mehta, Mansi",Infosys,216,0,13608,0,13608
+500319,"Patel, Nilesh",Infosys,400,0,13600,0,13600
+500753,"Valliappan Panneer Selvam, Vallimanalan","Pinnacle Software Consulting, Inc.",320,0,12800,0,12800
+500157,"Kasuladevi, Sri Bhargavi",Experis,304,0,12768,0,12768
+500153,"Somepalli, Srinivas",Nueva Solutions Inc,280,0,12600,0,12600
+501059,"Selvakumar, Sai Mounika",Dexian DISYS,236,0,12508,0,12508
+500998,"Rajkumar, Kavitha","Techno-Comp, Inc",192,0,12480,0,12480
+500776,"Thakur, Anupma","Agreeya Solutions, Inc.",2,0,12399.3,0,12399.3
+500963,"Dasari, Samhitha","iTech US, Inc",184,0,12328,0,12328
+500597,"Prabhakar, Vijay Arcot",Pontoon Solutions Inc.,120,0,12230.4,0,12230.4
+500361,"Tallavajhula, Hema Nalini",Infosys,200,0,12000,0,12000
+500927,"Chemudupaty, Kalyani Lakshmi Bhanu Govindini","Diverse Lynx, LLC",217,0,11991.89,0,11991.89
+500542,"Chillamcherla, Sujith","Halcyon Consulting, LLC",392,0,11760,0,11760
+500369,"Quayyum, Mohammed Abdul",Solving IT,288,0,11520,0,11520
+500175,"Gudipudi, Harish",Cybersearch,160,0,11520,0,11520
+500779,"Rehan, Anjum Muhammad","IDC Technologies, Inc",160,0,11059,0,11059
+500901,"Naeem, Sana","iTech US, Inc",200,0,11000,0,11000
+501063,"Safi, Mansoor",AMA Global Technology Inc.,152,0,10944,0,10944
+500094,"PRADEEP, NAKUL","iTech US, Inc",496,0,10912,0,10912
+500689,"Wang, Minghan",Tekis Hub,192,0,10848,0,10848
+500562,"Hays, Priya",L&T Technology Services Limited,182,0,10556,0,10556
+500074,"Muraleedharan, Abhilash","Pactera Technologies Inc.,",232,0,10440,0,10440
+500609,"Mohammed, Nizamuddin",Pontoon Solutions Inc.,152,0,10427.2,0,10427.2
+500527,"Vemula, Yashwanth Gopal",Binary Star Inc.,229.5,0,10327.5,0,10327.5
+501065,"Madhu, Sriharika","iTech US, Inc",144,0,10080,0,10080
+500759,"Dantagani, Deepak",ASCII Group LLC,2190,0,9942.6,0,9942.6
+500960,"Bawahir, Fatema",LOGIXtech Solutions LLC,138,0,9660,0,9660
+500590,"AHMED, SYED EHTESHAM",CES Enterprise LLC,151,0,9513,0,9513
+500429,"Sakroria, Vinita",Infosys,216,0,9504,0,9504
+500704,"Goyal, Ankita",Insigma Inc.,224,0,9331.7,0,9331.7
+500034,"Dubey, Anvit","iTech US, Inc",168,0,9282,0,9282
+500686,"Peddiraju, Divya","IDC Technologies, Inc",172,0,9253.4,0,9253.4
+500830,"Patil, Priyanka Prakash",Randstad Technologies,176,0,9152,0,9152
+500009,"Antony, Sonu",MTSS Inc,180,0,9000,0,9000
+500875,"Patel, Bhumikaben Meet","iTech US, Inc",120,0,8994.77,0,8994.77
+500358,"Guntuka, Arjun",Infosys,128,0,8960,0,8960
+500184,"Ashgar, Raheel","iTech US, Inc",1,0,8800,0,8800
+500434,"Ganga, Naveen",Infosys,172,0,8600,0,8600
+500729,"Nandhakumar, Santhosh","Amiga Informatics, Inc",184,0,8280,0,8280
+500058,"Liao, Jin",Software People Inc,164,0,8200,0,8200
+500465,"Chivukula, Lakshmi Ramana Sriram","iTech US, Inc",120,0,8100,0,8100
+500067,"Medikonda, Vishnu Priya","Global Source Information Technology, Inc.",192,0,8064,0,8064
+500190,"Vishwanathan, Ilaan","iTech US, Inc",0,0,8000,0,8000
+500306,"Gade, Vamshi",Itbrainiac Inc,200,0,8000,0,8000
+501066,"Pochampally, Swathi",R88 Inc.,132,0,7920,0,7920
+500475,"Sachdeva, Vivek",DataBase Solutions Inc.,158.25,0,7912.5,0,7912.5
+500040,"Gotru, Ram",TekValley Corporation Inc,120,0,7800,0,7800
+500395,"Pathapathi, Naga Venkata",The Matlen Silver Group Inc.,967,0,7736,0,7736
+500629,"Pandurang Todkar, Rohit",iTech,160,0,7680,0,7680
+501041,"Tirumani, Akhila Goud",AMA Global Technology Inc.,136,0,7616,0,7616
+500076,"Nagineni, Gopikrishna","HeadStream, Inc.",1252,0,7512,0,7512
+500376,"Kudravalli, Avinash","Technical Youth-dba/Brook Source, LLC",134,0,7370,0,7370
+500337,"Reddy Kandala, Harish",Infosys,124,0,7192,0,7192
+501013,"Masku, Arun Kumar",Focus America Inc.,1768,0,6895.2,0,6895.2
+500582,"Dumas, Matthew",L&T Technology Services Limited,0,0,6830.6,0,6830.6
+500611,"Budda, Kashi Vivek","iTech US, Inc",128,0,6784,0,6784
+500538,"Bhootham, Rakshit Anand",Vaspire Technologies,160,0,6400,0,6400
+500788,"Almansoor, Mada Salem",Soft HQ Inc.,118,0,6254,0,6254
+501062,"Vandrasi, Avinash",Prudent Technologies & Consulting,88,0,6160,0,6160
+500667,"Vemuru, Venkata Saketh Ram",Exarca Inc.,112,0,6160,0,6160
+500614,"Kanthala, Ratna",Experis,1016,0,6096,0,6096
+500760,"Maria, Bina","ASAP Solutions Group,  LLC",136,0,6079.2,0,6079.2
+500915,"Sanghvi, Devansh Mahendrabhai","CNC Consulting, Inc.",100,0,6000,0,6000
+500424,"Tulasi, Harish Kumar",Infosys,88,0,5984,0,5984
+500559,"Matta, Naveen Kumar","Diverse Lynx, LLC",136,0,5873,0,5873
+500737,"Sarangapani, Lekha","iTech US, Inc",144,0,5760,0,5760
+500912,"Hooda, Vikas Singh",Randstad Technologies,1104,0,5520,0,5520
+501067,"Rajamanickam, Rashmi",AMA Global Technology Inc.,72,0,4968,0,4968
+500029,"Datla, Anantha",Pharmanet-i3 Strategic Resourcing,80,0,4800,0,4800
+500385,"Vinjamuri, Sreelakshmi",Fusion plus Solutions Inc.,144,0,4752,0,4752
+501068,"Katragadda, Rebecca",AMA Global Technology Inc.,72,0,4536,0,4536
+500004,"Alokam, Srirmamamurthy",Pyramid Consulting Inc,436,0,4360,0,4360
+500017,"Belsare, Pooja",JVT Advisors,80,0,4000,0,4000
+500254,"Misra, Tanmay",Mondo,78.5,0,3925,0,3925
+500103,"Sarey, Karunakar",Gardner Resources,43,0,3708.75,0,3708.75
+500966,"Koukutla, Christopher",Collabera LLC,849,0,3396,0,3396
+500207,"Lanka, Rajeswari",Infosys,72,0,3384,0,3384
+500277,"Akyuz, Ledun",IDC Technologies,64,0,2831.23,0,2831.23
+500908,"Putta, Ramesh",ICS Globalsoft Inc.,40,0,2800,0,2800
+500513,"Chitari, Gautami",Last Word Consulting Inc.,80,0,2800,0,2800
+500893,"Nookala, Naveen Kumar",Vendorpaas Inc.,32.65,0,2762.19,0,2762.19
+500923,"Chaparla, Sirisha",Pivotal Technologies,42,0,2688,0,2688
+500082,"Pabba, Vinay Kumar",Infosys,40,0,2600,0,2600
+500745,"Pulagam, Satyanarayana Reddy",ASCII Group LLC,256,0,2196.48,0,2196.48
+500459,"Balannagari, Sandeep Reddy",Broadgate Inc,424,0,2100,0,2100
+500618,"Shaik, Arifa",Needles Inc,40,0,2000,0,2000
+500879,"Khan, Ishak Mohammed","iTech US, Inc.",20,0,1700,0,1700
+500256,"Ramesh, Stanny Paul",IDC Technologies,32,0,1280,0,1280
+500657,"Surasani, Naresh Kumar Reddy",Teksystems,24,0,1200,0,1200
+500807,"Voukant, Sandeep Reddy",Pontoon Solutions Inc.,0,0,0,0,0
+500834,"Thakur, Anusha",Reveille Technologies Inc.,0,0,0,0,0
+500233,"Kibret, Gashaw",Auto Injury Solutions,0,0,0,0,0
+500261,"Dowlappagai, RaviKiran",Infosys,0,0,0,0,0
+500926,"Sarmokaddam, Rashmi Jayant","Next Level Business Services, Inc.",0,0,0,0,0
+500285,"Dandothkar, Abhijeeth",IDC Technologies,0,0,0,0,0
+500995,"Inampudi, Hrushidhar",Inexture Solutions Inc.,0,0,0,0,0
+500384,"Sharma, Arti","Deltaformix Solutions, Inc",0,0,0,0,0
+500508,"Kandallu Rajarm Shyamsundar, Silpa",Infoville Inc.,0,0,0,0,0
+500854,"Shanmuga Raja, Peachi Priya",Opulentsoft LLC,0,0,0,0,0
+500391,"Abdul Quayyum, Mohammed","Intellect Brains,Inc",0,0,0,0,0
+500775,"Dileep, Swati","Diverse Lynx, LLC",0,0,0,0,0
+500874,"Upadhyay, Prarthana",Lancesoft Inc.,0,0,0,0,0
+500938,"Pandugu, Santosh Kumar","Techno-Comp, Inc",4336,0,305373.28,1698732,-1393358.72
+500940,"Gulla, Venkata Ratna Kishore","Techno-Comp, Inc",3980,0,331621.92,1757138.88,-1425516.96
+500939,"Chalamalasetti, Kranthi Kumar","Techno-Comp, Inc",3440,0,242114.96,2315050.24,-2072935.28
+500203,"Mantravadi, Naresh",eDataForce Consulting LLC,4371,0,222829,2775760,-2552931
+500982,"Dabreo, Vivek Brian",Experis,3159,0,271674,7557164,-7285490
+500885,"Koukutla, Sudheer Reddy","Techno-Comp, Inc",5376,0,335805.12,8140132,-7804326.88
+500945,"Gandham, Vinay Kumar","iTech US, Inc",4858,0,466368,12331440,-11865072
+500932,"Jeyaraman, Jeyasundhari",Pontoon Solutions Inc.,4917,0,326671.61,12639871.6,-12313199.99
+500795,"SHARMA, VISHAL",Pontoon Solutions Inc.,6340.75,0,460667.31,14378560,-13917892.69
+500687,"Boyapally, Sivaram",UNFI,10049,0,1037783,17424000,-16386217
+500213,"Dannamaneni, Vineeth K.",Tek Systems,22919.5,0,1616215.74,63875523.6,-62259307.86
+500079,"Narra, Giribabu","Fahrenheit IT, Inc.",40390.5,0,2956635.9,66861000,-63904364.1
+500123,"Velijala, Prashanth",Tandem Conglomerate LLC,28989,0,2010665.02,117854373,-115843708
+500647,"Kammula, Jai Sai Mounika","The NorthHighland Company, LLC",21539,0,1715456.18,126357530.3,-124642074.1
+,Unknown,Unknown,,,,,
