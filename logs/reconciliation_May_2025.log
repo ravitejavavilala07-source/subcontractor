@@ -1,0 +1,407 @@
+2025-11-08 20:16:17 | INFO     | ================================================================================
+2025-11-08 20:16:17 | INFO     | SUBCONTRACTOR ACCRUAL RECONCILIATION PIPELINE
+2025-11-08 20:16:17 | INFO     | Month: May 2025
+2025-11-08 20:16:17 | INFO     | Input folder: data/input/may_2025
+2025-11-08 20:16:17 | INFO     | Started: 2025-11-08 20:16:17
+2025-11-08 20:16:17 | INFO     | ================================================================================
+2025-11-08 20:16:17 | INFO     | 
+STEP 1: LOADING INPUT FILES
+2025-11-08 20:16:17 | INFO     | ================================================================================
+2025-11-08 20:16:17 | INFO     | FileLoader initialized for: data/input/may_2025
+2025-11-08 20:16:17 | INFO     | ================================================================================
+2025-11-08 20:16:17 | INFO     | LOADING ALL INPUT FILES
+2025-11-08 20:16:17 | INFO     | ================================================================================
+2025-11-08 20:16:17 | INFO     | Loading Pivot Table...
+2025-11-08 20:16:29 | INFO     | Loaded 113,393 records
+2025-11-08 20:16:29 | INFO     | Loading Accrual Workbook...
+2025-11-08 20:16:29 | INFO     | Loaded 37 consultant records from accrual workbook
+2025-11-08 20:16:29 | INFO     | Loading Balance Sheet...
+2025-11-08 20:16:29 | INFO     | Loaded 0 records from balance sheet
+2025-11-08 20:16:29 | INFO     | ================================================================================
+2025-11-08 20:16:29 | INFO     | ✓ Files loaded:
+2025-11-08 20:16:29 | INFO     |   - Pivot: 113,393 records
+2025-11-08 20:16:29 | INFO     |   - Accrual: 37 records
+2025-11-08 20:16:29 | INFO     |   - Balance Sheet: 0 records
+2025-11-08 20:16:29 | INFO     | ================================================================================
+2025-11-08 20:16:29 | INFO     | 
+STEP 2: VENDOR MAPPING & STANDARDIZATION
+2025-11-08 20:16:29 | INFO     | ================================================================================
+2025-11-08 20:16:29 | INFO     | VendorMapper initialized
+2025-11-08 20:16:29 | INFO     | Loading vendor reference lists...
+2025-11-08 20:16:29 | INFO     | ✓ Loaded 251 TCS consultants
+2025-11-08 20:16:29 | INFO     | ✓ Loaded 35 Cognizant consultants
+2025-11-08 20:16:29 | INFO     | ✓ Loaded 7 Smartworks consultants
+2025-11-08 20:16:29 | INFO     | ✓ Loaded 28 Cox consultants
+2025-11-08 20:16:29 | INFO     | ✓ Loaded 3 Rise IT consultants
+2025-11-08 20:16:29 | INFO     | ✓ Loaded 31 Xela consultants
+2025-11-08 20:16:29 | INFO     | ✓ Loaded 15 iTech consultants
+2025-11-08 20:16:29 | INFO     | ✓ Total vendors mapped: 361
+2025-11-08 20:16:29 | INFO     | Enriching DataFrame with vendor mappings...
+2025-11-08 20:16:34 | INFO     | ✓ Enriched 113393 records with vendor mappings
+2025-11-08 20:16:34 | INFO     | Enriching DataFrame with vendor mappings...
+2025-11-08 20:16:34 | INFO     | ✓ Enriched 37 records with vendor mappings
+2025-11-08 20:16:34 | INFO     | 
+STEP 3: MERGING DATA SOURCES
+2025-11-08 20:16:34 | INFO     | ================================================================================
+2025-11-08 20:16:34 | INFO     | DataMerger initialized
+2025-11-08 20:16:34 | INFO     | ================================================================================
+2025-11-08 20:16:34 | INFO     | MERGING ALL DATA SOURCES
+2025-11-08 20:16:34 | INFO     | ================================================================================
+2025-11-08 20:16:34 | INFO     | Pivot records: 113,393
+2025-11-08 20:16:34 | INFO     | Accrual records: 37
+2025-11-08 20:16:34 | INFO     | Balance records: 0
+2025-11-08 20:16:34 | INFO     | Step 1: Matching by applicant_number...
+2025-11-08 20:16:34 | INFO     |   Matched: 9600 records by applicant_number
+2025-11-08 20:16:34 | INFO     | Step 2: Fuzzy matching unmatched records...
+2025-11-08 20:18:41 | INFO     |   Fuzzy matched: 0 records
+2025-11-08 20:18:41 | INFO     | Step 3: Adding YTD data from balance sheet...
+2025-11-08 20:18:41 | INFO     | ================================================================================
+2025-11-08 20:18:41 | INFO     | ✓ Merge complete: 113,393 total records
+2025-11-08 20:18:41 | INFO     | ================================================================================
+2025-11-08 20:18:41 | INFO     | Filling missing values...
+2025-11-08 20:18:41 | INFO     | ✓ Filled missing values for 113393 records
+2025-11-08 20:18:41 | INFO     | Validating merge...
+2025-11-08 20:18:41 | INFO     | ✓ Merge validation:
+2025-11-08 20:18:41 | INFO     |   - Total records: 113,393
+2025-11-08 20:18:41 | INFO     |   - Matched: 0
+2025-11-08 20:18:41 | INFO     |   - Unmatched: 113,393
+2025-11-08 20:18:41 | INFO     |   - Null amounts: 0
+2025-11-08 20:18:41 | INFO     | 
+STEP 4: CALCULATING ACCRUALS & VARIANCES
+2025-11-08 20:18:41 | INFO     | ================================================================================
+2025-11-08 20:18:41 | INFO     | AccrualCalculator initialized
+2025-11-08 20:18:41 | INFO     | ================================================================================
+2025-11-08 20:18:41 | INFO     | CALCULATING ACCRUALS AND VARIANCES
+2025-11-08 20:18:41 | INFO     | ================================================================================
+2025-11-08 20:18:41 | INFO     | ✓ Calculated fields for 113,393 records
+2025-11-08 20:18:41 | INFO     | Calculating YTD fields...
+2025-11-08 20:18:42 | INFO     | ✓ Added YTD fields for 113,393 records
+2025-11-08 20:18:42 | INFO     | Flagging potential issues...
+2025-11-08 20:18:42 | INFO     | ✓ Flagged 102621 records with potential issues
+2025-11-08 20:18:42 | INFO     | Generating summary statistics...
+2025-11-08 20:18:42 | INFO     | ✓ Summary statistics generated:
+2025-11-08 20:18:42 | INFO     |   - Total records: 113,393
+2025-11-08 20:18:42 | INFO     |   - Total hours billed: 6,347,907
+2025-11-08 20:18:42 | INFO     |   - Total amount billed: $836,711,681.12
+2025-11-08 20:18:42 | INFO     |   - Total accrual: $379,862,205.55
+2025-11-08 20:18:42 | INFO     |   - Records with issues: 102621
+2025-11-08 20:18:42 | INFO     | 
+STEP 5: DETECTING EXCEPTIONS
+2025-11-08 20:18:42 | INFO     | ================================================================================
+2025-11-08 20:18:42 | INFO     | ExceptionDetector initialized
+2025-11-08 20:18:42 | INFO     | ================================================================================
+2025-11-08 20:18:42 | INFO     | DETECTING EXCEPTIONS
+2025-11-08 20:18:42 | INFO     | ================================================================================
+2025-11-08 20:18:42 | INFO     |   Missing Invoice: 95351 records
+2025-11-08 20:18:42 | INFO     |   Vendor Overpaid: 0 records
+2025-11-08 20:18:42 | INFO     |   Vendor Underpaid: 0 records
+2025-11-08 20:18:42 | INFO     |   Rate Mismatch: 0 records
+2025-11-08 20:18:42 | INFO     |   Zero Amount: 116 records
+2025-11-08 20:18:42 | INFO     |   Client Short Pay: 6367 records
+2025-11-08 20:18:42 | INFO     | ✓ Exception detection complete
+2025-11-08 20:18:42 | INFO     |   - Total exceptions: 101834
+2025-11-08 20:18:42 | INFO     |   - Clean records: 11559
+2025-11-08 20:18:42 | INFO     | Generating exception summary...
+2025-11-08 20:18:42 | INFO     | Exception summary:
+2025-11-08 20:18:42 | INFO     |   - Missing Invoice: 95351
+2025-11-08 20:18:42 | INFO     |   - Client Short Pay: 6367
+2025-11-08 20:18:42 | INFO     |   - Zero Amount: 116
+2025-11-08 20:18:42 | INFO     | 
+STEP 6: GENERATING EXCEL REPORT
+2025-11-08 20:18:42 | INFO     | ================================================================================
+2025-11-08 20:18:42 | INFO     | ReportGenerator initialized: data/output
+2025-11-08 20:18:42 | INFO     | ================================================================================
+2025-11-08 20:18:42 | INFO     | GENERATING EXCEL REPORT
+2025-11-08 20:18:42 | INFO     | ================================================================================
+2025-11-08 20:18:42 | INFO     | Report filename: Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 20:18:42 | INFO     | Writing Sheet 1: Reconciled Data...
+2025-11-08 20:18:50 | INFO     |   Wrote 113393 records to Reconciled Data sheet
+2025-11-08 20:18:50 | INFO     | Writing Sheet 2: Exceptions Only...
+2025-11-08 20:18:55 | INFO     |   Wrote 101834 exception records to Exceptions sheet
+2025-11-08 20:18:55 | INFO     | Writing Sheet 3: Vendor Summary...
+2025-11-08 20:18:57 | INFO     |   Wrote 22278 vendor summary records
+2025-11-08 20:18:57 | INFO     | Writing Sheet 4: YTD Summary...
+2025-11-08 20:18:58 | INFO     |   Wrote 877 YTD summary records
+2025-11-08 20:19:21 | INFO     | Formatting Excel file...
+2025-11-08 20:19:21 | INFO     | Formatting Excel file...
+2025-11-08 20:20:23 | INFO     | ✓ Excel file formatted successfully
+2025-11-08 20:20:23 | INFO     | ✓ Report generated: data/output/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 20:20:23 | INFO     | 
+================================================================================
+2025-11-08 20:20:23 | INFO     | RECONCILIATION COMPLETE ✅
+2025-11-08 20:20:23 | INFO     | ================================================================================
+2025-11-08 20:20:23 | INFO     | Report: data/output/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 20:20:23 | INFO     | Completed: 2025-11-08 20:20:23
+2025-11-08 20:20:23 | INFO     | ================================================================================
+2025-11-08 21:13:53 | INFO     | ================================================================================
+2025-11-08 21:13:53 | INFO     | SUBCONTRACTOR ACCRUAL RECONCILIATION PIPELINE
+2025-11-08 21:13:53 | INFO     | Month: May 2025
+2025-11-08 21:13:53 | INFO     | Input folder: data/input/may_2025
+2025-11-08 21:13:53 | INFO     | Started: 2025-11-08 21:13:53
+2025-11-08 21:13:53 | INFO     | ================================================================================
+2025-11-08 21:13:53 | INFO     | 
+STEP 1: LOADING INPUT FILES
+2025-11-08 21:13:53 | INFO     | ================================================================================
+2025-11-08 21:13:53 | INFO     | FileLoader initialized for: data/input/may_2025
+2025-11-08 21:13:53 | INFO     | ================================================================================
+2025-11-08 21:13:53 | INFO     | LOADING ALL INPUT FILES
+2025-11-08 21:13:53 | INFO     | ================================================================================
+2025-11-08 21:13:53 | INFO     | Loading Pivot Table...
+2025-11-08 21:14:05 | INFO     | Loaded 113,393 records from Pivot Table
+2025-11-08 21:14:05 | INFO     | Loading Accrual Workbook...
+2025-11-08 21:14:05 | INFO     | Loaded 37 consultant records from accrual workbook
+2025-11-08 21:14:05 | INFO     | Checking for Balance Sheet...
+2025-11-08 21:14:05 | WARNING  | ⚠️  Balance sheet appears to be a QuickBooks GL export, not consultant data
+2025-11-08 21:14:05 | WARNING  |     Skipping balance sheet - YTD Summary will be calculated from Pivot + Accrual only
+2025-11-08 21:14:05 | INFO     | ================================================================================
+2025-11-08 21:14:05 | INFO     | ✓ Files loaded:
+2025-11-08 21:14:05 | INFO     |   - Pivot: 113,393 records
+2025-11-08 21:14:05 | INFO     |   - Accrual: 37 records
+2025-11-08 21:14:05 | INFO     |   - Balance Sheet: 0 records (or skipped if invalid)
+2025-11-08 21:14:05 | INFO     | ================================================================================
+2025-11-08 21:14:05 | INFO     | 
+STEP 2: VENDOR MAPPING & STANDARDIZATION
+2025-11-08 21:14:05 | INFO     | ================================================================================
+2025-11-08 21:14:05 | INFO     | VendorMapper initialized
+2025-11-08 21:14:05 | INFO     | Loading vendor reference lists...
+2025-11-08 21:14:05 | INFO     | ✓ Loaded 251 TCS consultants
+2025-11-08 21:14:05 | INFO     | ✓ Loaded 35 Cognizant consultants
+2025-11-08 21:14:05 | INFO     | ✓ Loaded 7 Smartworks consultants
+2025-11-08 21:14:05 | INFO     | ✓ Loaded 28 Cox consultants
+2025-11-08 21:14:05 | INFO     | ✓ Loaded 3 Rise IT consultants
+2025-11-08 21:14:05 | INFO     | ✓ Loaded 31 Xela consultants
+2025-11-08 21:14:05 | INFO     | ✓ Loaded 15 iTech consultants
+2025-11-08 21:14:05 | INFO     | ✓ Total vendors mapped: 361
+2025-11-08 21:14:05 | INFO     | Enriching DataFrame with vendor mappings...
+2025-11-08 21:14:10 | INFO     | ✓ Enriched 113393 records with vendor mappings
+2025-11-08 21:14:10 | INFO     | Enriching DataFrame with vendor mappings...
+2025-11-08 21:14:10 | INFO     | ✓ Enriched 37 records with vendor mappings
+2025-11-08 21:14:10 | INFO     | 
+STEP 3: MERGING DATA SOURCES
+2025-11-08 21:14:10 | INFO     | ================================================================================
+2025-11-08 21:14:10 | INFO     | DataMerger initialized
+2025-11-08 21:14:10 | INFO     | ================================================================================
+2025-11-08 21:14:10 | INFO     | MERGING ALL DATA SOURCES
+2025-11-08 21:14:10 | INFO     | ================================================================================
+2025-11-08 21:14:10 | INFO     | Pivot records: 113,393
+2025-11-08 21:14:10 | INFO     | Accrual records: 37
+2025-11-08 21:14:10 | INFO     | Balance records: 0
+2025-11-08 21:14:10 | INFO     | Step 1: Matching by applicant_number...
+2025-11-08 21:14:11 | INFO     |   Matched: 9600 records by applicant_number
+2025-11-08 21:14:11 | INFO     | Step 2: Fuzzy matching unmatched records...
+2025-11-08 21:16:23 | INFO     |   Fuzzy matched: 0 records
+2025-11-08 21:16:23 | INFO     | Step 3: Adding YTD data from balance sheet...
+2025-11-08 21:16:23 | INFO     | ================================================================================
+2025-11-08 21:16:23 | INFO     | ✓ Merge complete: 113,393 total records
+2025-11-08 21:16:23 | INFO     | ================================================================================
+2025-11-08 21:16:23 | INFO     | Filling missing values...
+2025-11-08 21:16:23 | INFO     | ✓ Filled missing values for 113393 records
+2025-11-08 21:16:23 | INFO     | Validating merge...
+2025-11-08 21:16:23 | INFO     | ✓ Merge validation:
+2025-11-08 21:16:23 | INFO     |   - Total records: 113,393
+2025-11-08 21:16:23 | INFO     |   - Matched: 0
+2025-11-08 21:16:23 | INFO     |   - Unmatched: 113,393
+2025-11-08 21:16:23 | INFO     |   - Null amounts: 0
+2025-11-08 21:16:23 | INFO     | 
+STEP 4: CALCULATING ACCRUALS & VARIANCES
+2025-11-08 21:16:23 | INFO     | ================================================================================
+2025-11-08 21:16:23 | INFO     | AccrualCalculator initialized
+2025-11-08 21:16:23 | INFO     | ================================================================================
+2025-11-08 21:16:23 | INFO     | CALCULATING ACCRUALS AND VARIANCES
+2025-11-08 21:16:23 | INFO     | ================================================================================
+2025-11-08 21:16:23 | INFO     | ✓ Calculated fields for 113,393 records
+2025-11-08 21:16:23 | INFO     | Calculating YTD fields...
+2025-11-08 21:16:23 | INFO     | ✓ Added YTD fields for 113,393 records
+2025-11-08 21:16:23 | INFO     | Flagging potential issues...
+2025-11-08 21:16:23 | INFO     | ✓ Flagged 102621 records with potential issues
+2025-11-08 21:16:23 | INFO     | Generating summary statistics...
+2025-11-08 21:16:24 | INFO     | ✓ Summary statistics generated:
+2025-11-08 21:16:24 | INFO     |   - Total records: 113,393
+2025-11-08 21:16:24 | INFO     |   - Total hours billed: 6,347,907
+2025-11-08 21:16:24 | INFO     |   - Total amount billed: $836,711,681.12
+2025-11-08 21:16:24 | INFO     |   - Total accrual: $379,862,205.55
+2025-11-08 21:16:24 | INFO     |   - Records with issues: 102621
+2025-11-08 21:16:24 | INFO     | 
+STEP 5: DETECTING EXCEPTIONS
+2025-11-08 21:16:24 | INFO     | ================================================================================
+2025-11-08 21:16:24 | INFO     | ExceptionDetector initialized
+2025-11-08 21:16:24 | INFO     | ================================================================================
+2025-11-08 21:16:24 | INFO     | DETECTING EXCEPTIONS
+2025-11-08 21:16:24 | INFO     | ================================================================================
+2025-11-08 21:16:24 | INFO     |   Missing Invoice: 95351 records
+2025-11-08 21:16:24 | INFO     |   Vendor Overpaid: 0 records
+2025-11-08 21:16:24 | INFO     |   Vendor Underpaid: 0 records
+2025-11-08 21:16:24 | INFO     |   Rate Mismatch: 0 records
+2025-11-08 21:16:24 | INFO     |   Zero Amount: 116 records
+2025-11-08 21:16:24 | INFO     |   Client Short Pay: 6367 records
+2025-11-08 21:16:24 | INFO     | ✓ Exception detection complete
+2025-11-08 21:16:24 | INFO     |   - Total exceptions: 101834
+2025-11-08 21:16:24 | INFO     |   - Clean records: 11559
+2025-11-08 21:16:24 | INFO     | Generating exception summary...
+2025-11-08 21:16:24 | INFO     | Exception summary:
+2025-11-08 21:16:24 | INFO     |   - Missing Invoice: 95351
+2025-11-08 21:16:24 | INFO     |   - Client Short Pay: 6367
+2025-11-08 21:16:24 | INFO     |   - Zero Amount: 116
+2025-11-08 21:16:24 | INFO     | 
+STEP 6: GENERATING EXCEL REPORT
+2025-11-08 21:16:24 | INFO     | ================================================================================
+2025-11-08 21:16:24 | INFO     | ReportGenerator initialized: data/output
+2025-11-08 21:16:24 | INFO     | ================================================================================
+2025-11-08 21:16:24 | INFO     | GENERATING EXCEL REPORT
+2025-11-08 21:16:24 | INFO     | ================================================================================
+2025-11-08 21:16:24 | INFO     | Report filename: Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 21:16:24 | INFO     | Writing Sheet 1: Reconciled Data...
+2025-11-08 21:16:32 | INFO     |   Wrote 113393 records to Reconciled Data sheet
+2025-11-08 21:16:32 | INFO     | Writing Sheet 2: Exceptions Only...
+2025-11-08 21:16:38 | INFO     |   Wrote 101834 exception records to Exceptions sheet
+2025-11-08 21:16:38 | INFO     | Writing Sheet 3: Vendor Summary...
+2025-11-08 21:16:40 | INFO     |   Wrote 22278 vendor summary records
+2025-11-08 21:16:40 | INFO     | Writing Sheet 4: YTD Summary...
+2025-11-08 21:16:40 | INFO     |   Wrote 877 YTD summary records
+2025-11-08 21:17:05 | INFO     | Formatting Excel file...
+2025-11-08 21:17:05 | INFO     | Formatting Excel file...
+2025-11-08 21:18:12 | INFO     | ✓ Excel file formatted successfully
+2025-11-08 21:18:12 | INFO     | ✓ Report generated: data/output/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 21:18:12 | INFO     | 
+================================================================================
+2025-11-08 21:18:12 | INFO     | RECONCILIATION COMPLETE ✅
+2025-11-08 21:18:12 | INFO     | ================================================================================
+2025-11-08 21:18:12 | INFO     | Report: data/output/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 21:18:12 | INFO     | Completed: 2025-11-08 21:18:12
+2025-11-08 21:18:12 | INFO     | ================================================================================
+2025-11-08 21:19:38 | INFO     | ================================================================================
+2025-11-08 21:19:38 | INFO     | SUBCONTRACTOR ACCRUAL RECONCILIATION PIPELINE
+2025-11-08 21:19:38 | INFO     | Month: May 2025
+2025-11-08 21:19:38 | INFO     | Input folder: data/input/may_2025
+2025-11-08 21:19:38 | INFO     | Started: 2025-11-08 21:19:38
+2025-11-08 21:19:38 | INFO     | ================================================================================
+2025-11-08 21:19:38 | INFO     | 
+STEP 1: LOADING INPUT FILES
+2025-11-08 21:19:38 | INFO     | ================================================================================
+2025-11-08 21:19:38 | INFO     | FileLoader initialized for: data/input/may_2025
+2025-11-08 21:19:38 | INFO     | ================================================================================
+2025-11-08 21:19:38 | INFO     | LOADING ALL INPUT FILES
+2025-11-08 21:19:38 | INFO     | ================================================================================
+2025-11-08 21:19:38 | INFO     | Loading Pivot Table...
+2025-11-08 21:19:51 | INFO     | Loaded 113,393 records from Pivot Table
+2025-11-08 21:19:51 | INFO     | Loading Accrual Workbook...
+2025-11-08 21:19:51 | INFO     | Loaded 37 consultant records from accrual workbook
+2025-11-08 21:19:51 | INFO     | Checking for Balance Sheet...
+2025-11-08 21:19:51 | WARNING  | ⚠️  Balance sheet appears to be a QuickBooks GL export, not consultant data
+2025-11-08 21:19:51 | WARNING  |     Skipping balance sheet - YTD Summary will be calculated from Pivot + Accrual only
+2025-11-08 21:19:51 | INFO     | ================================================================================
+2025-11-08 21:19:51 | INFO     | ✓ Files loaded:
+2025-11-08 21:19:51 | INFO     |   - Pivot: 113,393 records
+2025-11-08 21:19:51 | INFO     |   - Accrual: 37 records
+2025-11-08 21:19:51 | INFO     |   - Balance Sheet: 0 records (or skipped if invalid)
+2025-11-08 21:19:51 | INFO     | ================================================================================
+2025-11-08 21:19:51 | INFO     | 
+STEP 2: VENDOR MAPPING & STANDARDIZATION
+2025-11-08 21:19:51 | INFO     | ================================================================================
+2025-11-08 21:19:51 | INFO     | VendorMapper initialized
+2025-11-08 21:19:51 | INFO     | Loading vendor reference lists...
+2025-11-08 21:19:51 | INFO     | ✓ Loaded 251 TCS consultants
+2025-11-08 21:19:51 | INFO     | ✓ Loaded 35 Cognizant consultants
+2025-11-08 21:19:51 | INFO     | ✓ Loaded 7 Smartworks consultants
+2025-11-08 21:19:51 | INFO     | ✓ Loaded 28 Cox consultants
+2025-11-08 21:19:51 | INFO     | ✓ Loaded 3 Rise IT consultants
+2025-11-08 21:19:51 | INFO     | ✓ Loaded 31 Xela consultants
+2025-11-08 21:19:51 | INFO     | ✓ Loaded 15 iTech consultants
+2025-11-08 21:19:51 | INFO     | ✓ Total vendors mapped: 361
+2025-11-08 21:19:51 | INFO     | Enriching DataFrame with vendor mappings...
+2025-11-08 21:19:56 | INFO     | ✓ Enriched 113393 records with vendor mappings
+2025-11-08 21:19:56 | INFO     | Enriching DataFrame with vendor mappings...
+2025-11-08 21:19:56 | INFO     | ✓ Enriched 37 records with vendor mappings
+2025-11-08 21:19:56 | INFO     | 
+STEP 3: MERGING DATA SOURCES
+2025-11-08 21:19:56 | INFO     | ================================================================================
+2025-11-08 21:19:56 | INFO     | DataMerger initialized
+2025-11-08 21:19:56 | INFO     | ================================================================================
+2025-11-08 21:19:56 | INFO     | MERGING ALL DATA SOURCES
+2025-11-08 21:19:56 | INFO     | ================================================================================
+2025-11-08 21:19:56 | INFO     | Pivot records: 113,393
+2025-11-08 21:19:56 | INFO     | Accrual records: 37
+2025-11-08 21:19:56 | INFO     | Balance records: 0
+2025-11-08 21:19:56 | INFO     | Step 1: Matching by applicant_number...
+2025-11-08 21:19:56 | INFO     |   Matched: 9600 records by applicant_number
+2025-11-08 21:19:56 | INFO     | Step 2: Fuzzy matching unmatched records...
+2025-11-08 21:22:02 | INFO     |   Fuzzy matched: 0 records
+2025-11-08 21:22:02 | INFO     | Step 3: Adding YTD data from balance sheet...
+2025-11-08 21:22:02 | INFO     | ================================================================================
+2025-11-08 21:22:02 | INFO     | ✓ Merge complete: 113,393 total records
+2025-11-08 21:22:02 | INFO     | ================================================================================
+2025-11-08 21:22:02 | INFO     | Filling missing values...
+2025-11-08 21:22:02 | INFO     | ✓ Filled missing values for 113393 records
+2025-11-08 21:22:02 | INFO     | Validating merge...
+2025-11-08 21:22:02 | INFO     | ✓ Merge validation:
+2025-11-08 21:22:02 | INFO     |   - Total records: 113,393
+2025-11-08 21:22:02 | INFO     |   - Matched: 0
+2025-11-08 21:22:02 | INFO     |   - Unmatched: 113,393
+2025-11-08 21:22:02 | INFO     |   - Null amounts: 0
+2025-11-08 21:22:02 | INFO     | 
+STEP 4: CALCULATING ACCRUALS & VARIANCES
+2025-11-08 21:22:02 | INFO     | ================================================================================
+2025-11-08 21:22:02 | INFO     | AccrualCalculator initialized
+2025-11-08 21:22:02 | INFO     | ================================================================================
+2025-11-08 21:22:02 | INFO     | CALCULATING ACCRUALS AND VARIANCES
+2025-11-08 21:22:02 | INFO     | ================================================================================
+2025-11-08 21:22:02 | INFO     | ✓ Calculated fields for 113,393 records
+2025-11-08 21:22:02 | INFO     | Calculating YTD fields...
+2025-11-08 21:22:02 | INFO     | ✓ Added YTD fields for 113,393 records
+2025-11-08 21:22:02 | INFO     | Flagging potential issues...
+2025-11-08 21:22:02 | INFO     | ✓ Flagged 102621 records with potential issues
+2025-11-08 21:22:02 | INFO     | Generating summary statistics...
+2025-11-08 21:22:02 | INFO     | ✓ Summary statistics generated:
+2025-11-08 21:22:02 | INFO     |   - Total records: 113,393
+2025-11-08 21:22:02 | INFO     |   - Total hours billed: 6,347,907
+2025-11-08 21:22:02 | INFO     |   - Total amount billed: $836,711,681.12
+2025-11-08 21:22:02 | INFO     |   - Total accrual: $379,862,205.55
+2025-11-08 21:22:02 | INFO     |   - Records with issues: 102621
+2025-11-08 21:22:02 | INFO     | 
+STEP 5: DETECTING EXCEPTIONS
+2025-11-08 21:22:02 | INFO     | ================================================================================
+2025-11-08 21:22:02 | INFO     | ExceptionDetector initialized
+2025-11-08 21:22:02 | INFO     | ================================================================================
+2025-11-08 21:22:02 | INFO     | DETECTING EXCEPTIONS
+2025-11-08 21:22:02 | INFO     | ================================================================================
+2025-11-08 21:22:02 | INFO     |   Missing Invoice: 95351 records
+2025-11-08 21:22:02 | INFO     |   Vendor Overpaid: 0 records
+2025-11-08 21:22:02 | INFO     |   Vendor Underpaid: 0 records
+2025-11-08 21:22:02 | INFO     |   Rate Mismatch: 0 records
+2025-11-08 21:22:02 | INFO     |   Zero Amount: 116 records
+2025-11-08 21:22:02 | INFO     |   Client Short Pay: 6367 records
+2025-11-08 21:22:02 | INFO     | ✓ Exception detection complete
+2025-11-08 21:22:02 | INFO     |   - Total exceptions: 101834
+2025-11-08 21:22:02 | INFO     |   - Clean records: 11559
+2025-11-08 21:22:02 | INFO     | Generating exception summary...
+2025-11-08 21:22:03 | INFO     | Exception summary:
+2025-11-08 21:22:03 | INFO     |   - Missing Invoice: 95351
+2025-11-08 21:22:03 | INFO     |   - Client Short Pay: 6367
+2025-11-08 21:22:03 | INFO     |   - Zero Amount: 116
+2025-11-08 21:22:03 | INFO     | 
+STEP 6: GENERATING EXCEL REPORT
+2025-11-08 21:22:03 | INFO     | ================================================================================
+2025-11-08 21:22:03 | INFO     | ReportGenerator initialized: data/output
+2025-11-08 21:22:03 | INFO     | ================================================================================
+2025-11-08 21:22:03 | INFO     | GENERATING EXCEL REPORT
+2025-11-08 21:22:03 | INFO     | ================================================================================
+2025-11-08 21:22:03 | INFO     | Report filename: Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 21:22:03 | INFO     | Writing Sheet 1: Reconciled Data...
+2025-11-08 21:22:11 | INFO     |   Wrote 113393 records to Reconciled Data sheet
+2025-11-08 21:22:11 | INFO     | Writing Sheet 2: Exceptions Only...
+2025-11-08 21:22:15 | INFO     |   Wrote 101834 exception records to Exceptions sheet
+2025-11-08 21:22:15 | INFO     | Writing Sheet 3: Vendor Summary...
+2025-11-08 21:22:17 | INFO     |   Wrote 22278 vendor summary records
+2025-11-08 21:22:17 | INFO     | Writing Sheet 4: YTD Summary...
+2025-11-08 21:22:18 | INFO     |   Wrote 877 YTD summary records
+2025-11-08 21:22:43 | INFO     | Formatting Excel file...
+2025-11-08 21:22:43 | INFO     | Formatting Excel file...
+2025-11-08 21:23:50 | INFO     | ✓ Excel file formatted successfully
+2025-11-08 21:23:50 | INFO     | ✓ Report generated: data/output/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 21:23:50 | INFO     | 
+================================================================================
+2025-11-08 21:23:50 | INFO     | RECONCILIATION COMPLETE ✅
+2025-11-08 21:23:50 | INFO     | ================================================================================
+2025-11-08 21:23:50 | INFO     | Report: data/output/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 21:23:50 | INFO     | Completed: 2025-11-08 21:23:50
+2025-11-08 21:23:50 | INFO     | ================================================================================

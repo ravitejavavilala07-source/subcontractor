@@ -1,0 +1,14 @@
+2025-11-10 15:03:51,222 - INFO - ================================================================================
+2025-11-10 15:03:51,223 - INFO - 🚀 PRODUCTION SYSTEM - FINAL COMPLETE VERSION
+2025-11-10 15:03:51,223 - INFO -    Date/Time: 2025-11-10 20:03:51 UTC
+2025-11-10 15:03:51,223 - INFO -    User: ravitejavavilala07-source
+2025-11-10 15:03:51,223 - INFO -    Month: AUGUST 2025
+2025-11-10 15:03:51,223 - INFO - ================================================================================
+2025-11-10 15:03:51,223 - INFO - 
+📂 Loading source files...
+2025-11-10 15:03:51,223 - ERROR - ❌ Execution failed: list index out of range
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/production_system_final.py", line 475, in run
+    pivot_file = list(self.input_folder.glob("SW Pivot Table*.xlsx"))[0]
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

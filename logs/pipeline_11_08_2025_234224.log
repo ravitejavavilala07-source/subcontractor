@@ -1,0 +1,71 @@
+2025-11-08 23:42:24,276 - INFO - ================================================================================
+2025-11-08 23:42:24,276 - INFO - 🚀 FIXED RECONCILIATION PIPELINE - MAY 2025
+2025-11-08 23:42:24,276 - INFO - ================================================================================
+2025-11-08 23:42:24,276 - INFO - 
+[STEP 1/3] Loading input files (FIXED)...
+2025-11-08 23:42:24,276 - INFO - ================================================================================
+2025-11-08 23:42:24,276 - INFO - LOADING ALL INPUT FILES (FIXED VERSION)
+2025-11-08 23:42:24,276 - INFO - ================================================================================
+2025-11-08 23:42:24,276 - INFO - Loading Pivot Table...
+2025-11-08 23:42:37,993 - INFO - ✅ Loaded 113,387 records from Pivot Table
+2025-11-08 23:42:37,995 - INFO -    Unique applicant numbers: 876
+2025-11-08 23:42:37,995 - INFO - Loading Accrual Workbook...
+2025-11-08 23:42:38,059 - INFO -    Raw Accrual shape: (42, 37)
+2025-11-08 23:42:38,060 - INFO -    Column types: ['str', 'str', 'str', 'str', 'str']
+2025-11-08 23:42:38,060 - INFO -    Found applicant column: 'Ultra-Staff Applicant     Number'
+2025-11-08 23:42:38,062 - INFO -    ✅ Found hours column: YTD Hours per Sub Tracker
+2025-11-08 23:42:38,062 - INFO -    ✅ Found amount column: YTD Profit Sharing Accrued Earnings GROSS
+2025-11-08 23:42:38,062 - INFO -    ✅ Found paid column: Actual Subvendor Payables
+2025-11-08 23:42:38,062 - INFO -    ✅ Accrual cleaned: 37 records with valid applicant numbers
+2025-11-08 23:42:38,961 - INFO - ✅ Loaded Accrual data:
+2025-11-08 23:42:38,961 - INFO -    - Accrual: 37 consultants
+2025-11-08 23:42:38,961 - INFO -    - Tracker: 110 transactions
+2025-11-08 23:42:38,961 - INFO -    - YTD Billing: 2,637 records
+2025-11-08 23:42:38,961 - INFO - ================================================================================
+2025-11-08 23:42:38,961 - INFO - ✅ Files loaded:
+2025-11-08 23:42:38,962 - INFO -   - Pivot: 113,387 records, 876 unique applicants
+2025-11-08 23:42:38,962 - INFO -   - Accrual: 37 records, 37 unique applicants
+2025-11-08 23:42:38,962 - INFO -   - Tracker: 110 records
+2025-11-08 23:42:38,962 - INFO -   - YTD Billing: 2,637 records
+2025-11-08 23:42:38,962 - INFO - ================================================================================
+2025-11-08 23:42:38,962 - INFO - 
+[STEP 2/3] Performing reconciliation with fallback matching...
+2025-11-08 23:42:38,975 - INFO - Starting ROBUST reconciliation with fallback matching...
+2025-11-08 23:42:38,975 - INFO - 
+[Strategy 1] Attempting exact match by applicant_number...
+2025-11-08 23:42:38,975 - INFO -    Merging Pivot and Accrual by applicant_number...
+2025-11-08 23:42:39,071 - INFO -    Merge result: 113,387 total records
+2025-11-08 23:42:39,074 - INFO -    Merged matches: 9,600
+2025-11-08 23:42:39,078 - INFO - ✅ Strategy 1 (ID Match): 9,600 matched
+2025-11-08 23:42:39,078 - INFO - 
+[Strategy 2] Attempting fuzzy name match for unmatched records...
+2025-11-08 23:42:39,105 - INFO -    Performing fuzzy matching on unmatched records...
+2025-11-08 23:44:13,886 - INFO -    Fuzzy matched: 1,337 records
+2025-11-08 23:44:13,919 - INFO - ✅ Strategy 2 (Fuzzy Name Match): 1,337 additional matched
+2025-11-08 23:44:14,672 - INFO - 
+✅ Reconciliation complete: 113,387 records
+2025-11-08 23:44:14,672 - INFO -    Total Matched: 74 (0.1%)
+2025-11-08 23:44:14,672 - INFO -    Total Unmatched: 102,450
+2025-11-08 23:44:14,692 - INFO - 
+[STEP 3/3] Generating professional report...
+2025-11-08 23:44:14,692 - INFO - Generating report with charts: Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 23:44:14,700 - INFO - ✅ Tab 1: Executive Summary
+2025-11-08 23:44:19,590 - INFO - ✅ Tab 2: Reconciliation Details (113,387 rows)
+2025-11-08 23:44:26,997 - INFO - ✅ Report saved to: data/output/may_2025/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 23:44:26,998 - INFO - 
+================================================================================
+2025-11-08 23:44:26,998 - INFO - ✅ FIXED RECONCILIATION COMPLETE
+2025-11-08 23:44:26,998 - INFO - ================================================================================
+2025-11-08 23:44:26,998 - INFO - 
+📊 Results:
+2025-11-08 23:44:26,998 - INFO -    Total Records: 113,387
+2025-11-08 23:44:26,998 - INFO -    Matched: 74 (0.1%)
+2025-11-08 23:44:26,998 - INFO -    Unmatched: 102,450
+2025-11-08 23:44:26,998 - INFO - 
+💰 Financial:
+2025-11-08 23:44:26,998 - INFO -    Total Billed: $209,177,920.28
+2025-11-08 23:44:26,998 - INFO -    Total Paid: $460,128,582.67
+2025-11-08 23:44:26,998 - INFO -    Variance: $-250,950,662.39
+2025-11-08 23:44:26,998 - INFO - 
+📁 Report: data/output/may_2025/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 23:44:26,998 - INFO - ================================================================================

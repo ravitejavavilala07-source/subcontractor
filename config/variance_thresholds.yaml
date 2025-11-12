@@ -1,0 +1,39 @@
+# VARIANCE THRESHOLDS CONFIGURATION
+# Finance team can adjust these values without editing code
+# Last Modified: 2025-11-10
+
+amount_thresholds:
+  critical: 5000
+  high: 1000
+  normal: 0
+
+hours_thresholds:
+  critical: 50
+  high: 20
+  normal: 0
+
+match_rate_thresholds:
+  excellent: 80
+  good: 50
+  acceptable: 25
+  poor: 0
+
+matching:
+  fuzzy_name_threshold: 80
+  amount_proximity_tolerance: 0.15
+  vendor_match_threshold: 75
+  confidence_minimum: 70
+
+service_month:
+  track_months: true
+  compare_historical: true
+
+auto_accrual:
+  auto_generate: true
+  severity_threshold: "high"
+  confidence_minimum: 75
+
+audit:
+  log_threshold_changes: true
+  track_match_decisions: true
+  export_audit_trail: true

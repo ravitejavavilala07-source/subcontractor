@@ -1,0 +1,44 @@
+2025-11-10 15:48:12,750 - WARNING - Config file not found: config/variance_thresholds.yaml
+2025-11-10 15:48:12,750 - WARNING - Using default thresholds
+2025-11-10 15:48:12,750 - INFO - ================================================================================
+2025-11-10 15:48:12,750 - INFO - 🚀 PHASE 5 - FINAL PRODUCTION SYSTEM
+2025-11-10 15:48:12,751 - INFO -    Date/Time: 2025-11-10 20:48:12 UTC
+2025-11-10 15:48:12,751 - INFO -    User: ravitejavavilala07-source
+2025-11-10 15:48:12,751 - INFO -    Month: MAY 2025
+2025-11-10 15:48:12,751 - INFO - ================================================================================
+2025-11-10 15:48:12,751 - INFO - 
+📂 Loading files...
+2025-11-10 15:48:25,966 - INFO -   ✅ Loaded: 113,393 pivot, 42 accrual, 2,637 billable
+2025-11-10 15:48:26,129 - INFO - 
+✨ FEATURE 1: REAL QB MEMO INTEGRATION
+2025-11-10 15:48:26,129 - INFO - ================================================================================
+2025-11-10 15:48:26,129 - INFO -   ⚠️ No memo column found in Pivot table
+2025-11-10 15:48:26,129 - INFO - 
+📊 FEATURE 2: MULTI-MONTH SERVICE PERIOD GROUPING
+2025-11-10 15:48:26,129 - INFO - ================================================================================
+2025-11-10 15:48:26,145 - ERROR - ❌ Failed: "Column(s) ['Status', 'amount_invoiced', 'hours_invoiced'] do not exist"
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/phase5_final_production.py", line 514, in run
+    service_month_vendor_groups = group_by_service_month_and_vendor(combined, self.config)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/phase5_final_production.py", line 258, in group_by_service_month_and_vendor
+    grouped = df.groupby('service_month_vendor', as_index=False).agg({
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/groupby/generic.py", line 1432, in aggregate
+    result = op.agg()
+             ^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 190, in agg
+    return self.agg_dict_like()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 423, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1603, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 462, in compute_dict_like
+    func = self.normalize_dictlike_arg(op_name, selected_obj, func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 663, in normalize_dictlike_arg
+    raise KeyError(f"Column(s) {list(cols)} do not exist")
+KeyError: "Column(s) ['Status', 'amount_invoiced', 'hours_invoiced'] do not exist"

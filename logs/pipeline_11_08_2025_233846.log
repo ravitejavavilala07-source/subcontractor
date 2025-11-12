@@ -1,0 +1,97 @@
+2025-11-08 23:38:46,917 - INFO - ================================================================================
+2025-11-08 23:38:46,918 - INFO - 🚀 FIXED RECONCILIATION PIPELINE - MAY 2025
+2025-11-08 23:38:46,918 - INFO - ================================================================================
+2025-11-08 23:38:46,918 - INFO - 
+[STEP 1/3] Loading input files (FIXED)...
+2025-11-08 23:38:46,918 - INFO - ================================================================================
+2025-11-08 23:38:46,918 - INFO - LOADING ALL INPUT FILES (FIXED VERSION)
+2025-11-08 23:38:46,918 - INFO - ================================================================================
+2025-11-08 23:38:46,918 - INFO - Loading Pivot Table...
+2025-11-08 23:38:59,311 - INFO - ✅ Loaded 113,387 records from Pivot Table
+2025-11-08 23:38:59,313 - INFO -    Unique applicant numbers: 876
+2025-11-08 23:38:59,313 - INFO - Loading Accrual Workbook...
+2025-11-08 23:38:59,378 - INFO -    Raw Accrual shape: (42, 37)
+2025-11-08 23:38:59,378 - INFO -    Column types: ['str', 'str', 'str', 'str', 'str']
+2025-11-08 23:38:59,378 - INFO -    Found applicant column: 'Ultra-Staff Applicant     Number'
+2025-11-08 23:38:59,380 - INFO -    ✅ Found hours column: YTD Hours per Sub Tracker
+2025-11-08 23:38:59,380 - INFO -    ✅ Found amount column: YTD Profit Sharing Accrued Earnings GROSS
+2025-11-08 23:38:59,381 - INFO -    ✅ Found paid column: Actual Subvendor Payables
+2025-11-08 23:38:59,381 - INFO -    ✅ Accrual cleaned: 37 records with valid applicant numbers
+2025-11-08 23:39:00,296 - INFO - ✅ Loaded Accrual data:
+2025-11-08 23:39:00,297 - INFO -    - Accrual: 37 consultants
+2025-11-08 23:39:00,297 - INFO -    - Tracker: 110 transactions
+2025-11-08 23:39:00,297 - INFO -    - YTD Billing: 2,637 records
+2025-11-08 23:39:00,297 - INFO - ================================================================================
+2025-11-08 23:39:00,297 - INFO - ✅ Files loaded:
+2025-11-08 23:39:00,297 - INFO -   - Pivot: 113,387 records, 876 unique applicants
+2025-11-08 23:39:00,297 - INFO -   - Accrual: 37 records, 37 unique applicants
+2025-11-08 23:39:00,298 - INFO -   - Tracker: 110 records
+2025-11-08 23:39:00,298 - INFO -   - YTD Billing: 2,637 records
+2025-11-08 23:39:00,298 - INFO - ================================================================================
+2025-11-08 23:39:00,298 - INFO - 
+[STEP 2/3] Performing reconciliation with fallback matching...
+2025-11-08 23:39:00,311 - INFO - Starting ROBUST reconciliation with fallback matching...
+2025-11-08 23:39:00,311 - INFO - 
+[Strategy 1] Attempting exact match by applicant_number...
+2025-11-08 23:39:00,311 - INFO -    Merging Pivot and Accrual by applicant_number...
+2025-11-08 23:39:00,411 - INFO -    Merge result: 113,387 total records
+2025-11-08 23:39:00,414 - INFO -    Merged matches: 9,600
+2025-11-08 23:39:00,418 - INFO - ✅ Strategy 1 (ID Match): 9,600 matched
+2025-11-08 23:39:00,418 - INFO - 
+[Strategy 2] Attempting fuzzy name match for unmatched records...
+2025-11-08 23:39:00,445 - INFO -    Performing fuzzy matching on unmatched records...
+2025-11-08 23:40:37,238 - INFO -    Fuzzy matched: 1,337 records
+2025-11-08 23:40:37,283 - INFO - ✅ Strategy 2 (Fuzzy Name Match): 1,337 additional matched
+2025-11-08 23:40:38,035 - INFO - 
+✅ Reconciliation complete: 113,387 records
+2025-11-08 23:40:38,035 - INFO -    Total Matched: 74 (0.1%)
+2025-11-08 23:40:38,035 - INFO -    Total Unmatched: 102,450
+2025-11-08 23:40:38,055 - INFO - 
+[STEP 3/3] Generating professional report...
+2025-11-08 23:40:38,056 - INFO - Generating report with charts: Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 23:40:38,063 - ERROR - ❌ Pipeline failed: At least one sheet must be visible
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/report_generator_with_charts.py", line 37, in generate_report
+    summary_df = self._create_summary_tab(metrics, vendor_summary)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/report_generator_with_charts.py", line 85, in _create_summary_tab
+    rows.append({'Category': 'Vendors with Variance', 'Value': str(len(vendor_summary[vendor_summary['amount_variance'] != 0]))})
+                                                                                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'amount_variance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/pipeline_fixed.py", line 53, in run_pipeline
+    report_path = report_gen.generate_report(reconciled_details, vendor_summary, metrics)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/report_generator_with_charts.py", line 34, in generate_report
+    with pd.ExcelWriter(str(filepath), engine='openpyxl') as writer:
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 1353, in __exit__
+    self.close()
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 1357, in close
+    self._save()
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/io/excel/_openpyxl.py", line 110, in _save
+    self.book.save(self._handles.handle)
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/openpyxl/workbook/workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/openpyxl/writer/excel.py", line 294, in save_workbook
+    writer.save()
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/openpyxl/writer/excel.py", line 275, in save
+    self.write_data()
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/openpyxl/writer/excel.py", line 89, in write_data
+    archive.writestr(ARC_WORKBOOK, writer.write())
+                                   ^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/openpyxl/workbook/_writer.py", line 150, in write
+    self.write_views()
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/openpyxl/workbook/_writer.py", line 137, in write_views
+    active = get_active_sheet(self.wb)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/openpyxl/workbook/_writer.py", line 35, in get_active_sheet
+    raise IndexError("At least one sheet must be visible")
+IndexError: At least one sheet must be visible

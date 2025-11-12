@@ -1,0 +1,65 @@
+2025-11-08 23:17:52,547 - INFO - ================================================================================
+2025-11-08 23:17:52,547 - INFO - 🚀 PRODUCTION PIPELINE WITH CHARTS - MAY 2025
+2025-11-08 23:17:52,547 - INFO - ================================================================================
+2025-11-08 23:17:52,547 - INFO - 
+[STEP 1/3] Loading input files...
+2025-11-08 23:17:52,548 - INFO - ================================================================================
+2025-11-08 23:17:52,548 - INFO - LOADING ALL MAY 2025 INPUT FILES
+2025-11-08 23:17:52,548 - INFO - ================================================================================
+2025-11-08 23:17:52,548 - INFO - Loading Pivot Table...
+2025-11-08 23:18:04,878 - INFO - ✅ Loaded 113,393 records from Pivot Table
+2025-11-08 23:18:04,878 - INFO - Loading Accrual Workbook...
+2025-11-08 23:18:05,858 - INFO - ✅ Loaded Accrual data:
+2025-11-08 23:18:05,859 - INFO -    - Accrual: 37 consultants
+2025-11-08 23:18:05,859 - INFO -    - Tracker: 110 transactions
+2025-11-08 23:18:05,859 - INFO -    - YTD Billing: 2,637 records
+2025-11-08 23:18:05,859 - INFO - ================================================================================
+2025-11-08 23:18:05,859 - INFO - ✅ ALL FILES LOADED SUCCESSFULLY
+2025-11-08 23:18:05,859 - INFO - ================================================================================
+2025-11-08 23:18:05,859 - INFO - ✅ Pivot: 113,393 records
+2025-11-08 23:18:05,859 - INFO - ✅ Accrual: 37 records
+2025-11-08 23:18:05,859 - INFO - 
+[STEP 2/3] Performing reconciliation...
+2025-11-08 23:18:05,859 - INFO - Starting production reconciliation...
+2025-11-08 23:18:05,932 - INFO - ✅ Pivot: 876 unique consultants
+2025-11-08 23:18:05,934 - INFO - ✅ Accrual: 37 consultants
+2025-11-08 23:18:05,942 - INFO - ✅ Reconciliation complete: 876 records
+2025-11-08 23:18:05,942 - INFO -    - Matched: 0
+2025-11-08 23:18:05,942 - INFO -    - Unmatched: 839
+2025-11-08 23:18:05,942 - INFO -    - Total Variance: $208,405,053.87
+2025-11-08 23:18:05,945 - INFO - 
+[STEP 3/3] Generating professional report with charts...
+2025-11-08 23:18:05,946 - INFO - Generating report with charts: Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 23:18:05,950 - INFO - ✅ Tab 1: Executive Summary
+2025-11-08 23:18:05,986 - INFO - ✅ Tab 2: Reconciliation Details (876 rows)
+2025-11-08 23:18:06,012 - INFO - ✅ Tab 3: Vendor Summary (343 vendors)
+2025-11-08 23:18:06,962 - INFO - ✅ Created matched pie chart
+2025-11-08 23:18:06,963 - INFO - ✅ Embedded matched pie chart
+2025-11-08 23:18:07,435 - INFO - ✅ Created variance bar chart
+2025-11-08 23:18:07,436 - INFO - ✅ Embedded variance bar chart
+2025-11-08 23:18:07,534 - INFO - ✅ Created status breakdown chart
+2025-11-08 23:18:07,535 - INFO - ✅ Embedded status breakdown chart
+2025-11-08 23:18:07,535 - INFO - ✅ Tab 4: Charts & Visualizations
+2025-11-08 23:18:07,644 - INFO - ✅ Report with charts saved to: data/output/may_2025/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 23:18:07,645 - INFO - 
+================================================================================
+2025-11-08 23:18:07,645 - INFO - ✅ PIPELINE COMPLETE - CHARTS EMBEDDED IN REPORT
+2025-11-08 23:18:07,645 - INFO - ================================================================================
+2025-11-08 23:18:07,645 - INFO - 
+📊 Summary Metrics:
+2025-11-08 23:18:07,645 - INFO -    Total Records: 876
+2025-11-08 23:18:07,645 - INFO -    Matched: 0 (0.0%)
+2025-11-08 23:18:07,645 - INFO -    Unmatched: 839
+2025-11-08 23:18:07,645 - INFO - 
+💰 Financial Summary:
+2025-11-08 23:18:07,645 - INFO -    Total Billed: $209,177,920.28
+2025-11-08 23:18:07,645 - INFO -    Total Paid: $772,866.41
+2025-11-08 23:18:07,645 - INFO -    Total Variance: $208,405,053.87
+2025-11-08 23:18:07,645 - INFO - 
+📁 Report Location: data/output/may_2025/Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 23:18:07,645 - INFO - 
+📈 Charts Generated:
+2025-11-08 23:18:07,645 - INFO -    ✅ Pie Chart: Matched vs Unmatched
+2025-11-08 23:18:07,645 - INFO -    ✅ Bar Chart: Top Vendor Variances
+2025-11-08 23:18:07,645 - INFO -    ✅ Pie Chart: Status Breakdown
+2025-11-08 23:18:07,645 - INFO - ================================================================================

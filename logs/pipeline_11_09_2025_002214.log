@@ -1,0 +1,168 @@
+2025-11-09 00:22:14,446 - INFO - ================================================================================
+2025-11-09 00:22:14,446 - INFO - 🚀 COMPLETE PRODUCTION PIPELINE WITH AUTOMATION - MAY 2025
+2025-11-09 00:22:14,446 - INFO - ================================================================================
+2025-11-09 00:22:14,446 - INFO - 
+[STEP 0/4] PRE-CHECK: Validating...
+2025-11-09 00:22:14,446 - INFO - ================================================================================
+2025-11-09 00:22:14,446 - INFO - 🔍 DATA SOURCE VALIDATION
+2025-11-09 00:22:14,446 - INFO - ================================================================================
+2025-11-09 00:22:14,446 - INFO - 
+[CHECK 1] Validating file existence...
+2025-11-09 00:22:14,447 - INFO -   ✅ Found pivot: SW Pivot Table_07.01.25.xlsx
+2025-11-09 00:22:14,447 - INFO -   ✅ Found accrual: SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-09 00:22:14,447 - INFO - 
+[CHECK 2] Validating sheet structure...
+2025-11-09 00:22:14,798 - INFO -   ✅ Sheet 'SW Pivot Table' found in SW Pivot Table_07.01.25.xlsx
+2025-11-09 00:22:26,979 - INFO -   ✅ Sheet 'SW Pivot Table': 113,393 rows
+2025-11-09 00:22:27,032 - INFO -   ✅ Sheet 'Accrual' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-09 00:22:27,032 - INFO -   ✅ Sheet 'SW Subvendor Tracker 2025' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-09 00:22:27,032 - INFO -   ✅ Sheet 'SW 2025 Billable to 05.31' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-09 00:22:27,101 - INFO -   ✅ Sheet 'Accrual': 42 rows
+2025-11-09 00:22:27,153 - INFO -   ✅ Sheet 'SW Subvendor Tracker 2025': 110 rows
+2025-11-09 00:22:28,017 - INFO -   ✅ Sheet 'SW 2025 Billable to 05.31': 2,637 rows
+2025-11-09 00:22:28,018 - INFO - 
+[CHECK 3] Validating data quality...
+2025-11-09 00:22:41,556 - WARNING -   ⚠️ Pivot: 6 null applicant numbers
+2025-11-09 00:22:41,558 - INFO -   ✅ Pivot: 876 unique applicants
+2025-11-09 00:22:41,623 - INFO -   ✅ Accrual 'Accrual': 42 rows
+2025-11-09 00:22:41,672 - INFO -   ✅ Accrual 'SW Subvendor Tracker 2025': 110 rows
+2025-11-09 00:22:42,528 - INFO -   ✅ Accrual 'SW 2025 Billable to 05.31': 2,637 rows
+2025-11-09 00:22:42,534 - INFO - 
+================================================================================
+2025-11-09 00:22:42,534 - INFO - VALIDATION REPORT
+2025-11-09 00:22:42,534 - INFO - ================================================================================
+2025-11-09 00:22:42,534 - WARNING - 
+⚠️ 1 WARNINGS:
+2025-11-09 00:22:42,534 - WARNING -   - Pivot: 6 null applicant numbers
+2025-11-09 00:22:42,534 - INFO - 
+✅ ALL VALIDATIONS PASSED - Ready for reconciliation
+2025-11-09 00:22:42,534 - INFO - ================================================================================
+2025-11-09 00:22:42,534 - INFO - 
+[STEP 1/4] Loading files...
+2025-11-09 00:22:42,534 - INFO - ================================================================================
+2025-11-09 00:22:42,534 - INFO - LOADING FILES (FINAL VERSION - CORRECTED MAPPINGS)
+2025-11-09 00:22:42,534 - INFO - ================================================================================
+2025-11-09 00:22:42,534 - INFO - 
+Loading Pivot Table...
+2025-11-09 00:22:54,728 - INFO -   ✅ Loaded 113,387 records
+2025-11-09 00:22:54,728 - INFO - 
+Loading Accrual Workbook...
+2025-11-09 00:22:54,728 - INFO -   Loading sheet: 'Accrual'...
+2025-11-09 00:22:54,807 - INFO -     ✅ Loaded 37 records
+2025-11-09 00:22:54,807 - INFO -   Loading sheet: 'SW Subvendor Tracker 2025'...
+2025-11-09 00:22:54,856 - INFO -     ✅ Loaded 110 records
+2025-11-09 00:22:54,856 - INFO -   Loading sheet: 'SW 2025 Billable to 05.31'...
+2025-11-09 00:22:55,715 - INFO -     Raw rows: 2,637
+2025-11-09 00:22:55,717 - INFO -     ✅ Loaded 2,637 records (keeping all rows)
+2025-11-09 00:22:55,717 - INFO - 
+================================================================================
+2025-11-09 00:22:55,717 - INFO - FILES LOADED SUCCESSFULLY
+2025-11-09 00:22:55,717 - INFO - ================================================================================
+2025-11-09 00:22:55,717 - INFO -   Pivot: 113,387 records
+2025-11-09 00:22:55,717 - INFO -   Accrual: 37 records
+2025-11-09 00:22:55,718 - INFO -   Tracker: 110 records
+2025-11-09 00:22:55,718 - INFO -   YTD Billing: 2,637 records
+2025-11-09 00:22:55,718 - INFO - ================================================================================
+2025-11-09 00:22:55,718 - INFO -   ✅ Pivot: 113,387
+2025-11-09 00:22:55,718 - INFO -   ✅ Accrual: 37
+2025-11-09 00:22:55,718 - INFO -   ✅ YTD Billing: 2,637
+2025-11-09 00:22:55,728 - INFO -   ✅ Combined: 116,024
+2025-11-09 00:22:55,728 - INFO - 
+[STEP 2/4] ENHANCED Reconciliation...
+2025-11-09 00:22:55,773 - INFO - 🔄 Starting ENHANCED reconciliation with fallback matching...
+2025-11-09 00:22:55,773 - INFO - 
+[Strategy 1] Exact applicant number matching...
+2025-11-09 00:22:55,896 - INFO - ✅ Strategy 1: 10,028 matched
+2025-11-09 00:22:55,896 - INFO - 
+[Strategy 2] Fuzzy name matching (90% threshold)...
+2025-11-09 00:24:35,627 - INFO -    Fuzzy matched: 0
+2025-11-09 00:24:35,639 - INFO - ✅ Strategy 2: -10,028 additional matched
+2025-11-09 00:24:35,639 - INFO - 
+[Strategy 3] Multifield matching (name + vendor + amount, 85% threshold)...
+2025-11-09 00:26:16,164 - INFO -    Multifield matched: 1,337
+2025-11-09 00:26:16,179 - INFO - ✅ Strategy 3: 1,337 additional matched
+2025-11-09 00:26:17,767 - INFO - 
+================================================================================
+2025-11-09 00:26:17,767 - INFO - MATCH STRATEGY SUMMARY
+2025-11-09 00:26:17,767 - INFO - ================================================================================
+2025-11-09 00:26:17,767 - INFO -   EXACT_ID_MATCH: 10,028
+2025-11-09 00:26:17,767 - INFO -   MULTIFIELD_85: 1,337
+2025-11-09 00:26:17,802 - INFO -   Unmatched: 104,659
+2025-11-09 00:26:17,802 - INFO - ================================================================================
+2025-11-09 00:26:17,802 - INFO - 
+✅ Reconciliation complete: 116,024 records
+2025-11-09 00:26:17,802 - INFO -    Matched: 11,365 (9.8%)
+2025-11-09 00:26:17,802 - INFO -    Unmatched: 104,659
+2025-11-09 00:26:17,916 - INFO -   ✅ Matched: 11,365 (9.8%)
+2025-11-09 00:26:17,916 - INFO -   ✅ Unmatched: 104,659
+2025-11-09 00:26:17,916 - INFO - 
+[STEP 3/4] Generating report...
+2025-11-09 00:26:17,917 - INFO - Generating enhanced report: Subcontractor_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 00:26:17,917 - INFO -   - Matched: 11,365 records
+2025-11-09 00:26:17,917 - INFO -   - Unmatched Pivot: 104,659 records
+2025-11-09 00:26:17,917 - INFO -   - Unmatched Accrual: 0 records
+2025-11-09 00:26:17,928 - INFO - ✅ Tab 1: Executive Summary
+2025-11-09 00:26:19,806 - INFO - ✅ Tab 2: Matched Records (11,365 rows)
+2025-11-09 00:26:37,917 - INFO - ✅ Tab 3: Unmatched Pivot (104,659 rows)
+2025-11-09 00:26:37,920 - INFO - ✅ Tab 5: Summary & Metrics
+2025-11-09 00:27:06,563 - INFO - ✅ Report saved to: data/output/may_2025/Subcontractor_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 00:27:06,564 - INFO -   ✅ Report: Subcontractor_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 00:27:06,564 - INFO - 
+[STEP 4/4] Smart Automation Layer...
+2025-11-09 00:27:06,644 - INFO - 
+================================================================================
+2025-11-09 00:27:06,644 - INFO - 🤖 SMART AUTOMATION LAYER - Generating Remediation Suite
+2025-11-09 00:27:06,644 - INFO - ================================================================================
+2025-11-09 00:27:06,707 - INFO - 
+📊 Unmatched Analysis:
+2025-11-09 00:27:06,707 - INFO -    Pivot-only (need accruals): 104,659
+2025-11-09 00:27:06,707 - INFO -    Accrual-only (need invoices): 0
+2025-11-09 00:27:06,707 - INFO - 
+🔄 Generating auto-accrual template...
+2025-11-09 00:27:06,719 - INFO -    Generated 104,659 auto-accrual entries
+2025-11-09 00:27:06,719 - INFO - 
+💵 Generating auto-billing template...
+2025-11-09 00:27:06,719 - INFO -    No accrual-only records (all accruals have invoices)
+2025-11-09 00:27:06,720 - INFO - 
+📦 Generating vendor remediation clusters...
+2025-11-09 00:27:06,737 - INFO -    Analyzed 730 vendors
+2025-11-09 00:27:06,737 - INFO -    Top vendor: Pontoon Solutions Inc. (4,345 records)
+2025-11-09 00:27:06,737 - INFO - 
+📋 Generating action plan...
+2025-11-09 00:27:06,738 - INFO -    Generated 6 actions
+2025-11-09 00:27:07,197 - INFO - 
+✅ Saved: 01_Auto_Accrual_Template.csv
+2025-11-09 00:27:07,201 - INFO - ✅ Saved: 03_Vendor_Remediation_Clusters.csv
+2025-11-09 00:27:07,201 - INFO - ✅ Saved: 04_Action_Plan.csv
+2025-11-09 00:27:07,201 - INFO - 
+✅ Remediation suite generated successfully!
+2025-11-09 00:27:07,201 - INFO - ================================================================================
+2025-11-09 00:27:07,209 - INFO - 
+================================================================================
+2025-11-09 00:27:07,209 - INFO - ✅ COMPLETE PIPELINE FINISHED
+2025-11-09 00:27:07,209 - INFO - ================================================================================
+2025-11-09 00:27:07,209 - INFO - 
+📊 RECONCILIATION:
+2025-11-09 00:27:07,209 - INFO -    Total: 116,024
+2025-11-09 00:27:07,209 - INFO -    Matched: 11,365 (9.8%)
+2025-11-09 00:27:07,209 - INFO -    Unmatched: 104,659
+2025-11-09 00:27:07,209 - INFO - 
+💰 FINANCIAL:
+2025-11-09 00:27:07,209 - INFO -    Billed: $214,911,920.27
+2025-11-09 00:27:07,209 - INFO -    Paid: $5,733,999.99
+2025-11-09 00:27:07,209 - INFO -    Variance: $209,177,920.28
+2025-11-09 00:27:07,210 - INFO - 
+🤖 AUTOMATION REMEDIATION:
+2025-11-09 00:27:07,210 - INFO -    Auto-Accrual Entries Generated: 104,659
+2025-11-09 00:27:07,210 - INFO -    Auto-Billing Entries Generated: 0
+2025-11-09 00:27:07,210 - INFO -    Vendor Clusters Identified: 730
+2025-11-09 00:27:07,210 - INFO -    Action Items: 6
+2025-11-09 00:27:07,210 - INFO - 
+📁 OUTPUTS:
+2025-11-09 00:27:07,210 - INFO -    Main Report: data/output/may_2025/Subcontractor_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 00:27:07,210 - INFO -    Remediation Files:
+2025-11-09 00:27:07,210 - INFO -      - 01_Auto_Accrual_Template.csv
+2025-11-09 00:27:07,210 - INFO -      - 02_Auto_Billing_Template.csv (if applicable)
+2025-11-09 00:27:07,210 - INFO -      - 03_Vendor_Remediation_Clusters.csv
+2025-11-09 00:27:07,210 - INFO -      - 04_Action_Plan.csv
+2025-11-09 00:27:07,210 - INFO - ================================================================================

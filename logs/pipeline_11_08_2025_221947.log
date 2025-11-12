@@ -1,0 +1,68 @@
+2025-11-08 22:19:47,357 - INFO - ================================================================================
+2025-11-08 22:19:47,357 - INFO - ENHANCED RECONCILIATION PIPELINE - MAY 2025
+2025-11-08 22:19:47,357 - INFO - ================================================================================
+2025-11-08 22:19:47,357 - INFO - 
+[STEP 1/5] Loading input files...
+2025-11-08 22:19:47,357 - INFO - ================================================================================
+2025-11-08 22:19:47,357 - INFO - LOADING ALL MAY 2025 INPUT FILES
+2025-11-08 22:19:47,357 - INFO - ================================================================================
+2025-11-08 22:19:47,357 - INFO - Loading Pivot Table...
+2025-11-08 22:19:59,677 - INFO - ✅ Loaded 113,393 records from Pivot Table
+2025-11-08 22:19:59,677 - INFO - Loading Accrual Workbook...
+2025-11-08 22:20:00,645 - INFO - ✅ Loaded Accrual data:
+2025-11-08 22:20:00,645 - INFO -    - Accrual: 37 consultants
+2025-11-08 22:20:00,645 - INFO -    - Tracker: 110 transactions
+2025-11-08 22:20:00,645 - INFO -    - YTD Billing: 2,637 records
+2025-11-08 22:20:00,646 - INFO - ================================================================================
+2025-11-08 22:20:00,646 - INFO - ✅ ALL FILES LOADED SUCCESSFULLY
+2025-11-08 22:20:00,646 - INFO - ================================================================================
+2025-11-08 22:20:00,646 - INFO - ✅ Pivot: 113,393 records
+2025-11-08 22:20:00,646 - INFO - ✅ Accrual: 37 records
+2025-11-08 22:20:00,646 - INFO - ✅ Tracker: 110 records
+2025-11-08 22:20:00,646 - INFO - ✅ YTD Billing: 2,637 records
+2025-11-08 22:20:00,646 - INFO - 
+[STEP 2/5] Loading vendor mappings...
+2025-11-08 22:20:00,646 - INFO - Creating master consultant list...
+2025-11-08 22:20:00,663 - INFO - ✅ Master list created: 931 unique consultants
+2025-11-08 22:20:00,663 - INFO - ✅ Master mapping created: 931 unique consultants
+2025-11-08 22:20:00,663 - INFO - 
+[STEP 3/5] Performing reconciliation...
+2025-11-08 22:20:00,663 - INFO - Starting enhanced reconciliation...
+2025-11-08 22:20:00,663 - INFO - Aggregating pivot data...
+2025-11-08 22:20:00,731 - INFO -    Aggregated to 876 unique consultants
+2025-11-08 22:20:00,736 - INFO - ✅ Aggregated pivot to 876 unique consultants
+2025-11-08 22:20:00,736 - INFO - Preparing accrual data...
+2025-11-08 22:20:00,737 - INFO -    Cleaned 37 accrual records
+2025-11-08 22:20:00,737 - INFO - ✅ Prepared accrual data: 37 consultants
+2025-11-08 22:20:00,737 - INFO - Merging pivot and accrual by applicant_number...
+2025-11-08 22:20:00,740 - INFO -    Merge result: 876 records
+2025-11-08 22:20:00,740 - INFO - ✅ Merged 876 records
+2025-11-08 22:20:00,740 - ERROR - ❌ Pipeline failed: 'hours_invoiced'
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'hours_invoiced'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/run_pipeline_v2.py", line 63, in run_pipeline
+    reconciled_df = reconciler.reconcile()
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_v2.py", line 43, in reconcile
+    reconciled = self._calculate_variances(reconciled)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_v2.py", line 147, in _calculate_variances
+    reconciled['hours_variance'] = reconciled['hours_billed'] - reconciled['hours_invoiced']
+                                                                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'hours_invoiced'

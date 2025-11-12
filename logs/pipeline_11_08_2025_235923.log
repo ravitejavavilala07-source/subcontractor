@@ -1,0 +1,103 @@
+2025-11-08 23:59:23,753 - INFO - ================================================================================
+2025-11-08 23:59:23,753 - INFO - 🚀 PRODUCTION PIPELINE V2 - MAY 2025
+2025-11-08 23:59:23,753 - INFO - ================================================================================
+2025-11-08 23:59:23,753 - INFO - 
+[STEP 0] PRE-CHECK: Validating data sources...
+2025-11-08 23:59:23,753 - INFO - ================================================================================
+2025-11-08 23:59:23,753 - INFO - 🔍 DATA SOURCE VALIDATION
+2025-11-08 23:59:23,753 - INFO - ================================================================================
+2025-11-08 23:59:23,753 - INFO - 
+[CHECK 1] Validating file existence...
+2025-11-08 23:59:23,754 - INFO -   ✅ Found pivot: SW Pivot Table_07.01.25.xlsx
+2025-11-08 23:59:23,754 - INFO -   ✅ Found accrual: SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:59:23,754 - INFO - 
+[CHECK 2] Validating sheet structure...
+2025-11-08 23:59:24,096 - INFO -   ✅ Sheet 'SW Pivot Table' found in SW Pivot Table_07.01.25.xlsx
+2025-11-08 23:59:36,260 - INFO -   ✅ Sheet 'SW Pivot Table': 113,393 rows
+2025-11-08 23:59:36,312 - INFO -   ✅ Sheet 'Accrual' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:59:36,312 - INFO -   ✅ Sheet 'SW Subvendor Tracker 2025' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:59:36,312 - INFO -   ✅ Sheet 'SW 2025 Billable to 05.31' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:59:36,382 - INFO -   ✅ Sheet 'Accrual': 42 rows
+2025-11-08 23:59:36,433 - INFO -   ✅ Sheet 'SW Subvendor Tracker 2025': 110 rows
+2025-11-08 23:59:37,284 - INFO -   ✅ Sheet 'SW 2025 Billable to 05.31': 2,637 rows
+2025-11-08 23:59:37,284 - INFO - 
+[CHECK 3] Validating data quality...
+2025-11-08 23:59:49,474 - WARNING -   ⚠️ Pivot: 6 null applicant numbers
+2025-11-08 23:59:49,477 - INFO -   ✅ Pivot: 876 unique applicants
+2025-11-08 23:59:49,543 - INFO -   ✅ Accrual 'Accrual': 42 rows
+2025-11-08 23:59:49,592 - INFO -   ✅ Accrual 'SW Subvendor Tracker 2025': 110 rows
+2025-11-08 23:59:50,444 - INFO -   ✅ Accrual 'SW 2025 Billable to 05.31': 2,637 rows
+2025-11-08 23:59:50,450 - INFO - 
+================================================================================
+2025-11-08 23:59:50,450 - INFO - VALIDATION REPORT
+2025-11-08 23:59:50,450 - INFO - ================================================================================
+2025-11-08 23:59:50,450 - WARNING - 
+⚠️ 1 WARNINGS:
+2025-11-08 23:59:50,450 - WARNING -   - Pivot: 6 null applicant numbers
+2025-11-08 23:59:50,450 - INFO - 
+✅ ALL VALIDATIONS PASSED - Ready for reconciliation
+2025-11-08 23:59:50,450 - INFO - ================================================================================
+2025-11-08 23:59:50,450 - INFO - 
+[STEP 1] Loading input files...
+2025-11-08 23:59:50,450 - INFO - ================================================================================
+2025-11-08 23:59:50,450 - INFO - LOADING FILES (IMPROVED VERSION)
+2025-11-08 23:59:50,450 - INFO - ================================================================================
+2025-11-08 23:59:50,450 - INFO - 
+Loading Pivot Table...
+2025-11-08 23:59:50,451 - INFO -   Reading: SW Pivot Table_07.01.25.xlsx
+2025-11-09 00:00:02,766 - INFO -   ✅ Loaded 113,387 valid records (removed 6)
+2025-11-09 00:00:02,769 - INFO -   ✅ Unique applicants: 876
+2025-11-09 00:00:02,769 - INFO - 
+Loading Accrual Workbook...
+2025-11-09 00:00:02,769 - INFO -   Reading: SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-09 00:00:02,769 - INFO -     Loading sheet: 'Accrual'...
+2025-11-09 00:00:02,850 - INFO -       ✅ Loaded 37 records (removed 5)
+2025-11-09 00:00:02,850 - INFO -     Loading sheet: 'SW Subvendor Tracker 2025'...
+2025-11-09 00:00:02,917 - INFO -       ✅ Loaded 110 records (removed 0)
+2025-11-09 00:00:02,917 - INFO -     Loading sheet: 'SW 2025 Billable to 05.31'...
+2025-11-09 00:00:03,785 - INFO -       ✅ Loaded 0 records (removed 2,637)
+2025-11-09 00:00:03,785 - INFO - 
+================================================================================
+2025-11-09 00:00:03,785 - INFO - FILES LOADED SUCCESSFULLY
+2025-11-09 00:00:03,785 - INFO - ================================================================================
+2025-11-09 00:00:03,785 - INFO - 
+[STEP 2] Performing reconciliation...
+2025-11-09 00:00:03,800 - INFO - 🔄 Starting PRODUCTION reconciliation with robust matching...
+2025-11-09 00:00:03,800 - INFO - 
+[Strategy 1] Exact applicant number matching...
+2025-11-09 00:00:03,909 - INFO - ✅ Exact matched: 9,600 records
+2025-11-09 00:00:03,909 - INFO - 
+[Strategy 2] Fuzzy name matching for unmatched records...
+2025-11-09 00:01:48,463 - INFO - ✅ Fuzzy matched: 0 records
+2025-11-09 00:01:49,640 - INFO - 
+✅ Reconciliation complete: 113,387 records
+2025-11-09 00:01:49,640 - INFO -    Matched: 9,600 (8.5%)
+2025-11-09 00:01:49,640 - INFO -    Unmatched: 103,787
+2025-11-09 00:01:49,640 - INFO - 
+[STEP 3] Generating enhanced report...
+2025-11-09 00:01:49,800 - INFO - Generating enhanced report: Subcontractor_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 00:01:49,800 - INFO -   - Matched: 9,600 records
+2025-11-09 00:01:49,800 - INFO -   - Unmatched Pivot: 103,787 records
+2025-11-09 00:01:49,800 - INFO -   - Unmatched Accrual: 0 records
+2025-11-09 00:01:49,808 - INFO - ✅ Tab 1: Executive Summary
+2025-11-09 00:01:51,128 - INFO - ✅ Tab 2: Matched Records (9,600 rows)
+2025-11-09 00:02:08,489 - INFO - ✅ Tab 3: Unmatched Pivot (103,787 rows)
+2025-11-09 00:02:08,495 - INFO - ✅ Tab 5: Summary & Metrics
+2025-11-09 00:02:39,641 - INFO - ✅ Report saved to: data/output/may_2025/Subcontractor_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 00:02:39,652 - INFO - 
+================================================================================
+2025-11-09 00:02:39,652 - INFO - ✅ PIPELINE COMPLETE
+2025-11-09 00:02:39,652 - INFO - ================================================================================
+2025-11-09 00:02:39,652 - INFO - 
+📊 RECONCILIATION RESULTS:
+2025-11-09 00:02:39,652 - INFO -    Total Records: 113,387
+2025-11-09 00:02:39,652 - INFO -    Matched: 9,600 (8.5%)
+2025-11-09 00:02:39,652 - INFO -    Unmatched: 103,787
+2025-11-09 00:02:39,652 - INFO - 
+💰 FINANCIAL:
+2025-11-09 00:02:39,653 - INFO -    Total Billed: $209,177,920.28
+2025-11-09 00:02:39,653 - INFO -    Total Paid: $0.00
+2025-11-09 00:02:39,653 - INFO -    Variance: $209,177,920.28
+2025-11-09 00:02:39,653 - INFO - 
+📁 REPORT: data/output/may_2025/Subcontractor_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 00:02:39,653 - INFO - ================================================================================

@@ -1,0 +1,81 @@
+2025-11-09 00:49:23,221 - INFO - ================================================================================
+2025-11-09 00:49:23,221 - INFO - 🚀 OPTIMIZED PIPELINE - MAY 2025
+2025-11-09 00:49:23,221 - INFO - ================================================================================
+2025-11-09 00:49:23,221 - INFO - 
+[STEP 1] Loading files (OPTIMIZED)...
+2025-11-09 00:49:23,221 - INFO - ================================================================================
+2025-11-09 00:49:23,221 - INFO - LOADING FILES (OPTIMIZED WITH NORMALIZATION)
+2025-11-09 00:49:23,222 - INFO - ================================================================================
+2025-11-09 00:49:23,222 - INFO - 
+Loading Pivot Table...
+2025-11-09 00:49:36,484 - INFO -   ✅ Loaded 113,387 records (removed 6)
+2025-11-09 00:49:36,484 - INFO - 
+Loading Accrual Workbook...
+2025-11-09 00:49:36,484 - INFO -   Loading sheet: 'Accrual'...
+2025-11-09 00:49:36,553 - INFO -     ✅ Loaded 39 records (removed 3)
+2025-11-09 00:49:36,553 - INFO -   Loading sheet: 'SW Subvendor Tracker 2025'...
+2025-11-09 00:49:36,606 - INFO -     ✅ Loaded 110 records
+2025-11-09 00:49:36,606 - INFO -   Loading sheet: 'SW 2025 Billable to 05.31'...
+2025-11-09 00:49:37,484 - INFO -     ✅ Loaded 2,637 records (keeping all)
+2025-11-09 00:49:37,484 - INFO - 
+================================================================================
+2025-11-09 00:49:37,484 - INFO - 📊 LOAD STATISTICS
+2025-11-09 00:49:37,484 - INFO - ================================================================================
+2025-11-09 00:49:37,484 - INFO -   Pivot: 113,387 records
+2025-11-09 00:49:37,484 - INFO -   Accrual: 39 records
+2025-11-09 00:49:37,484 - INFO -   Tracker: 110 records
+2025-11-09 00:49:37,484 - INFO -   YTD Billing: 2,637 records
+2025-11-09 00:49:37,484 - INFO - ================================================================================
+2025-11-09 00:49:37,494 - INFO -   Combined billing: 116,024
+2025-11-09 00:49:37,494 - INFO - 
+[STEP 2] ADVANCED Reconciliation...
+2025-11-09 00:49:37,544 - INFO - 🔄 Starting ADVANCED reconciliation...
+2025-11-09 00:49:37,544 - INFO - 
+[Strategy 1] Exact ID matching (applicant_number)...
+2025-11-09 00:49:37,661 - ERROR - ❌ Pipeline failed: True
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/pipeline_optimized.py", line 49, in run_pipeline
+    reconciler.reconcile()
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_advanced.py", line 31, in reconcile
+    reconciled = self._strategy_exact_id()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_advanced.py", line 79, in _strategy_exact_id
+    reconciled['match_strategy'] = reconciled['_merge'].apply(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/base.py", line 923, in _map_values
+    return arr.map(mapper, na_action=na_action)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/arrays/categorical.py", line 1558, in map
+    new_categories = self.categories.map(mapper)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6537, in map
+    new_values = self._map_values(mapper, na_action=na_action)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_advanced.py", line 80, in <lambda>
+    lambda x: 'EXACT_ID' if x == 'both' and reconciled.loc[x == 'both', 'applicant_number'].notna().any() else None
+                                            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 4232, in _get_value
+    row = self.index.get_loc(index)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: True

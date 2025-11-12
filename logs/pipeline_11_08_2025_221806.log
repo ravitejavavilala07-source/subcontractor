@@ -1,0 +1,58 @@
+2025-11-08 22:18:06,296 - INFO - ================================================================================
+2025-11-08 22:18:06,296 - INFO - ENHANCED RECONCILIATION PIPELINE - MAY 2025
+2025-11-08 22:18:06,296 - INFO - ================================================================================
+2025-11-08 22:18:06,296 - INFO - 
+[STEP 1/5] Loading input files...
+2025-11-08 22:18:06,296 - INFO - ================================================================================
+2025-11-08 22:18:06,296 - INFO - LOADING ALL MAY 2025 INPUT FILES
+2025-11-08 22:18:06,296 - INFO - ================================================================================
+2025-11-08 22:18:06,296 - INFO - Loading Pivot Table...
+2025-11-08 22:18:19,152 - INFO - ✅ Loaded 113,393 records from Pivot Table
+2025-11-08 22:18:19,152 - INFO - Loading Accrual Workbook...
+2025-11-08 22:18:20,123 - INFO - ✅ Loaded Accrual data:
+2025-11-08 22:18:20,123 - INFO -    - Accrual: 37 consultants
+2025-11-08 22:18:20,123 - INFO -    - Tracker: 110 transactions
+2025-11-08 22:18:20,123 - INFO -    - YTD Billing: 2,637 records
+2025-11-08 22:18:20,123 - INFO - ================================================================================
+2025-11-08 22:18:20,123 - INFO - ✅ ALL FILES LOADED SUCCESSFULLY
+2025-11-08 22:18:20,123 - INFO - ================================================================================
+2025-11-08 22:18:20,123 - INFO - ✅ Pivot: 113,393 records
+2025-11-08 22:18:20,123 - INFO - ✅ Accrual: 37 records
+2025-11-08 22:18:20,123 - INFO - ✅ Tracker: 110 records
+2025-11-08 22:18:20,123 - INFO - ✅ YTD Billing: 2,637 records
+2025-11-08 22:18:20,123 - INFO - 
+[STEP 2/5] Loading vendor mappings...
+2025-11-08 22:18:20,124 - INFO - Creating master consultant list...
+2025-11-08 22:18:20,139 - INFO - ✅ Master list created: 931 unique consultants
+2025-11-08 22:18:20,139 - INFO - ✅ Master mapping created: 931 unique consultants
+2025-11-08 22:18:20,139 - INFO - 
+[STEP 3/5] Performing reconciliation...
+2025-11-08 22:18:20,139 - INFO - Starting enhanced reconciliation...
+2025-11-08 22:18:20,156 - INFO - ✅ Aggregated pivot to 876 unique consultants
+2025-11-08 22:18:20,159 - INFO - ✅ Merged by applicant_number: 876 records
+2025-11-08 22:18:20,159 - ERROR - ❌ Pipeline failed: 'accrual_name'
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'accrual_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/run_pipeline_v2.py", line 63, in run_pipeline
+    reconciled_df = reconciler.reconcile()
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_v2.py", line 40, in reconcile
+    unmatched = reconciled[reconciled['accrual_name'].isna()].copy()
+                           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'accrual_name'

@@ -1,0 +1,38 @@
+2025-11-09 21:49:33,436 - INFO - ================================================================================
+2025-11-09 21:49:33,436 - INFO - 🚀 MONTHLY RECONCILIATION - MAY 2025
+2025-11-09 21:49:33,436 - INFO - ================================================================================
+2025-11-09 21:49:33,436 - INFO - 
+[STEP 1/7] Loading source files...
+2025-11-09 21:49:46,854 - INFO -   ✅ Pivot: 113,393
+2025-11-09 21:49:46,854 - INFO -   ✅ Accrual: 42
+2025-11-09 21:49:46,854 - INFO -   ✅ Billable: 2,637
+2025-11-09 21:49:46,854 - INFO - 
+[STEP 2/7] Normalizing schemas...
+2025-11-09 21:49:46,907 - INFO - 
+[STEP 3/7] Combining transaction sources...
+2025-11-09 21:49:46,924 - INFO -   ✅ Combined: 116,030
+2025-11-09 21:49:46,925 - INFO - 
+[STEP 4/7] Advanced matching (3-strategy)...
+2025-11-09 21:53:25,709 - ERROR - ❌ Failed: 'Status'
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Status'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/FINAL_MONTHLY_RECONCILIATION_SUITE.py", line 281, in run
+    match_count = len(matched[matched['Status'] == '✅ Matched'])
+                              ~~~~~~~^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Status'

@@ -1,0 +1,82 @@
+2025-11-09 00:57:41,661 - INFO - ================================================================================
+2025-11-09 00:57:41,661 - INFO - 🚀 FINAL SPRINT PIPELINE - MAY 2025
+2025-11-09 00:57:41,661 - INFO - ================================================================================
+2025-11-09 00:57:41,661 - INFO - 
+[STEP 1/5] Loading files...
+2025-11-09 00:57:41,661 - INFO - ================================================================================
+2025-11-09 00:57:41,661 - INFO - LOADING FILES (OPTIMIZED WITH NORMALIZATION)
+2025-11-09 00:57:41,661 - INFO - ================================================================================
+2025-11-09 00:57:41,661 - INFO - 
+Loading Pivot Table...
+2025-11-09 00:57:54,551 - INFO -   ✅ Loaded 113,387 records (removed 6)
+2025-11-09 00:57:54,551 - INFO - 
+Loading Accrual Workbook...
+2025-11-09 00:57:54,552 - INFO -   Loading sheet: 'Accrual'...
+2025-11-09 00:57:54,618 - INFO -     ✅ Loaded 39 records (removed 3)
+2025-11-09 00:57:54,618 - INFO -   Loading sheet: 'SW Subvendor Tracker 2025'...
+2025-11-09 00:57:54,669 - INFO -     ✅ Loaded 110 records
+2025-11-09 00:57:54,669 - INFO -   Loading sheet: 'SW 2025 Billable to 05.31'...
+2025-11-09 00:57:55,534 - INFO -     ✅ Loaded 2,637 records (keeping all)
+2025-11-09 00:57:55,534 - INFO - 
+================================================================================
+2025-11-09 00:57:55,534 - INFO - 📊 LOAD STATISTICS
+2025-11-09 00:57:55,534 - INFO - ================================================================================
+2025-11-09 00:57:55,534 - INFO -   Pivot: 113,387 records
+2025-11-09 00:57:55,534 - INFO -   Accrual: 39 records
+2025-11-09 00:57:55,534 - INFO -   Tracker: 110 records
+2025-11-09 00:57:55,534 - INFO -   YTD Billing: 2,637 records
+2025-11-09 00:57:55,534 - INFO - ================================================================================
+2025-11-09 00:57:55,545 - INFO -   Combined: 116,024
+2025-11-09 00:57:55,545 - INFO - 
+[STEP 2/5] Final reconciliation...
+2025-11-09 00:57:55,584 - INFO - 🔄 Starting FINAL reconciliation...
+2025-11-09 00:57:55,584 - INFO - 
+[Strategy 1] Exact ID matching...
+2025-11-09 00:57:55,721 - INFO - ✅ Matched: 10,028
+2025-11-09 00:57:55,721 - INFO - 
+[Strategy 2] Fallback (Name + Month + Vendor)...
+2025-11-09 00:59:37,652 - INFO - ✅ Additional matched: -8,691
+2025-11-09 00:59:37,652 - INFO - 
+[Step 3] Calculating variances...
+2025-11-09 00:59:39,248 - INFO - 
+✅ Reconciliation complete
+2025-11-09 00:59:39,248 - INFO -    Total: 116,026
+2025-11-09 00:59:39,248 - INFO -    Matched: 11,365 (9.8%)
+2025-11-09 00:59:39,248 - INFO -    Unmatched: 104,661
+2025-11-09 00:59:39,248 - INFO -    Errors logged: 104661
+2025-11-09 00:59:39,427 - INFO - 
+[STEP 3/5] Generating accrual suggestions...
+2025-11-09 00:59:39,491 - INFO - 📋 Generating accrual suggestions...
+2025-11-09 00:59:39,558 - INFO -   Generated 104,659 suggestions
+2025-11-09 00:59:39,566 - INFO - 
+[STEP 4/5] Generating final report...
+2025-11-09 00:59:39,567 - INFO - Generating final report: iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 00:59:39,573 - INFO -   ✅ Tab 1: Executive Summary
+2025-11-09 00:59:41,534 - INFO -   ✅ Tab 2: Matched Records (11,365)
+2025-11-09 01:00:00,318 - INFO -   ✅ Tab 3: Unmatched Pivot (104,659)
+2025-11-09 01:00:00,325 - INFO -   ✅ Tab 4: Unmatched Accrual (2)
+2025-11-09 01:00:07,623 - INFO -   ✅ Tab 5: Suggested Accrual Entries (104,659)
+2025-11-09 01:00:07,896 - INFO -   ✅ Tab 6: Vendor Summary (736)
+2025-11-09 01:00:09,182 - INFO -   ✅ Tab 7: Error Log (104661)
+2025-11-09 01:00:58,426 - INFO - ✅ Report saved: data/output/may_2025/iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 01:00:58,428 - INFO - 
+================================================================================
+2025-11-09 01:00:58,428 - INFO - ✅ FINAL SPRINT PIPELINE COMPLETE
+2025-11-09 01:00:58,428 - INFO - ================================================================================
+2025-11-09 01:00:58,428 - INFO - 
+📊 RECONCILIATION:
+2025-11-09 01:00:58,428 - INFO -    Total Records: 116,026
+2025-11-09 01:00:58,428 - INFO -    ✅ Matched: 11,365 (9.8%)
+2025-11-09 01:00:58,428 - INFO -    ⚠️ Unmatched: 104,661
+2025-11-09 01:00:58,428 - INFO - 
+💰 FINANCIAL:
+2025-11-09 01:00:58,428 - INFO -    Billed: $214,911,920.27
+2025-11-09 01:00:58,428 - INFO -    Paid: $5,733,999.99
+2025-11-09 01:00:58,428 - INFO -    Variance: $209,177,920.28
+2025-11-09 01:00:58,428 - INFO - 
+📥 AUTO-GENERATED:
+2025-11-09 01:00:58,428 - INFO -    Suggested Accruals: 104,659
+2025-11-09 01:00:58,428 - INFO -    Errors Logged: 104661
+2025-11-09 01:00:58,428 - INFO - 
+📁 OUTPUT: data/output/may_2025/iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 01:00:58,428 - INFO - ================================================================================

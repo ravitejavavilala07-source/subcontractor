@@ -1,0 +1,83 @@
+2025-11-08 23:56:07,441 - INFO - ================================================================================
+2025-11-08 23:56:07,441 - INFO - 🚀 PRODUCTION PIPELINE V2 - MAY 2025
+2025-11-08 23:56:07,441 - INFO - ================================================================================
+2025-11-08 23:56:07,441 - INFO - 
+[STEP 0] PRE-CHECK: Validating data sources...
+2025-11-08 23:56:07,441 - INFO - ================================================================================
+2025-11-08 23:56:07,441 - INFO - 🔍 DATA SOURCE VALIDATION
+2025-11-08 23:56:07,441 - INFO - ================================================================================
+2025-11-08 23:56:07,441 - INFO - 
+[CHECK 1] Validating file existence...
+2025-11-08 23:56:07,441 - INFO -   ✅ Found pivot: SW Pivot Table_07.01.25.xlsx
+2025-11-08 23:56:07,441 - INFO -   ✅ Found accrual: SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:56:07,441 - INFO - 
+[CHECK 2] Validating sheet structure...
+2025-11-08 23:56:07,763 - INFO -   ✅ Sheet 'SW Pivot Table' found in SW Pivot Table_07.01.25.xlsx
+2025-11-08 23:56:19,941 - INFO -   ✅ Sheet 'SW Pivot Table': 113,393 rows
+2025-11-08 23:56:19,996 - INFO -   ✅ Sheet 'Accrual' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:56:19,996 - INFO -   ✅ Sheet 'SW Subvendor Tracker 2025' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:56:19,996 - INFO -   ✅ Sheet 'SW 2025 Billable to 05.31' found in SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:56:20,067 - INFO -   ✅ Sheet 'Accrual': 42 rows
+2025-11-08 23:56:20,117 - INFO -   ✅ Sheet 'SW Subvendor Tracker 2025': 110 rows
+2025-11-08 23:56:21,036 - INFO -   ✅ Sheet 'SW 2025 Billable to 05.31': 2,637 rows
+2025-11-08 23:56:21,036 - INFO - 
+[CHECK 3] Validating data quality...
+2025-11-08 23:56:35,562 - WARNING -   ⚠️ Pivot: 6 null applicant numbers
+2025-11-08 23:56:35,565 - INFO -   ✅ Pivot: 876 unique applicants
+2025-11-08 23:56:35,661 - INFO -   ✅ Accrual 'Accrual': 42 rows
+2025-11-08 23:56:35,713 - INFO -   ✅ Accrual 'SW Subvendor Tracker 2025': 110 rows
+2025-11-08 23:56:36,741 - INFO -   ✅ Accrual 'SW 2025 Billable to 05.31': 2,637 rows
+2025-11-08 23:56:36,748 - INFO - 
+================================================================================
+2025-11-08 23:56:36,748 - INFO - VALIDATION REPORT
+2025-11-08 23:56:36,748 - INFO - ================================================================================
+2025-11-08 23:56:36,748 - WARNING - 
+⚠️ 1 WARNINGS:
+2025-11-08 23:56:36,748 - WARNING -   - Pivot: 6 null applicant numbers
+2025-11-08 23:56:36,748 - INFO - 
+✅ ALL VALIDATIONS PASSED - Ready for reconciliation
+2025-11-08 23:56:36,748 - INFO - ================================================================================
+2025-11-08 23:56:36,748 - INFO - 
+[STEP 1] Loading input files...
+2025-11-08 23:56:36,748 - INFO - ================================================================================
+2025-11-08 23:56:36,748 - INFO - LOADING FILES (IMPROVED VERSION)
+2025-11-08 23:56:36,748 - INFO - ================================================================================
+2025-11-08 23:56:36,748 - INFO - 
+Loading Pivot Table...
+2025-11-08 23:56:36,748 - INFO -   Reading: SW Pivot Table_07.01.25.xlsx
+2025-11-08 23:56:50,468 - INFO -   ✅ Loaded 113,387 valid records (removed 6)
+2025-11-08 23:56:50,473 - INFO -   ✅ Unique applicants: 876
+2025-11-08 23:56:50,473 - INFO - 
+Loading Accrual Workbook...
+2025-11-08 23:56:50,474 - INFO -   Reading: SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-08 23:56:50,474 - INFO -     Loading sheet: 'Accrual'...
+2025-11-08 23:56:50,556 - INFO -       ✅ Loaded 37 records (removed 5)
+2025-11-08 23:56:50,556 - INFO -     Loading sheet: 'SW Subvendor Tracker 2025'...
+2025-11-08 23:56:50,606 - INFO -       ✅ Loaded 110 records (removed 0)
+2025-11-08 23:56:50,606 - INFO -     Loading sheet: 'SW 2025 Billable to 05.31'...
+2025-11-08 23:56:51,466 - INFO -       ✅ Loaded 0 records (removed 2,637)
+2025-11-08 23:56:51,466 - INFO - 
+================================================================================
+2025-11-08 23:56:51,466 - INFO - FILES LOADED SUCCESSFULLY
+2025-11-08 23:56:51,466 - INFO - ================================================================================
+2025-11-08 23:56:51,466 - INFO - 
+[STEP 2] Performing reconciliation...
+2025-11-08 23:56:51,480 - INFO - 🔄 Starting PRODUCTION reconciliation with robust matching...
+2025-11-08 23:56:51,480 - INFO - 
+[Strategy 1] Exact applicant number matching...
+2025-11-08 23:56:51,594 - INFO - ✅ Exact matched: 9,600 records
+2025-11-08 23:56:51,594 - INFO - 
+[Strategy 2] Fuzzy name matching for unmatched records...
+2025-11-08 23:58:36,745 - INFO - ✅ Fuzzy matched: 0 records
+2025-11-08 23:58:37,940 - INFO - 
+✅ Reconciliation complete: 113,387 records
+2025-11-08 23:58:37,940 - INFO -    Matched: 9,600 (8.5%)
+2025-11-08 23:58:37,940 - INFO -    Unmatched: 103,787
+2025-11-08 23:58:37,940 - INFO - 
+[STEP 3] Generating enhanced report...
+2025-11-08 23:58:38,099 - ERROR - ❌ Pipeline failed: 'ReportGeneratorWithCharts' object has no attribute 'generate_enhanced_report'
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/pipeline_production_v2.py", line 68, in run_pipeline
+    report_path = report_gen.generate_enhanced_report(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReportGeneratorWithCharts' object has no attribute 'generate_enhanced_report'

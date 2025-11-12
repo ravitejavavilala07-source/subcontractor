@@ -1,0 +1,83 @@
+2025-11-08 22:39:51,672 - INFO - ================================================================================
+2025-11-08 22:39:51,672 - INFO - 🚀 PRODUCTION RECONCILIATION PIPELINE - MAY 2025
+2025-11-08 22:39:51,672 - INFO - ================================================================================
+2025-11-08 22:39:51,672 - INFO - 
+[STEP 1/3] Loading input files...
+2025-11-08 22:39:51,672 - INFO - ================================================================================
+2025-11-08 22:39:51,672 - INFO - LOADING ALL MAY 2025 INPUT FILES
+2025-11-08 22:39:51,672 - INFO - ================================================================================
+2025-11-08 22:39:51,672 - INFO - Loading Pivot Table...
+2025-11-08 22:40:04,143 - INFO - ✅ Loaded 113,393 records from Pivot Table
+2025-11-08 22:40:04,143 - INFO - Loading Accrual Workbook...
+2025-11-08 22:40:05,118 - INFO - ✅ Loaded Accrual data:
+2025-11-08 22:40:05,118 - INFO -    - Accrual: 37 consultants
+2025-11-08 22:40:05,118 - INFO -    - Tracker: 110 transactions
+2025-11-08 22:40:05,118 - INFO -    - YTD Billing: 2,637 records
+2025-11-08 22:40:05,118 - INFO - ================================================================================
+2025-11-08 22:40:05,118 - INFO - ✅ ALL FILES LOADED SUCCESSFULLY
+2025-11-08 22:40:05,118 - INFO - ================================================================================
+2025-11-08 22:40:05,118 - INFO - ✅ Pivot: 113,393 records
+2025-11-08 22:40:05,118 - INFO - ✅ Accrual: 37 records
+2025-11-08 22:40:05,118 - INFO - 
+[STEP 2/3] Performing reconciliation...
+2025-11-08 22:40:05,118 - INFO - Starting production reconciliation...
+2025-11-08 22:40:05,191 - INFO - ✅ Pivot: 876 unique consultants
+2025-11-08 22:40:05,193 - INFO - ✅ Accrual: 37 consultants
+2025-11-08 22:40:05,205 - INFO - ✅ Reconciliation complete: 876 records
+2025-11-08 22:40:05,205 - INFO -    - Matched: 0
+2025-11-08 22:40:05,205 - INFO -    - Unmatched: 839
+2025-11-08 22:40:05,205 - INFO -    - Total Variance: $208,405,053.87
+2025-11-08 22:40:05,208 - INFO - 
+[STEP 3/3] Generating professional report...
+2025-11-08 22:40:05,209 - INFO - Generating professional report: Subcontractor_Accrual_Reconciliation_11.08.2025.xlsx
+2025-11-08 22:40:05,213 - ERROR - ❌ Pipeline failed: At least one sheet must be visible
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/report_generator_professional.py", line 35, in generate_report
+    self._create_summary_tab(writer, metrics, vendor_summary)
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/report_generator_professional.py", line 99, in _create_summary_tab
+    summary_df = pd.DataFrame(summary_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 709, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 481, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 115, in arrays_to_mgr
+    index = _extract_index(arrays)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 655, in _extract_index
+    raise ValueError("All arrays must be of the same length")
+ValueError: All arrays must be of the same length
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/pipeline_production.py", line 57, in run_pipeline
+    report_path = report_gen.generate_report(reconciled_details, vendor_summary, metrics)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/report_generator_professional.py", line 32, in generate_report
+    with pd.ExcelWriter(str(filepath), engine='openpyxl') as writer:
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 1322, in __exit__
+    self.close()
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 1326, in close
+    self._save()
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/pandas/io/excel/_openpyxl.py", line 109, in _save
+    self.book.save(self._handles.handle)
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/openpyxl/workbook/workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/openpyxl/writer/excel.py", line 294, in save_workbook
+    writer.save()
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/openpyxl/writer/excel.py", line 275, in save
+    self.write_data()
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/openpyxl/writer/excel.py", line 89, in write_data
+    archive.writestr(ARC_WORKBOOK, writer.write())
+                                   ^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/openpyxl/workbook/_writer.py", line 150, in write
+    self.write_views()
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/openpyxl/workbook/_writer.py", line 137, in write_views
+    active = get_active_sheet(self.wb)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/venv/lib/python3.11/site-packages/openpyxl/workbook/_writer.py", line 35, in get_active_sheet
+    raise IndexError("At least one sheet must be visible")
+IndexError: At least one sheet must be visible

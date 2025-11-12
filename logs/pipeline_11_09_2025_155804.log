@@ -1,0 +1,91 @@
+2025-11-09 15:58:04,417 - INFO - ================================================================================
+2025-11-09 15:58:04,417 - INFO - 🚀 TRANSACTION-LEVEL PIPELINE - MAY 2025
+2025-11-09 15:58:04,417 - INFO - ================================================================================
+2025-11-09 15:58:04,417 - INFO - 
+[STEP 1/5] Loading files (STRICT MODE)...
+2025-11-09 15:58:04,417 - INFO - ================================================================================
+2025-11-09 15:58:04,417 - INFO - STRICT FILE LOADER - ZERO DATA LOSS MODE
+2025-11-09 15:58:04,417 - INFO - ================================================================================
+2025-11-09 15:58:04,417 - INFO - 
+[PIVOT TABLE]
+2025-11-09 15:58:04,417 - INFO -   File: SW Pivot Table_07.01.25.xlsx
+2025-11-09 15:58:16,746 - INFO -   Raw rows: 113,393
+2025-11-09 15:58:16,760 - INFO -   Columns found: 25
+2025-11-09 15:58:16,762 - INFO -     ✅ APPL_ID: 6 nulls
+2025-11-09 15:58:16,765 - INFO -     ✅ Applicant_Name: 6 nulls
+2025-11-09 15:58:16,765 - INFO -     ✅ Bill_Amount: 4 nulls
+2025-11-09 15:58:16,770 - INFO - 
+[ACCRUAL WORKBOOK]
+2025-11-09 15:58:16,771 - INFO -   File: SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-09 15:58:16,771 - INFO -   Loading 'Accrual'...
+2025-11-09 15:58:16,836 - INFO -     Raw rows: 42
+2025-11-09 15:58:16,836 - INFO -     Columns: 37
+2025-11-09 15:58:16,836 - INFO -   Loading 'SW Subvendor Tracker 2025'...
+2025-11-09 15:58:16,887 - INFO -     Raw rows: 110
+2025-11-09 15:58:16,887 - INFO -     Columns: 16
+2025-11-09 15:58:16,887 - INFO -   Loading 'SW 2025 Billable to 05.31' (CRITICAL)...
+2025-11-09 15:58:17,727 - INFO -     ✅ Loaded with skiprows=1
+2025-11-09 15:58:17,727 - INFO -     Raw rows: 2,638
+2025-11-09 15:58:17,727 - INFO -     Columns: 34
+2025-11-09 15:58:17,727 - INFO - 
+================================================================================
+2025-11-09 15:58:17,727 - INFO - LOAD REPORT - DATA INTEGRITY CHECK
+2025-11-09 15:58:17,727 - INFO - ================================================================================
+2025-11-09 15:58:17,727 - INFO - 
+Pivot Table:
+2025-11-09 15:58:17,727 - INFO -   Rows Loaded: 113,393
+2025-11-09 15:58:17,727 - INFO -   Rows Dropped: 0
+2025-11-09 15:58:17,727 - INFO -   Status: ✅ All rows loaded
+2025-11-09 15:58:17,727 - INFO - 
+Accrual:
+2025-11-09 15:58:17,727 - INFO -   Rows Loaded: 42
+2025-11-09 15:58:17,727 - INFO -   Rows Dropped: 0
+2025-11-09 15:58:17,727 - INFO -   Status: ✅ All rows loaded
+2025-11-09 15:58:17,727 - INFO - 
+SW Subvendor Tracker 2025:
+2025-11-09 15:58:17,727 - INFO -   Rows Loaded: 110
+2025-11-09 15:58:17,727 - INFO -   Rows Dropped: 0
+2025-11-09 15:58:17,727 - INFO -   Status: ✅ All rows loaded
+2025-11-09 15:58:17,727 - INFO - 
+SW 2025 Billable to 05.31:
+2025-11-09 15:58:17,727 - INFO -   Rows Loaded: 2,638
+2025-11-09 15:58:17,727 - INFO -   Rows Dropped: 0
+2025-11-09 15:58:17,727 - INFO -   Status: ✅ All rows loaded
+2025-11-09 15:58:17,727 - INFO - 
+================================================================================
+2025-11-09 15:58:17,727 - INFO - TOTALS:
+2025-11-09 15:58:17,727 - INFO -   Total Records Loaded: 116,183
+2025-11-09 15:58:17,727 - INFO -   Total Records Dropped: 0
+2025-11-09 15:58:17,727 - INFO -   ✅ ZERO DATA LOSS - All data preserved!
+2025-11-09 15:58:17,727 - INFO - ================================================================================
+2025-11-09 15:58:17,727 - INFO - 
+  ✅ Pivot: 113,393 transactions
+2025-11-09 15:58:17,727 - INFO -   ✅ Accrual: 42 records
+2025-11-09 15:58:17,728 - INFO -   ✅ Billable: 2,638 transactions
+2025-11-09 15:58:17,781 - INFO -   ✅ Combined: 116,031 total transactions
+2025-11-09 15:58:17,781 - INFO - 
+[STEP 2/5] Transaction-level reconciliation...
+2025-11-09 15:58:17,906 - INFO - 🔄 Starting TRANSACTION-LEVEL reconciliation...
+2025-11-09 15:58:17,906 - INFO -    Pivot records: 116,031
+2025-11-09 15:58:17,906 - INFO -    Accrual records: 42
+2025-11-09 15:58:17,906 - INFO -    Processing 116,031 transactions (duplicates OK)
+2025-11-09 15:58:17,906 - INFO - 
+[Strategy 1] Transaction match by ID + Service Date...
+2025-11-09 15:58:17,907 - ERROR - ❌ Pipeline failed: "None of [Index(['applicant_number'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/pipeline_transaction_level.py", line 54, in run_transaction_pipeline
+    reconciler.reconcile()
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_transaction_level.py", line 35, in reconcile
+    reconciled = self._strategy_transaction_id_date()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_transaction_level.py", line 75, in _strategy_transaction_id_date
+    self.accrual[['applicant_number']],
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['applicant_number'], dtype='object')] are in the [columns]"

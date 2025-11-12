@@ -1,0 +1,45 @@
+2025-11-10 10:54:06,727 - INFO - ================================================================================
+2025-11-10 10:54:06,727 - INFO - 🚀 PHASE 2 PRODUCTION SUITE - MAY 2025
+2025-11-10 10:54:06,727 - INFO - ================================================================================
+2025-11-10 10:54:06,727 - INFO - 
+📋 ALL 4 PRIORITIES ENABLED:
+2025-11-10 10:54:06,727 - INFO -    [✅] Priority 1: QB Memo Parser
+2025-11-10 10:54:06,727 - INFO -    [✅] Priority 2: Enhanced Matching (5-strategy)
+2025-11-10 10:54:06,727 - INFO -    [✅] Priority 3: Variance Calculations
+2025-11-10 10:54:06,728 - INFO -    [✅] Priority 4: Feedback Loop
+2025-11-10 10:54:06,728 - INFO - ================================================================================
+2025-11-10 10:54:06,728 - INFO - 
+[STEP 1/7] Loading source files...
+2025-11-10 10:54:20,024 - INFO -   ✅ Pivot: 113,393
+2025-11-10 10:54:20,024 - INFO -   ✅ Accrual: 42
+2025-11-10 10:54:20,024 - INFO -   ✅ Billable: 2,637
+2025-11-10 10:54:20,024 - INFO - 
+[STEP 2/7] Normalizing data...
+2025-11-10 10:54:20,024 - INFO - 
+[STEP 3/7] PRIORITY 1 - Parsing QB memos...
+2025-11-10 10:54:20,025 - INFO -   ⚠️ No memo column found
+2025-11-10 10:54:20,026 - INFO - 
+[STEP 4/7] Combining transaction sources...
+2025-11-10 10:54:20,040 - INFO -   ✅ Combined: 116,030
+2025-11-10 10:54:20,040 - INFO - 
+[STEP 5/7] PRIORITY 2 - Enhanced 5-strategy matching...
+2025-11-10 10:54:20,087 - INFO - 
+🔄 RUNNING 5-STRATEGY MATCHING ENGINE...
+2025-11-10 10:54:20,105 - INFO -   [1/5] Exact ID...
+2025-11-10 10:54:20,105 - ERROR - ❌ Phase 2 failed: "None of ['applicant_number'] are in the columns"
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/phase2_complete_production.py", line 80, in run
+    matched = self._perform_enhanced_matching(combined, accrual)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/phase2_complete_production.py", line 163, in _perform_enhanced_matching
+    matched, stats = matcher.run_all_strategies()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/enhanced_matcher_v2.py", line 41, in run_all_strategies
+    result = self._strategy_1_exact_id(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/enhanced_matcher_v2.py", line 77, in _strategy_1_exact_id
+    accrual_idx = self.accrual.set_index('applicant_number')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 6144, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+KeyError: "None of ['applicant_number'] are in the columns"

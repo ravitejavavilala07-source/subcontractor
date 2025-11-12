@@ -1,0 +1,47 @@
+phase: 6
+version: "Phase6_May2025_Credits_Referrals_v1"
+# Default input filenames (used when no CLI args supplied)
+file_defaults:
+  pivot: "SW Pivot Table Service Dates 01.01.25_05.31.25.csv"
+  accrual: "SmartWorks Sub Vendor Accrual - 05.31.25.csv"
+  output: "Phase6_Reconciliation_Report_May2025_Credits_Referrals.xlsx"
+
+# Variance filtering: any amount variance with absolute value below ignore_variance_under is treated as "Balanced"
+variance_filtering:
+  ignore_variance_under: 1.00        # <$1 considered false variance
+  hour_variance_tolerance: 0.5       # hours tolerance for classification logic (not currently used directly by matching)
+  amount_variance_tolerance: 0.01    # relative tolerance used for matching fallback (1% default)
+
+# Severity thresholds for variance classification
+variance_severity:
+  critical:
+    threshold_dollars: 500.0
+    threshold_hours: 40
+  high:
+    threshold_dollars: 250.0
+    threshold_hours: 20
+  normal:
+    threshold_dollars: 50.0
+    threshold_hours: 5
+
+# Matching configuration: three tiers
+matching:
+  tier_1_exact:
+    name_fuzzy_threshold: 0.80
+    amount_tolerance: 0.15
+  tier_2_fuzzy:
+    name_fuzzy_threshold: 0.75
+    amount_tolerance: 0.20
+  tier_3_fallback:
+    name_fuzzy_threshold: 0.70
+    amount_tolerance: 0.25
+
+# Referral logic toggle and heuristics
+referral_logic:
+  enabled: true
+  vendor_name_contains: ["referral", "referral fee", "ref"]   # heuristics for identifying referral vendor rows
+  treat_referral_as_separate: true
+
+notes: |
+  - Place this file at config/config_phase6.yaml (or pass its path as the 3rd CLI arg).
+  - The runner will merge missing keys with defaults; edit thresholds here to tune behaviour.

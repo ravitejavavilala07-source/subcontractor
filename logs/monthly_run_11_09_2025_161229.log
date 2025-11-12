@@ -1,0 +1,132 @@
+2025-11-09 16:12:29,115 - INFO - ================================================================================
+2025-11-09 16:12:29,115 - INFO - 🚀 MONTHLY ORCHESTRATION - MAY 2025
+2025-11-09 16:12:29,115 - INFO - ================================================================================
+2025-11-09 16:12:29,115 - INFO - 
+[STEP 1/8] Loading source files...
+2025-11-09 16:12:29,115 - INFO - ================================================================================
+2025-11-09 16:12:29,115 - INFO - STRICT FILE LOADER - ZERO DATA LOSS MODE
+2025-11-09 16:12:29,115 - INFO - ================================================================================
+2025-11-09 16:12:29,115 - INFO - 
+[PIVOT TABLE]
+2025-11-09 16:12:29,115 - INFO -   File: SW Pivot Table_07.01.25.xlsx
+2025-11-09 16:12:41,411 - INFO -   Raw rows: 113,393
+2025-11-09 16:12:41,424 - INFO -   Columns found: 25
+2025-11-09 16:12:41,426 - INFO -     ✅ APPL_ID: 6 nulls
+2025-11-09 16:12:41,429 - INFO -     ✅ Applicant_Name: 6 nulls
+2025-11-09 16:12:41,430 - INFO -     ✅ Bill_Amount: 4 nulls
+2025-11-09 16:12:41,435 - INFO - 
+[ACCRUAL WORKBOOK]
+2025-11-09 16:12:41,435 - INFO -   File: SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-09 16:12:41,435 - INFO -   Loading 'Accrual'...
+2025-11-09 16:12:41,500 - INFO -     Raw rows: 42
+2025-11-09 16:12:41,500 - INFO -     Columns: 37
+2025-11-09 16:12:41,500 - INFO -   Loading 'SW Subvendor Tracker 2025'...
+2025-11-09 16:12:41,551 - INFO -     Raw rows: 110
+2025-11-09 16:12:41,551 - INFO -     Columns: 16
+2025-11-09 16:12:41,551 - INFO -   Loading 'SW 2025 Billable to 05.31' (CRITICAL)...
+2025-11-09 16:12:42,393 - INFO -     ✅ Loaded with skiprows=1
+2025-11-09 16:12:42,394 - INFO -     Raw rows: 2,638
+2025-11-09 16:12:42,394 - INFO -     Columns: 34
+2025-11-09 16:12:42,394 - INFO - 
+================================================================================
+2025-11-09 16:12:42,394 - INFO - LOAD REPORT - DATA INTEGRITY CHECK
+2025-11-09 16:12:42,394 - INFO - ================================================================================
+2025-11-09 16:12:42,394 - INFO - 
+Pivot Table:
+2025-11-09 16:12:42,394 - INFO -   Rows Loaded: 113,393
+2025-11-09 16:12:42,394 - INFO -   Rows Dropped: 0
+2025-11-09 16:12:42,394 - INFO -   Status: ✅ All rows loaded
+2025-11-09 16:12:42,394 - INFO - 
+Accrual:
+2025-11-09 16:12:42,394 - INFO -   Rows Loaded: 42
+2025-11-09 16:12:42,394 - INFO -   Rows Dropped: 0
+2025-11-09 16:12:42,394 - INFO -   Status: ✅ All rows loaded
+2025-11-09 16:12:42,394 - INFO - 
+SW Subvendor Tracker 2025:
+2025-11-09 16:12:42,394 - INFO -   Rows Loaded: 110
+2025-11-09 16:12:42,394 - INFO -   Rows Dropped: 0
+2025-11-09 16:12:42,394 - INFO -   Status: ✅ All rows loaded
+2025-11-09 16:12:42,394 - INFO - 
+SW 2025 Billable to 05.31:
+2025-11-09 16:12:42,394 - INFO -   Rows Loaded: 2,638
+2025-11-09 16:12:42,394 - INFO -   Rows Dropped: 0
+2025-11-09 16:12:42,394 - INFO -   Status: ✅ All rows loaded
+2025-11-09 16:12:42,394 - INFO - 
+================================================================================
+2025-11-09 16:12:42,394 - INFO - TOTALS:
+2025-11-09 16:12:42,394 - INFO -   Total Records Loaded: 116,183
+2025-11-09 16:12:42,394 - INFO -   Total Records Dropped: 0
+2025-11-09 16:12:42,394 - INFO -   ✅ ZERO DATA LOSS - All data preserved!
+2025-11-09 16:12:42,394 - INFO - ================================================================================
+2025-11-09 16:12:42,394 - INFO -   ✅ Loaded 113,393 pivot, 42 accrual
+2025-11-09 16:12:42,394 - INFO - 
+[STEP 2/8] Normalizing schemas...
+2025-11-09 16:12:42,394 - INFO -   Normalizing Pivot...
+2025-11-09 16:12:42,471 - INFO -     ✅ Normalized: 113,393 records
+2025-11-09 16:12:42,471 - INFO -   Normalizing Accrual...
+2025-11-09 16:12:42,472 - INFO -     ✅ Normalized: 42 records
+2025-11-09 16:12:42,472 - INFO -   Normalizing Billable...
+2025-11-09 16:12:42,473 - INFO -     ✅ Normalized: 2,638 records
+2025-11-09 16:12:42,473 - INFO - 
+[STEP 3/8] Parsing QB memos (if present)...
+2025-11-09 16:12:42,473 - INFO - 
+[STEP 4/8] Combining transaction sources...
+2025-11-09 16:12:42,528 - INFO -   ✅ Combined: 116,031 transactions
+2025-11-09 16:12:42,528 - INFO - 
+[STEP 5/8] Advanced reconciliation with 3-strategy matching...
+2025-11-09 16:12:42,657 - INFO - 🔄 Starting ADVANCED final reconciliation...
+2025-11-09 16:12:42,657 - INFO - 
+[Strategy 1] Exact ID matching...
+2025-11-09 16:12:42,986 - INFO - ✅ Matched: 22,820
+2025-11-09 16:12:42,986 - INFO - 
+[Strategy 2] ID + Name hybrid...
+2025-11-09 16:14:36,047 - INFO - ✅ Additional: -22,820
+2025-11-09 16:14:36,048 - INFO - 
+[Strategy 3] Fuzzy name/vendor/month (85% threshold)...
+2025-11-09 16:16:32,925 - INFO - ✅ Additional: 1,337
+2025-11-09 16:16:34,879 - INFO - 
+✅ Reconciliation complete
+2025-11-09 16:16:34,879 - INFO -    Total: 126,607
+2025-11-09 16:16:34,880 - INFO -    Matched: 24,157 (19.1%)
+2025-11-09 16:16:35,136 - INFO -   ✅ Matched: 24,157 (19.1%)
+2025-11-09 16:16:35,136 - INFO -   ⚠️ Unmatched: 102,450
+2025-11-09 16:16:35,136 - INFO - 
+[STEP 6/8] Generating variance analysis & accrual suggestions...
+2025-11-09 16:16:35,285 - INFO - 📋 Generating accrual suggestions...
+2025-11-09 16:16:35,415 - INFO -   Generated 102,450 suggestions
+2025-11-09 16:16:35,434 - INFO -   ✅ Generated 102,450 suggestions
+2025-11-09 16:16:35,434 - INFO - 
+[STEP 7/8] Generating comprehensive reports...
+2025-11-09 16:16:35,435 - INFO - Generating final report: iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 16:16:35,453 - INFO -   ✅ Tab 1: Executive Summary
+2025-11-09 16:16:43,527 - INFO -   ✅ Tab 2: Matched Records (24,157)
+2025-11-09 16:17:27,022 - INFO -   ✅ Tab 3: Unmatched Pivot (102,450)
+2025-11-09 16:17:33,088 - INFO -   ✅ Tab 5: Suggested Accrual Entries (102,450)
+2025-11-09 16:17:33,374 - INFO -   ✅ Tab 6: Vendor Summary (760)
+2025-11-09 16:18:57,965 - INFO - ✅ Report saved: data/output/may_2025/iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 16:18:58,467 - INFO -   ✅ Accrual template: 00_Accrual_Template_11_09_2025.csv
+2025-11-09 16:18:58,467 - INFO - 
+[STEP 8/8] Generating final summary...
+2025-11-09 16:18:58,467 - INFO - 
+================================================================================
+2025-11-09 16:18:58,467 - INFO - ✅ MONTHLY ORCHESTRATION COMPLETE
+2025-11-09 16:18:58,467 - INFO - ================================================================================
+2025-11-09 16:18:58,467 - INFO - 
+📊 RECONCILIATION METRICS:
+2025-11-09 16:18:58,467 - INFO -    Total Records: 126,607
+2025-11-09 16:18:58,467 - INFO -    ✅ Matched: 24,157 (19.1%)
+2025-11-09 16:18:58,467 - INFO -    ⚠️ Unmatched: 102,450
+2025-11-09 16:18:58,467 - INFO - 
+💰 FINANCIAL SUMMARY:
+2025-11-09 16:18:58,467 - INFO -    Total Billed: $3,346,846,724.48
+2025-11-09 16:18:58,467 - INFO -    Total Paid: $0.00
+2025-11-09 16:18:58,467 - INFO -    Net Variance: $3,346,846,724.48
+2025-11-09 16:18:58,467 - INFO - 
+📥 AUTO-GENERATED TEMPLATES:
+2025-11-09 16:18:58,467 - INFO -    Suggested Accruals: 102,450 entries
+2025-11-09 16:18:58,467 - INFO -    Ready for Upload: 00_Accrual_Template_11_09_2025.csv
+2025-11-09 16:18:58,467 - INFO - 
+📁 OUTPUTS:
+2025-11-09 16:18:58,467 - INFO -    Main Report: data/output/may_2025/iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 16:18:58,467 - INFO -    Accrual Template: data/output/may_2025/00_Accrual_Template_11_09_2025.csv
+2025-11-09 16:18:58,467 - INFO - ================================================================================

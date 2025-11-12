@@ -1,0 +1,22 @@
+2025-11-09 21:48:00,028 - INFO - ================================================================================
+2025-11-09 21:48:00,028 - INFO - 🚀 MONTHLY RECONCILIATION - MAY 2025
+2025-11-09 21:48:00,028 - INFO - ================================================================================
+2025-11-09 21:48:00,028 - INFO - 
+[STEP 1/7] Loading source files...
+2025-11-09 21:48:13,445 - INFO -   ✅ Pivot: 113,393
+2025-11-09 21:48:13,446 - INFO -   ✅ Accrual: 42
+2025-11-09 21:48:13,446 - INFO -   ✅ Billable: 2,637
+2025-11-09 21:48:13,446 - INFO - 
+[STEP 2/7] Normalizing schemas...
+2025-11-09 21:48:13,489 - ERROR - ❌ Failed: 'datetime.datetime' object has no attribute 'lower'
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/FINAL_MONTHLY_RECONCILIATION_SUITE.py", line 271, in run
+    pivot, accrual, billable = self._normalize_data(pivot, accrual, billable)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/FINAL_MONTHLY_RECONCILIATION_SUITE.py", line 346, in _normalize_data
+    applicant_col = [c for c in accrual.columns if 'applicant' in c.lower()][0] if any('applicant' in c.lower() for c in accrual.columns) else None
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/FINAL_MONTHLY_RECONCILIATION_SUITE.py", line 346, in <listcomp>
+    applicant_col = [c for c in accrual.columns if 'applicant' in c.lower()][0] if any('applicant' in c.lower() for c in accrual.columns) else None
+                                                                  ^^^^^^^
+AttributeError: 'datetime.datetime' object has no attribute 'lower'

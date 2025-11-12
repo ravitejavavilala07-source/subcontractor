@@ -1,0 +1,15 @@
+2025-11-10 15:29:18,264 - INFO - ================================================================================
+2025-11-10 15:29:18,265 - INFO - 🚀 PHASE 4 - ADVANCED ENHANCEMENTS
+2025-11-10 15:29:18,265 - INFO -    Date/Time: 2025-11-10 20:29:18 UTC
+2025-11-10 15:29:18,265 - INFO -    User: ravitejavavilala07-source
+2025-11-10 15:29:18,265 - INFO -    Month: MAY 2025
+2025-11-10 15:29:18,265 - INFO - ================================================================================
+2025-11-10 15:29:18,265 - INFO - 
+📂 Loading files...
+2025-11-10 15:29:31,713 - INFO -   ✅ Loaded: 113,393 pivot, 42 accrual, 2,637 billable
+2025-11-10 15:29:31,823 - ERROR - ❌ Failed: 'list' object has no attribute 'dropna'
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/phase4_advanced_enhancements.py", line 507, in run
+    memo_data = memo_parser.parse_batch(pivot.get('memo', []).dropna().tolist(), self.year)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'dropna'

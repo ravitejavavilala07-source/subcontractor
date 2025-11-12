@@ -1,0 +1,1619 @@
+{
+  "Cognizant Sub s-escalation list.xlsx": {
+    "file_size_mb": 0.01,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 14,
+        "columns": [
+          "Cognizant likely escalations",
+          "Unnamed: 1",
+          "Unnamed: 2"
+        ],
+        "data_types": {
+          "Cognizant likely escalations": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object"
+        },
+        "sample_data": [
+          {
+            "Cognizant likely escalations": "Sai  Boppudi",
+            "Unnamed: 1": "Professional group",
+            "Unnamed: 2": "Cognizant"
+          },
+          {
+            "Cognizant likely escalations": "Nidhi Avasti",
+            "Unnamed: 1": "Tekvivid",
+            "Unnamed: 2": "Cognizant"
+          },
+          {
+            "Cognizant likely escalations": "Praveena Gajula",
+            "Unnamed: 1": "Saftek Limited Company",
+            "Unnamed: 2": "Cognizant"
+          },
+          {
+            "Cognizant likely escalations": "Sathya Narayana",
+            "Unnamed: 1": "SreeVe Technologies",
+            "Unnamed: 2": "Cognizant"
+          },
+          {
+            "Cognizant likely escalations": "Shardul Mahaskar",
+            "Unnamed: 1": "Cloud Source Systems",
+            "Unnamed: 2": "Cognizant"
+          }
+        ]
+      }
+    }
+  },
+  "Cognizant Sub vendor list.xlsx": {
+    "file_size_mb": 0.01,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 36,
+        "columns": [
+          "iTech-Cognizant Sub vendor list",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4"
+        ],
+        "data_types": {
+          "iTech-Cognizant Sub vendor list": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object"
+        },
+        "sample_data": [
+          {
+            "iTech-Cognizant Sub vendor list": "Name of the Consultant",
+            "Unnamed: 1": "Vendor name",
+            "Unnamed: 2": "Client ",
+            "Unnamed: 3": "Payment Terms",
+            "Unnamed: 4": "Pay Rate"
+          },
+          {
+            "iTech-Cognizant Sub vendor list": "Katragadda, Nagadeepthi",
+            "Unnamed: 1": "Tekfinite Inc",
+            "Unnamed: 2": "Cognizant",
+            "Unnamed: 3": "Net 45",
+            "Unnamed: 4": 57
+          },
+          {
+            "iTech-Cognizant Sub vendor list": "Bollam, Abhishek",
+            "Unnamed: 1": "Poulomi Technologies Inc",
+            "Unnamed: 2": "Cognizant",
+            "Unnamed: 3": "Net 45",
+            "Unnamed: 4": 60.16
+          },
+          {
+            "iTech-Cognizant Sub vendor list": "Karri, Siva Ramakrishna Reddy",
+            "Unnamed: 1": "Excellerate Education Solutions Inc",
+            "Unnamed: 2": "Cognizant",
+            "Unnamed: 3": "Net 45",
+            "Unnamed: 4": 64.86
+          },
+          {
+            "iTech-Cognizant Sub vendor list": "Kanagaraja, Arundhishaan",
+            "Unnamed: 1": "CA-One Tech Cloud Inc",
+            "Unnamed: 2": "Cognizant",
+            "Unnamed: 3": "Net 45",
+            "Unnamed: 4": 68.62
+          }
+        ]
+      }
+    }
+  },
+  "Cox Sub vendor list-2.xlsx": {
+    "file_size_mb": 0.02,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 28,
+        "columns": [
+          "Cox Little Sub Vendor List",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4"
+        ],
+        "data_types": {
+          "Cox Little Sub Vendor List": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object"
+        },
+        "sample_data": [
+          {
+            "Cox Little Sub Vendor List": "First Name",
+            "Unnamed: 1": "Last Name",
+            "Unnamed: 2": "Subcontractor",
+            "Unnamed: 3": "Pay",
+            "Unnamed: 4": "Net Terms"
+          },
+          {
+            "Cox Little Sub Vendor List": "Adham",
+            "Unnamed: 1": "Bashera",
+            "Unnamed: 2": "Artist Lead",
+            "Unnamed: 3": 40,
+            "Unnamed: 4": "Last Friday of Month"
+          },
+          {
+            "Cox Little Sub Vendor List": "Adriano",
+            "Unnamed: 1": "Di Paulo",
+            "Unnamed: 2": "B2B Net Sol, Inc",
+            "Unnamed: 3": 75,
+            "Unnamed: 4": "Last Friday of Month"
+          },
+          {
+            "Cox Little Sub Vendor List": "Bruce",
+            "Unnamed: 1": "Knoll",
+            "Unnamed: 2": "XA Tech Consulting LLC ( JE )",
+            "Unnamed: 3": 62,
+            "Unnamed: 4": "Last Friday of Month"
+          },
+          {
+            "Cox Little Sub Vendor List": "Bruce",
+            "Unnamed: 1": "Knoll",
+            "Unnamed: 2": "XA Tech Consulting LLC ( ITW )",
+            "Unnamed: 3": 62,
+            "Unnamed: 4": "Last Friday of Month"
+          }
+        ]
+      }
+    }
+  },
+  "Rise IT Sub Vendor List.xlsx": {
+    "file_size_mb": 0.01,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 3,
+        "columns": [
+          "Rise IT Sub vendor List",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4"
+        ],
+        "data_types": {
+          "Rise IT Sub vendor List": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object"
+        },
+        "sample_data": [
+          {
+            "Rise IT Sub vendor List": "Consultant Name",
+            "Unnamed: 1": "Subcontractor",
+            "Unnamed: 2": "Billed",
+            "Unnamed: 3": "Pay",
+            "Unnamed: 4": "Net Terms"
+          },
+          {
+            "Rise IT Sub vendor List": "David Butler",
+            "Unnamed: 1": "Walk on Water Consulting",
+            "Unnamed: 2": "Princeton",
+            "Unnamed: 3": 100,
+            "Unnamed: 4": "Net 15  (along with payroll)"
+          },
+          {
+            "Rise IT Sub vendor List": "Srini Nallabelli",
+            "Unnamed: 1": "Softsages",
+            "Unnamed: 2": "Tek Sys",
+            "Unnamed: 3": 101.6,
+            "Unnamed: 4": "Pd when pd"
+          }
+        ]
+      }
+    }
+  },
+  "SW Pivot Table_10.22.25.xlsx": {
+    "file_size_mb": 12.48,
+    "sheets": [
+      "SW Pivot Table"
+    ],
+    "sheet_details": {
+      "SW Pivot Table": {
+        "rows": 115583,
+        "columns": [
+          "SmartWorks UltraStaff BILLING Pivot Table - Updated 10/02/2019",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4",
+          "Unnamed: 5",
+          "Unnamed: 6",
+          "Unnamed: 7",
+          "Unnamed: 8",
+          "Unnamed: 9",
+          "Unnamed: 10",
+          "Unnamed: 11",
+          "Unnamed: 12",
+          "Unnamed: 13",
+          "Unnamed: 14",
+          "Unnamed: 15",
+          "Unnamed: 16",
+          "Unnamed: 17",
+          "Unnamed: 18",
+          "Unnamed: 19",
+          "Unnamed: 20",
+          "Unnamed: 21",
+          "Unnamed: 22",
+          "Unnamed: 23",
+          "Unnamed: 24"
+        ],
+        "data_types": {
+          "SmartWorks UltraStaff BILLING Pivot Table - Updated 10/02/2019": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object",
+          "Unnamed: 5": "object",
+          "Unnamed: 6": "object",
+          "Unnamed: 7": "object",
+          "Unnamed: 8": "object",
+          "Unnamed: 9": "object",
+          "Unnamed: 10": "object",
+          "Unnamed: 11": "object",
+          "Unnamed: 12": "object",
+          "Unnamed: 13": "object",
+          "Unnamed: 14": "object",
+          "Unnamed: 15": "object",
+          "Unnamed: 16": "object",
+          "Unnamed: 17": "object",
+          "Unnamed: 18": "object",
+          "Unnamed: 19": "object",
+          "Unnamed: 20": "object",
+          "Unnamed: 21": "object",
+          "Unnamed: 22": "object",
+          "Unnamed: 23": "object",
+          "Unnamed: 24": "object"
+        },
+        "sample_data": [
+          {
+            "SmartWorks UltraStaff BILLING Pivot Table - Updated 10/02/2019": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Unnamed: 4": NaN,
+            "Unnamed: 5": NaN,
+            "Unnamed: 6": NaN,
+            "Unnamed: 7": NaN,
+            "Unnamed: 8": NaN,
+            "Unnamed: 9": NaN,
+            "Unnamed: 10": NaN,
+            "Unnamed: 11": NaN,
+            "Unnamed: 12": NaN,
+            "Unnamed: 13": NaN,
+            "Unnamed: 14": NaN,
+            "Unnamed: 15": NaN,
+            "Unnamed: 16": NaN,
+            "Unnamed: 17": NaN,
+            "Unnamed: 18": NaN,
+            "Unnamed: 19": NaN,
+            "Unnamed: 20": NaN,
+            "Unnamed: 21": NaN,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": NaN,
+            "Unnamed: 24": NaN
+          },
+          {
+            "SmartWorks UltraStaff BILLING Pivot Table - Updated 10/02/2019": "Customer_BillToNumber",
+            "Unnamed: 1": "T_INVOICE_COMPANY_NAME",
+            "Unnamed: 2": "CUST_ID",
+            "Unnamed: 3": "CUST_NAME",
+            "Unnamed: 4": "Invoice_Number",
+            "Unnamed: 5": "Invoice_Date",
+            "Unnamed: 6": "Bill_Hours",
+            "Unnamed: 7": "Bill_Rate",
+            "Unnamed: 8": "Bill_Amount",
+            "Unnamed: 9": "Assignment_PeriodEndingDate",
+            "Unnamed: 10": "Period_StartDate",
+            "Unnamed: 11": "Period_EndDate",
+            "Unnamed: 12": "CUST_CITY",
+            "Unnamed: 13": "CUST_STATE",
+            "Unnamed: 14": "Record_Status",
+            "Unnamed: 15": "Pay_Code",
+            "Unnamed: 16": "LOB",
+            "Unnamed: 17": "APPL_ID",
+            "Unnamed: 18": "Applicant_Name",
+            "Unnamed: 19": "Job_WC_Code",
+            "Unnamed: 20": "TaxCodeAmount_Detail",
+            "Unnamed: 21": "Assignment_Id",
+            "Unnamed: 22": "Job_State",
+            "Unnamed: 23": "Pay_Rate",
+            "Unnamed: 24": "Equlv_Hrs_Rate"
+          },
+          {
+            "SmartWorks UltraStaff BILLING Pivot Table - Updated 10/02/2019": 510001,
+            "Unnamed: 1": "Icon Medical Network Inc",
+            "Unnamed: 2": 500001,
+            "Unnamed: 3": "Providence Health & Services",
+            "Unnamed: 4": "20004",
+            "Unnamed: 5": "2013-12-19",
+            "Unnamed: 6": 40,
+            "Unnamed: 7": 74,
+            "Unnamed: 8": 2960,
+            "Unnamed: 9": "2013-12-07",
+            "Unnamed: 10": "2013-12-01",
+            "Unnamed: 11": "2013-12-07",
+            "Unnamed: 12": "Portland",
+            "Unnamed: 13": "OR",
+            "Unnamed: 14": "UBOACC",
+            "Unnamed: 15": "R",
+            "Unnamed: 16": "11",
+            "Unnamed: 17": 500042,
+            "Unnamed: 18": "Gundu, Suman",
+            "Unnamed: 19": "3P/S",
+            "Unnamed: 20": 0,
+            "Unnamed: 21": 500042,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": NaN,
+            "Unnamed: 24": 0
+          },
+          {
+            "SmartWorks UltraStaff BILLING Pivot Table - Updated 10/02/2019": 510001,
+            "Unnamed: 1": "Icon Medical Network Inc",
+            "Unnamed: 2": 500001,
+            "Unnamed: 3": "Providence Health & Services",
+            "Unnamed: 4": "20021",
+            "Unnamed: 5": "2013-12-20",
+            "Unnamed: 6": 40,
+            "Unnamed: 7": 74,
+            "Unnamed: 8": 2960,
+            "Unnamed: 9": "2013-12-14",
+            "Unnamed: 10": "2013-12-08",
+            "Unnamed: 11": "2013-12-14",
+            "Unnamed: 12": "Portland",
+            "Unnamed: 13": "OR",
+            "Unnamed: 14": "UBOACC",
+            "Unnamed: 15": "R",
+            "Unnamed: 16": "11",
+            "Unnamed: 17": 500042,
+            "Unnamed: 18": "Gundu, Suman",
+            "Unnamed: 19": "3P/S",
+            "Unnamed: 20": 0,
+            "Unnamed: 21": 500042,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": NaN,
+            "Unnamed: 24": 0
+          },
+          {
+            "SmartWorks UltraStaff BILLING Pivot Table - Updated 10/02/2019": 510001,
+            "Unnamed: 1": "Icon Medical Network Inc",
+            "Unnamed: 2": 500001,
+            "Unnamed: 3": "Providence Health & Services",
+            "Unnamed: 4": "20057",
+            "Unnamed: 5": "2013-12-31",
+            "Unnamed: 6": 40,
+            "Unnamed: 7": 74,
+            "Unnamed: 8": 2960,
+            "Unnamed: 9": "2013-12-21",
+            "Unnamed: 10": "2013-12-15",
+            "Unnamed: 11": "2013-12-21",
+            "Unnamed: 12": "Portland",
+            "Unnamed: 13": "OR",
+            "Unnamed: 14": "UBOACC",
+            "Unnamed: 15": "R",
+            "Unnamed: 16": "11",
+            "Unnamed: 17": 500042,
+            "Unnamed: 18": "Gundu, Suman",
+            "Unnamed: 19": "3P/S",
+            "Unnamed: 20": 0,
+            "Unnamed: 21": 500042,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": NaN,
+            "Unnamed: 24": 0
+          }
+        ]
+      }
+    }
+  },
+  "SmartWorks Sub Vendor Accrual - 09.30.25.xlsx": {
+    "file_size_mb": 0.95,
+    "sheets": [
+      "Accrual",
+      "SW Subvendor Tracker 2025",
+      "SW 2025 Billable to 09.30"
+    ],
+    "sheet_details": {
+      "Accrual": {
+        "rows": 43,
+        "columns": [
+          "SW Accrued SUB Analysis at December 31, 2025",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4",
+          "Unnamed: 5",
+          "Unnamed: 6",
+          "Unnamed: 7",
+          "Unnamed: 8",
+          "Unnamed: 9",
+          "Unnamed: 10",
+          "Unnamed: 11",
+          "Unnamed: 12",
+          "Unnamed: 13",
+          "Unnamed: 14",
+          "Unnamed: 15",
+          "Unnamed: 16",
+          "Unnamed: 17",
+          "Unnamed: 18",
+          "Unnamed: 19",
+          "Unnamed: 20",
+          "Unnamed: 21",
+          "Unnamed: 22",
+          "Unnamed: 23",
+          "Unnamed: 24",
+          "Unnamed: 25",
+          "Unnamed: 26",
+          "Unnamed: 27",
+          "Unnamed: 28",
+          "Unnamed: 29",
+          "Unnamed: 30",
+          "Unnamed: 31",
+          "Unnamed: 32",
+          "Unnamed: 33",
+          "Unnamed: 34",
+          "Unnamed: 35",
+          "Unnamed: 36"
+        ],
+        "data_types": {
+          "SW Accrued SUB Analysis at December 31, 2025": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object",
+          "Unnamed: 5": "object",
+          "Unnamed: 6": "object",
+          "Unnamed: 7": "object",
+          "Unnamed: 8": "object",
+          "Unnamed: 9": "object",
+          "Unnamed: 10": "object",
+          "Unnamed: 11": "object",
+          "Unnamed: 12": "object",
+          "Unnamed: 13": "object",
+          "Unnamed: 14": "object",
+          "Unnamed: 15": "object",
+          "Unnamed: 16": "object",
+          "Unnamed: 17": "object",
+          "Unnamed: 18": "object",
+          "Unnamed: 19": "object",
+          "Unnamed: 20": "object",
+          "Unnamed: 21": "object",
+          "Unnamed: 22": "object",
+          "Unnamed: 23": "object",
+          "Unnamed: 24": "object",
+          "Unnamed: 25": "object",
+          "Unnamed: 26": "object",
+          "Unnamed: 27": "float64",
+          "Unnamed: 28": "object",
+          "Unnamed: 29": "object",
+          "Unnamed: 30": "object",
+          "Unnamed: 31": "object",
+          "Unnamed: 32": "float64",
+          "Unnamed: 33": "object",
+          "Unnamed: 34": "float64",
+          "Unnamed: 35": "object",
+          "Unnamed: 36": "object"
+        },
+        "sample_data": [
+          {
+            "SW Accrued SUB Analysis at December 31, 2025": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Unnamed: 4": NaN,
+            "Unnamed: 5": "Hours",
+            "Unnamed: 6": NaN,
+            "Unnamed: 7": NaN,
+            "Unnamed: 8": NaN,
+            "Unnamed: 9": NaN,
+            "Unnamed: 10": NaN,
+            "Unnamed: 11": NaN,
+            "Unnamed: 12": "Gross Salary",
+            "Unnamed: 13": NaN,
+            "Unnamed: 14": NaN,
+            "Unnamed: 15": NaN,
+            "Unnamed: 16": NaN,
+            "Unnamed: 17": NaN,
+            "Unnamed: 18": NaN,
+            "Unnamed: 19": NaN,
+            "Unnamed: 20": NaN,
+            "Unnamed: 21": NaN,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": NaN,
+            "Unnamed: 24": "OWE",
+            "Unnamed: 25": NaN,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": NaN,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN,
+            "Unnamed: 34": NaN,
+            "Unnamed: 35": NaN,
+            "Unnamed: 36": NaN
+          },
+          {
+            "SW Accrued SUB Analysis at December 31, 2025": "Employee",
+            "Unnamed: 1": "Ultra-Staff Applicant     Number",
+            "Unnamed: 2": "12/31/2024 Accrued Payroll per Audit",
+            "Unnamed: 3": "Corrections & Adjustments to C/F",
+            "Unnamed: 4": "Accrued Beginning @ 01/01/2024",
+            "Unnamed: 5": "YTD Hours per Sub Tracker",
+            "Unnamed: 6": "Year-to-Date Hrs-ALT",
+            "Unnamed: 7": "Reconciled DIFF",
+            "Unnamed: 8": "Other    DIFF",
+            "Unnamed: 9": "Year-to-Date Billed-ALT",
+            "Unnamed: 10": "Reconciled DIFF",
+            "Unnamed: 11": "Client  Discount Diff",
+            "Unnamed: 12": "YTD Profit Sharing Accrued Earnings GROSS",
+            "Unnamed: 13": "YTD Extra Earnings",
+            "Unnamed: 14": "Notes",
+            "Unnamed: 15": "Less: YTD Reductions for Per Diem Expenses ",
+            "Unnamed: 16": "Less: YTD Reductions for Other Items ",
+            "Unnamed: 17": " Calculated YTD Net Accrual",
+            "Unnamed: 18": "Actual Subvendor Payables",
+            "Unnamed: 19": "Transfers In (Out)",
+            "Unnamed: 20": "Other Misc.",
+            "Unnamed: 21": "Accrual Balance Write-off (NLE)",
+            "Unnamed: 22": "NOTES",
+            "Unnamed: 23": "2025-12-31 00:00:00",
+            "Unnamed: 24": "Accrued Number Keyed (OWE)",
+            "Unnamed: 25": "Diff Between Calculation and Keyed Number",
+            "Unnamed: 26": "\u00a0Amount Due at 12/07/2018",
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": "LOB    Unallocated",
+            "Unnamed: 29": "LOB     11/12/13",
+            "Unnamed: 30": "LOB            21/22",
+            "Unnamed: 31": "LOB            31/32",
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": "Amount Due at 12/07/18 w/o negative",
+            "Unnamed: 34": NaN,
+            "Unnamed: 35": "Notes",
+            "Unnamed: 36": "Classification"
+          },
+          {
+            "SW Accrued SUB Analysis at December 31, 2025": "Boyapally, Sivaram",
+            "Unnamed: 1": 500687,
+            "Unnamed: 2": 0,
+            "Unnamed: 3": NaN,
+            "Unnamed: 4": 0,
+            "Unnamed: 5": 528,
+            "Unnamed: 6": 528,
+            "Unnamed: 7": NaN,
+            "Unnamed: 8": 0,
+            "Unnamed: 9": 55440,
+            "Unnamed: 10": NaN,
+            "Unnamed: 11": NaN,
+            "Unnamed: 12": 52800,
+            "Unnamed: 13": NaN,
+            "Unnamed: 14": NaN,
+            "Unnamed: 15": NaN,
+            "Unnamed: 16": NaN,
+            "Unnamed: 17": 52800,
+            "Unnamed: 18": 52800,
+            "Unnamed: 19": NaN,
+            "Unnamed: 20": NaN,
+            "Unnamed: 21": NaN,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": 0,
+            "Unnamed: 24": NaN,
+            "Unnamed: 25": 0,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": NaN,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN,
+            "Unnamed: 34": NaN,
+            "Unnamed: 35": NaN,
+            "Unnamed: 36": NaN
+          },
+          {
+            "SW Accrued SUB Analysis at December 31, 2025": "Xia, Minqian",
+            "Unnamed: 1": 501011,
+            "Unnamed: 2": 0,
+            "Unnamed: 3": NaN,
+            "Unnamed: 4": 0,
+            "Unnamed: 5": 1432,
+            "Unnamed: 6": 1432,
+            "Unnamed: 7": NaN,
+            "Unnamed: 8": 0,
+            "Unnamed: 9": 93080,
+            "Unnamed: 10": NaN,
+            "Unnamed: 11": NaN,
+            "Unnamed: 12": 4296,
+            "Unnamed: 13": NaN,
+            "Unnamed: 14": NaN,
+            "Unnamed: 15": NaN,
+            "Unnamed: 16": NaN,
+            "Unnamed: 17": 4296,
+            "Unnamed: 18": 3768,
+            "Unnamed: 19": NaN,
+            "Unnamed: 20": NaN,
+            "Unnamed: 21": NaN,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": 0,
+            "Unnamed: 24": NaN,
+            "Unnamed: 25": 0,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": NaN,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN,
+            "Unnamed: 34": NaN,
+            "Unnamed: 35": NaN,
+            "Unnamed: 36": NaN
+          },
+          {
+            "SW Accrued SUB Analysis at December 31, 2025": "Marneni, Pavan Kumar",
+            "Unnamed: 1": 500612,
+            "Unnamed: 2": 0,
+            "Unnamed: 3": NaN,
+            "Unnamed: 4": 0,
+            "Unnamed: 5": 1522,
+            "Unnamed: 6": 1522,
+            "Unnamed: 7": NaN,
+            "Unnamed: 8": 0,
+            "Unnamed: 9": 144590,
+            "Unnamed: 10": NaN,
+            "Unnamed: 11": NaN,
+            "Unnamed: 12": 144590,
+            "Unnamed: 13": NaN,
+            "Unnamed: 14": NaN,
+            "Unnamed: 15": NaN,
+            "Unnamed: 16": NaN,
+            "Unnamed: 17": 144590,
+            "Unnamed: 18": 144590,
+            "Unnamed: 19": NaN,
+            "Unnamed: 20": NaN,
+            "Unnamed: 21": NaN,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": 0,
+            "Unnamed: 24": NaN,
+            "Unnamed: 25": 0,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": NaN,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN,
+            "Unnamed: 34": NaN,
+            "Unnamed: 35": NaN,
+            "Unnamed: 36": NaN
+          }
+        ]
+      },
+      "SW Subvendor Tracker 2025": {
+        "rows": 221,
+        "columns": [
+          "Unnamed: 0",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4",
+          "Unnamed: 5",
+          "Unnamed: 6",
+          20956.5,
+          20601.5,
+          1480750.8,
+          1491268.8,
+          1472399.5499999998,
+          "Unnamed: 12",
+          "Unnamed: 13",
+          "Unnamed: 14",
+          "Unnamed: 15"
+        ],
+        "data_types": {
+          "Unnamed: 0": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object",
+          "Unnamed: 5": "object",
+          "Unnamed: 6": "object",
+          "20956.5": "object",
+          "20601.5": "object",
+          "1480750.8": "object",
+          "1491268.8": "object",
+          "1472399.5499999998": "object",
+          "Unnamed: 12": "object",
+          "Unnamed: 13": "object",
+          "Unnamed: 14": "object",
+          "Unnamed: 15": "object"
+        },
+        "sample_data": [
+          {
+            "Unnamed: 0": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Unnamed: 4": NaN,
+            "Unnamed: 5": NaN,
+            "Unnamed: 6": NaN,
+            "20956.5": NaN,
+            "20601.5": NaN,
+            "1480750.8": NaN,
+            "1491268.8": NaN,
+            "1472399.5499999998": NaN,
+            "Unnamed: 12": NaN,
+            "Unnamed: 13": NaN,
+            "Unnamed: 14": NaN,
+            "Unnamed: 15": NaN
+          },
+          {
+            "Unnamed: 0": "Consultant",
+            "Unnamed: 1": "Type",
+            "Unnamed: 2": "Applicant#",
+            "Unnamed: 3": "Client",
+            "Unnamed: 4": "Vendor",
+            "Unnamed: 5": "Bill Rate",
+            "Unnamed: 6": "Pay Rate",
+            "20956.5": "Billed Hours",
+            "20601.5": "Vendor Hours",
+            "1480750.8": "Ext Rcvd Total",
+            "1491268.8": "Ex Pay Total",
+            "1472399.5499999998": "Vendor Invoice Amount",
+            "Unnamed: 12": "Month",
+            "Unnamed: 13": "Owed to vendor",
+            "Unnamed: 14": "Headcount",
+            "Unnamed: 15": "Comments2"
+          },
+          {
+            "Unnamed: 0": "Quicquaro, Brian",
+            "Unnamed: 1": "Direct Vendor",
+            "Unnamed: 2": 500390,
+            "Unnamed: 3": "Infosys Limited",
+            "Unnamed: 4": "BMQ Consulting",
+            "Unnamed: 5": 157.5,
+            "Unnamed: 6": 183.5,
+            "20956.5": NaN,
+            "20601.5": NaN,
+            "1480750.8": 0,
+            "1491268.8": 0,
+            "1472399.5499999998": NaN,
+            "Unnamed: 12": "2025-January",
+            "Unnamed: 13": 0,
+            "Unnamed: 14": 1,
+            "Unnamed: 15": NaN
+          },
+          {
+            "Unnamed: 0": "Boyapally, Sivaram",
+            "Unnamed: 1": "Direct Vendor",
+            "Unnamed: 2": 500687,
+            "Unnamed: 3": "UNFI",
+            "Unnamed: 4": "Indus River Technologies Inc",
+            "Unnamed: 5": 106,
+            "Unnamed: 6": 100,
+            "20956.5": 168,
+            "20601.5": 168,
+            "1480750.8": 16800,
+            "1491268.8": 16800,
+            "1472399.5499999998": 16800,
+            "Unnamed: 12": "2025-January",
+            "Unnamed: 13": 0,
+            "Unnamed: 14": 1,
+            "Unnamed: 15": NaN
+          },
+          {
+            "Unnamed: 0": "Koukutla Reddy, Sudheer",
+            "Unnamed: 1": "Direct Vendor",
+            "Unnamed: 2": 500885,
+            "Unnamed: 3": "Techno-Comp Inc",
+            "Unnamed: 4": "Technodeed LLC",
+            "Unnamed: 5": 63,
+            "Unnamed: 6": 53.5,
+            "20956.5": 160,
+            "20601.5": 160,
+            "1480750.8": 8560,
+            "1491268.8": 8560,
+            "1472399.5499999998": 8560,
+            "Unnamed: 12": "2025-January",
+            "Unnamed: 13": 0,
+            "Unnamed: 14": 1,
+            "Unnamed: 15": NaN
+          }
+        ]
+      },
+      "SW 2025 Billable to 09.30": {
+        "rows": 4840,
+        "columns": [
+          "SW Pivot Table",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4",
+          "Unnamed: 5",
+          "Unnamed: 6",
+          "Unnamed: 7",
+          "Unnamed: 8",
+          "Unnamed: 9",
+          "Unnamed: 10",
+          "Unnamed: 11",
+          "Unnamed: 12",
+          "Unnamed: 13",
+          "Unnamed: 14",
+          "Unnamed: 15",
+          "Unnamed: 16",
+          "Unnamed: 17",
+          "Unnamed: 18",
+          "Unnamed: 19",
+          "Unnamed: 20",
+          "Unnamed: 21",
+          "Unnamed: 22",
+          "Unnamed: 23",
+          "Unnamed: 24",
+          "iTech Pivot Table July 19 @1pm",
+          "Unnamed: 26",
+          "Unnamed: 27",
+          "Unnamed: 28",
+          "Unnamed: 29",
+          "Unnamed: 30",
+          "Unnamed: 31",
+          "Unnamed: 32",
+          "Unnamed: 33"
+        ],
+        "data_types": {
+          "SW Pivot Table": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object",
+          "Unnamed: 5": "object",
+          "Unnamed: 6": "object",
+          "Unnamed: 7": "object",
+          "Unnamed: 8": "object",
+          "Unnamed: 9": "object",
+          "Unnamed: 10": "object",
+          "Unnamed: 11": "object",
+          "Unnamed: 12": "object",
+          "Unnamed: 13": "object",
+          "Unnamed: 14": "object",
+          "Unnamed: 15": "object",
+          "Unnamed: 16": "object",
+          "Unnamed: 17": "object",
+          "Unnamed: 18": "object",
+          "Unnamed: 19": "object",
+          "Unnamed: 20": "object",
+          "Unnamed: 21": "object",
+          "Unnamed: 22": "object",
+          "Unnamed: 23": "object",
+          "Unnamed: 24": "object",
+          "iTech Pivot Table July 19 @1pm": "float64",
+          "Unnamed: 26": "float64",
+          "Unnamed: 27": "float64",
+          "Unnamed: 28": "float64",
+          "Unnamed: 29": "float64",
+          "Unnamed: 30": "float64",
+          "Unnamed: 31": "float64",
+          "Unnamed: 32": "float64",
+          "Unnamed: 33": "float64"
+        },
+        "sample_data": [
+          {
+            "SW Pivot Table": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Unnamed: 4": NaN,
+            "Unnamed: 5": NaN,
+            "Unnamed: 6": NaN,
+            "Unnamed: 7": NaN,
+            "Unnamed: 8": NaN,
+            "Unnamed: 9": NaN,
+            "Unnamed: 10": NaN,
+            "Unnamed: 11": NaN,
+            "Unnamed: 12": NaN,
+            "Unnamed: 13": NaN,
+            "Unnamed: 14": NaN,
+            "Unnamed: 15": NaN,
+            "Unnamed: 16": NaN,
+            "Unnamed: 17": NaN,
+            "Unnamed: 18": NaN,
+            "Unnamed: 19": NaN,
+            "Unnamed: 20": NaN,
+            "Unnamed: 21": NaN,
+            "Unnamed: 22": NaN,
+            "Unnamed: 23": NaN,
+            "Unnamed: 24": NaN,
+            "iTech Pivot Table July 19 @1pm": NaN,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": 0.0,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN
+          },
+          {
+            "SW Pivot Table": "Column8",
+            "Unnamed: 1": "T_INVOICE_COMPANY_NAME",
+            "Unnamed: 2": "Column1",
+            "Unnamed: 3": "CUST_NAME",
+            "Unnamed: 4": "Invoice_Number",
+            "Unnamed: 5": "Invoice_Date",
+            "Unnamed: 6": "Column2",
+            "Unnamed: 7": "Column3",
+            "Unnamed: 8": "Column4",
+            "Unnamed: 9": "Assignment_PeriodEndingDate",
+            "Unnamed: 10": "Period_StartDate",
+            "Unnamed: 11": "Period_EndDate",
+            "Unnamed: 12": "CUST_CITY",
+            "Unnamed: 13": "CUST_STATE",
+            "Unnamed: 14": "Record_Status",
+            "Unnamed: 15": "Pay_Code",
+            "Unnamed: 16": "LOB",
+            "Unnamed: 17": "Column5",
+            "Unnamed: 18": "Applicant_Name",
+            "Unnamed: 19": "Job_WC_Code",
+            "Unnamed: 20": "Column6",
+            "Unnamed: 21": "Column7",
+            "Unnamed: 22": "Job_State",
+            "Unnamed: 23": "Pay_Rate",
+            "Unnamed: 24": "F25",
+            "iTech Pivot Table July 19 @1pm": NaN,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": NaN,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN
+          },
+          {
+            "SW Pivot Table": 510091,
+            "Unnamed: 1": "Tek Systems",
+            "Unnamed: 2": 502236,
+            "Unnamed: 3": "Erie Insurance",
+            "Unnamed: 4": "54870",
+            "Unnamed: 5": "2025-01-14",
+            "Unnamed: 6": 16,
+            "Unnamed: 7": 75,
+            "Unnamed: 8": 1158,
+            "Unnamed: 9": "2025-01-04",
+            "Unnamed: 10": "2025-01-01",
+            "Unnamed: 11": "2025-01-04",
+            "Unnamed: 12": "Concord",
+            "Unnamed: 13": "NC",
+            "Unnamed: 14": "UBOACC",
+            "Unnamed: 15": "R",
+            "Unnamed: 16": "11",
+            "Unnamed: 17": 500062,
+            "Unnamed: 18": "Lokala, Siva",
+            "Unnamed: 19": "3P/I",
+            "Unnamed: 20": 0,
+            "Unnamed: 21": 502047,
+            "Unnamed: 22": "NC",
+            "Unnamed: 23": 66,
+            "Unnamed: 24": 4,
+            "iTech Pivot Table July 19 @1pm": NaN,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": NaN,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN
+          },
+          {
+            "SW Pivot Table": 510091,
+            "Unnamed: 1": "Tek Systems",
+            "Unnamed: 2": 502236,
+            "Unnamed: 3": "Erie Insurance",
+            "Unnamed: 4": "54873",
+            "Unnamed: 5": "2025-01-14",
+            "Unnamed: 6": 40,
+            "Unnamed: 7": 75,
+            "Unnamed: 8": 2895,
+            "Unnamed: 9": "2025-01-11",
+            "Unnamed: 10": "2025-01-05",
+            "Unnamed: 11": "2025-01-11",
+            "Unnamed: 12": "Concord",
+            "Unnamed: 13": "NC",
+            "Unnamed: 14": "UBOACC",
+            "Unnamed: 15": "R",
+            "Unnamed: 16": "11",
+            "Unnamed: 17": 500062,
+            "Unnamed: 18": "Lokala, Siva",
+            "Unnamed: 19": "3P/I",
+            "Unnamed: 20": 0,
+            "Unnamed: 21": 502047,
+            "Unnamed: 22": "NC",
+            "Unnamed: 23": 66,
+            "Unnamed: 24": 4,
+            "iTech Pivot Table July 19 @1pm": NaN,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": NaN,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN
+          },
+          {
+            "SW Pivot Table": 510091,
+            "Unnamed: 1": "Tek Systems",
+            "Unnamed: 2": 502236,
+            "Unnamed: 3": "Erie Insurance",
+            "Unnamed: 4": "54918",
+            "Unnamed: 5": "2025-01-22",
+            "Unnamed: 6": 40,
+            "Unnamed: 7": 75,
+            "Unnamed: 8": 2895,
+            "Unnamed: 9": "2025-01-18",
+            "Unnamed: 10": "2025-01-12",
+            "Unnamed: 11": "2025-01-18",
+            "Unnamed: 12": "Concord",
+            "Unnamed: 13": "NC",
+            "Unnamed: 14": "UBOACC",
+            "Unnamed: 15": "R",
+            "Unnamed: 16": "11",
+            "Unnamed: 17": 500062,
+            "Unnamed: 18": "Lokala, Siva",
+            "Unnamed: 19": "3P/I",
+            "Unnamed: 20": 0,
+            "Unnamed: 21": 502047,
+            "Unnamed: 22": "NC",
+            "Unnamed: 23": 66,
+            "Unnamed: 24": 4,
+            "iTech Pivot Table July 19 @1pm": NaN,
+            "Unnamed: 26": NaN,
+            "Unnamed: 27": NaN,
+            "Unnamed: 28": NaN,
+            "Unnamed: 29": NaN,
+            "Unnamed: 30": NaN,
+            "Unnamed: 31": NaN,
+            "Unnamed: 32": NaN,
+            "Unnamed: 33": NaN
+          }
+        ]
+      }
+    }
+  },
+  "Smartworks Sub vendor list-2.xlsx": {
+    "file_size_mb": 0.01,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 7,
+        "columns": [
+          "Smartworks- Sub Vendor List",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4"
+        ],
+        "data_types": {
+          "Smartworks- Sub Vendor List": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object"
+        },
+        "sample_data": [
+          {
+            "Smartworks- Sub Vendor List": "Consultant Name",
+            "Unnamed: 1": "Vendor name ",
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": "Pay Rate",
+            "Unnamed: 4": "Net Terms"
+          },
+          {
+            "Smartworks- Sub Vendor List": "Gandham Vinay Kumar",
+            "Unnamed: 1": "Crest Infotech LLC",
+            "Unnamed: 2": "Navy Federal",
+            "Unnamed: 3": 90,
+            "Unnamed: 4": "Net 30"
+          },
+          {
+            "Smartworks- Sub Vendor List": "Jeyasundari Jeyaraman",
+            "Unnamed: 1": "Isofttech Inc",
+            "Unnamed: 2": "Pontoon",
+            "Unnamed: 3": 63.65,
+            "Unnamed: 4": "Net 45"
+          },
+          {
+            "Smartworks- Sub Vendor List": "Sudheer Koukutla Reddy",
+            "Unnamed: 1": "Technodeed LLC",
+            "Unnamed: 2": "Techno-Comp",
+            "Unnamed: 3": 53.5,
+            "Unnamed: 4": "Net 90"
+          },
+          {
+            "Smartworks- Sub Vendor List": "Prashanth Velijela",
+            "Unnamed: 1": "Techquest LLC",
+            "Unnamed: 2": "TeleCommunications",
+            "Unnamed: 3": 72,
+            "Unnamed: 4": "Net 45"
+          }
+        ]
+      }
+    }
+  },
+  "TCS Sub vendor list.xlsx": {
+    "file_size_mb": 0.03,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 251,
+        "columns": [
+          "iTech-TCS Sub vendoe list",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4"
+        ],
+        "data_types": {
+          "iTech-TCS Sub vendoe list": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "float64"
+        },
+        "sample_data": [
+          {
+            "iTech-TCS Sub vendoe list": "Aakanksha Awar",
+            "Unnamed: 1": "TechMetro LLC ",
+            "Unnamed: 2": "TCS",
+            "Unnamed: 3": "Net 55",
+            "Unnamed: 4": 63.0
+          },
+          {
+            "iTech-TCS Sub vendoe list": "Abdul Katheri Ibrahim Gaffar Pasha",
+            "Unnamed: 1": "AMKO SOFTWARE SOLUTUIONS",
+            "Unnamed: 2": "TCS",
+            "Unnamed: 3": "Net 45",
+            "Unnamed: 4": 68.42
+          },
+          {
+            "iTech-TCS Sub vendoe list": "Abdullah Hussain Siddiqui",
+            "Unnamed: 1": "Salaam Services LLC",
+            "Unnamed: 2": "TCS",
+            "Unnamed: 3": "Net 60",
+            "Unnamed: 4": 167.44
+          },
+          {
+            "iTech-TCS Sub vendoe list": "Abdul Younus Shaik",
+            "Unnamed: 1": "Savvy Info Systems Inc ",
+            "Unnamed: 2": "TCS",
+            "Unnamed: 3": "Net 45",
+            "Unnamed: 4": 63.54
+          },
+          {
+            "iTech-TCS Sub vendoe list": "ABHILASH MAREEDU",
+            "Unnamed: 1": "CompuTact Systems Inc ",
+            "Unnamed: 2": "TCS",
+            "Unnamed: 3": "Net 45",
+            "Unnamed: 4": 51.8
+          }
+        ]
+      }
+    }
+  },
+  "TCS Subs-escalation list.xlsx": {
+    "file_size_mb": 0.02,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 93,
+        "columns": [
+          "Freddie Mac",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4"
+        ],
+        "data_types": {
+          "Freddie Mac": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object"
+        },
+        "sample_data": [
+          {
+            "Freddie Mac": "Employee Name",
+            "Unnamed: 1": "Sub Co. Contact info",
+            "Unnamed: 2": "TCS BA ID",
+            "Unnamed: 3": "Proj Start",
+            "Unnamed: 4": "End Date"
+          },
+          {
+            "Freddie Mac": "MOUNIKA GARREPALLY",
+            "Unnamed: 1": "MSR Technology Group LLC dba Infomatics - rajesree.p@msrtechnologies.com/(925) 528 7142",
+            "Unnamed: 2": 2127461,
+            "Unnamed: 3": "2021-10-15 00:00:00",
+            "Unnamed: 4": NaN
+          },
+          {
+            "Freddie Mac": "NIKHIL REDDY KANDAKATLA",
+            "Unnamed: 1": "Wafts Solutions Inc-nomula@waftssolutions.com/517 515 7520",
+            "Unnamed: 2": 2245871,
+            "Unnamed: 3": "2021-12-21 00:00:00",
+            "Unnamed: 4": NaN
+          },
+          {
+            "Freddie Mac": "AMULYA PARRE",
+            "Unnamed: 1": "Vsoft Consulting Group Inc - rmohanty@vsoftconsulting.com - 502.515.7050",
+            "Unnamed: 2": 2690168,
+            "Unnamed: 3": "2023-11-13 00:00:00",
+            "Unnamed: 4": NaN
+          },
+          {
+            "Freddie Mac": "TIRUPATHI DILIP",
+            "Unnamed: 1": "IT Workforce Inc - contracts@it-wf.com - 630-593-0000",
+            "Unnamed: 2": 2706045,
+            "Unnamed: 3": "2024-01-25 00:00:00",
+            "Unnamed: 4": "P/E"
+          }
+        ]
+      }
+    }
+  },
+  "Xela Sub vendor list.xlsx": {
+    "file_size_mb": 0.01,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 32,
+        "columns": [
+          "Xela- Sub Vendor List",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4",
+          "Unnamed: 5",
+          "Unnamed: 6"
+        ],
+        "data_types": {
+          "Xela- Sub Vendor List": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object",
+          "Unnamed: 5": "object",
+          "Unnamed: 6": "object"
+        },
+        "sample_data": [
+          {
+            "Xela- Sub Vendor List": "Consultant Name",
+            "Unnamed: 1": "Subcontractor",
+            "Unnamed: 2": "Pay",
+            "Unnamed: 3": "Net terms",
+            "Unnamed: 4": "15th of month",
+            "Unnamed: 5": "30th of month",
+            "Unnamed: 6": NaN
+          },
+          {
+            "Xela- Sub Vendor List": "Krishit Goud",
+            "Unnamed: 1": "Karv IT Solutions, LLC",
+            "Unnamed: 2": 60,
+            "Unnamed: 3": 45,
+            "Unnamed: 4": NaN,
+            "Unnamed: 5": NaN,
+            "Unnamed: 6": NaN
+          },
+          {
+            "Xela- Sub Vendor List": " Afzal Basha  Dandu",
+            "Unnamed: 1": "Helishores, Inc.",
+            "Unnamed: 2": 64,
+            "Unnamed: 3": 45,
+            "Unnamed: 4": NaN,
+            "Unnamed: 5": NaN,
+            "Unnamed: 6": NaN
+          },
+          {
+            "Xela- Sub Vendor List": "Akash Balaji Ramprasad",
+            "Unnamed: 1": "Saan International LLC",
+            "Unnamed: 2": 77,
+            "Unnamed: 3": 30,
+            "Unnamed: 4": NaN,
+            "Unnamed: 5": NaN,
+            "Unnamed: 6": NaN
+          },
+          {
+            "Xela- Sub Vendor List": "Amith Vardhan Gottapu",
+            "Unnamed: 1": "Comnatix LLC",
+            "Unnamed: 2": 60,
+            "Unnamed: 3": 45,
+            "Unnamed: 4": NaN,
+            "Unnamed: 5": NaN,
+            "Unnamed: 6": NaN
+          }
+        ]
+      }
+    }
+  },
+  "YTD_09.30.25_SW Subvendor balance sheet.xlsx": {
+    "file_size_mb": 0.3,
+    "sheets": [
+      "QuickBooks Desktop Export Tips",
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "QuickBooks Desktop Export Tips": {
+        "rows": 0,
+        "columns": [],
+        "data_types": {},
+        "sample_data": []
+      },
+      "Sheet1": {
+        "rows": 124,
+        "columns": [
+          "Unnamed: 0",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Type",
+          "Unnamed: 5",
+          "Date",
+          "Unnamed: 7",
+          "Num",
+          "Unnamed: 9",
+          "Name",
+          "Unnamed: 11",
+          "Memo",
+          "Unnamed: 13",
+          "Clr",
+          "Unnamed: 15",
+          "Split",
+          "Unnamed: 17",
+          "Debit",
+          "Unnamed: 19",
+          "Credit",
+          "Unnamed: 21",
+          "Balance"
+        ],
+        "data_types": {
+          "Unnamed: 0": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "float64",
+          "Unnamed: 3": "float64",
+          "Type": "object",
+          "Unnamed: 5": "float64",
+          "Date": "datetime64[ns]",
+          "Unnamed: 7": "float64",
+          "Num": "object",
+          "Unnamed: 9": "float64",
+          "Name": "object",
+          "Unnamed: 11": "float64",
+          "Memo": "object",
+          "Unnamed: 13": "float64",
+          "Clr": "float64",
+          "Unnamed: 15": "float64",
+          "Split": "object",
+          "Unnamed: 17": "float64",
+          "Debit": "float64",
+          "Unnamed: 19": "float64",
+          "Credit": "float64",
+          "Unnamed: 21": "float64",
+          "Balance": "float64"
+        },
+        "sample_data": [
+          {
+            "Unnamed: 0": NaN,
+            "Unnamed: 1": "5100 \u00b7 Cost of Sales Non-E'ee Program.",
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Type": NaN,
+            "Unnamed: 5": NaN,
+            "Date": "NaT",
+            "Unnamed: 7": NaN,
+            "Num": NaN,
+            "Unnamed: 9": NaN,
+            "Name": NaN,
+            "Unnamed: 11": NaN,
+            "Memo": NaN,
+            "Unnamed: 13": NaN,
+            "Clr": NaN,
+            "Unnamed: 15": NaN,
+            "Split": NaN,
+            "Unnamed: 17": NaN,
+            "Debit": NaN,
+            "Unnamed: 19": NaN,
+            "Credit": NaN,
+            "Unnamed: 21": NaN,
+            "Balance": NaN
+          },
+          {
+            "Unnamed: 0": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Type": "Bill",
+            "Unnamed: 5": NaN,
+            "Date": "2025-01-31 00:00:00",
+            "Unnamed: 7": NaN,
+            "Num": "N5659",
+            "Unnamed: 9": NaN,
+            "Name": "Technodeed LLC",
+            "Unnamed: 11": NaN,
+            "Memo": "N5659 Sudheer Koukutla Reddy   Jan 2025 160 hours - $53.50/hr",
+            "Unnamed: 13": NaN,
+            "Clr": NaN,
+            "Unnamed: 15": NaN,
+            "Split": "2010 \u00b7 Accounts Payable - Subcontract.",
+            "Unnamed: 17": NaN,
+            "Debit": 8560.0,
+            "Unnamed: 19": NaN,
+            "Credit": NaN,
+            "Unnamed: 21": NaN,
+            "Balance": 8560.0
+          },
+          {
+            "Unnamed: 0": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Type": "Bill",
+            "Unnamed: 5": NaN,
+            "Date": "2025-01-31 00:00:00",
+            "Unnamed: 7": NaN,
+            "Num": "Inv#01312025-002- Pr",
+            "Unnamed: 9": NaN,
+            "Name": "Techquest LLC",
+            "Unnamed: 11": NaN,
+            "Memo": "Inv#01312025-002- Prashanth Velijala- Jan 25 K Force Project 168 hrs $69/hr",
+            "Unnamed: 13": NaN,
+            "Clr": NaN,
+            "Unnamed: 15": NaN,
+            "Split": "2010 \u00b7 Accounts Payable - Subcontract.",
+            "Unnamed: 17": NaN,
+            "Debit": 11592.0,
+            "Unnamed: 19": NaN,
+            "Credit": NaN,
+            "Unnamed: 21": NaN,
+            "Balance": 20152.0
+          },
+          {
+            "Unnamed: 0": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Type": "Bill",
+            "Unnamed: 5": NaN,
+            "Date": "2025-01-31 00:00:00",
+            "Unnamed: 7": NaN,
+            "Num": "Inv#01312025-001- Pr",
+            "Unnamed: 9": NaN,
+            "Name": "Techquest LLC",
+            "Unnamed: 11": NaN,
+            "Memo": "Inv#01312025-001- Prashanth Velijala- Jan 25 Telecommunications Project 168 hrs $72/hr",
+            "Unnamed: 13": NaN,
+            "Clr": NaN,
+            "Unnamed: 15": NaN,
+            "Split": "2010 \u00b7 Accounts Payable - Subcontract.",
+            "Unnamed: 17": NaN,
+            "Debit": 12096.0,
+            "Unnamed: 19": NaN,
+            "Credit": NaN,
+            "Unnamed: 21": NaN,
+            "Balance": 32248.0
+          },
+          {
+            "Unnamed: 0": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Type": "Bill",
+            "Unnamed: 5": NaN,
+            "Date": "2025-01-31 00:00:00",
+            "Unnamed: 7": NaN,
+            "Num": "SSB060",
+            "Unnamed: 9": NaN,
+            "Name": "Indus River Technologies Inc",
+            "Unnamed: 11": NaN,
+            "Memo": "SSB060   Sivaram Boyapally    Jan 2025   168 Hours - $100/hr",
+            "Unnamed: 13": NaN,
+            "Clr": NaN,
+            "Unnamed: 15": NaN,
+            "Split": "2010 \u00b7 Accounts Payable - Subcontract.",
+            "Unnamed: 17": NaN,
+            "Debit": 16800.0,
+            "Unnamed: 19": NaN,
+            "Credit": NaN,
+            "Unnamed: 21": NaN,
+            "Balance": 49048.0
+          }
+        ]
+      }
+    }
+  },
+  "iTech Other Sub vendor list-iTech.xlsx": {
+    "file_size_mb": 0.01,
+    "sheets": [
+      "Sheet1"
+    ],
+    "sheet_details": {
+      "Sheet1": {
+        "rows": 15,
+        "columns": [
+          "iTech- Other Sub vendor list",
+          "Unnamed: 1",
+          "Unnamed: 2",
+          "Unnamed: 3",
+          "Unnamed: 4"
+        ],
+        "data_types": {
+          "iTech- Other Sub vendor list": "object",
+          "Unnamed: 1": "object",
+          "Unnamed: 2": "object",
+          "Unnamed: 3": "object",
+          "Unnamed: 4": "object"
+        },
+        "sample_data": [
+          {
+            "iTech- Other Sub vendor list": NaN,
+            "Unnamed: 1": NaN,
+            "Unnamed: 2": NaN,
+            "Unnamed: 3": NaN,
+            "Unnamed: 4": NaN
+          },
+          {
+            "iTech- Other Sub vendor list": "Raghuveer Koppala",
+            "Unnamed: 1": "R A Smart Solutions",
+            "Unnamed: 2": "Tek Sys",
+            "Unnamed: 3": "Dure on receipt",
+            "Unnamed: 4": "10000/ month"
+          },
+          {
+            "iTech- Other Sub vendor list": "Dayanand Buramshetty",
+            "Unnamed: 1": "ePromptus Inc",
+            "Unnamed: 2": "HQ resoources",
+            "Unnamed: 3": "Net 30",
+            "Unnamed: 4": 94
+          },
+          {
+            "iTech- Other Sub vendor list": "Udayan Chopra",
+            "Unnamed: 1": "Bilva International Ltd",
+            "Unnamed: 2": "Eliassen Group",
+            "Unnamed: 3": "Pd when Pd",
+            "Unnamed: 4": 88.5
+          },
+          {
+            "iTech- Other Sub vendor list": "Alan Mallela",
+            "Unnamed: 1": "Jasper Its",
+            "Unnamed: 2": "Scott Business Group ",
+            "Unnamed: 3": "Pd when Pd",
+            "Unnamed: 4": 63.5
+          }
+        ]
+      }
+    }
+  }
+}

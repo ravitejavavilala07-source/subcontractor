@@ -1,0 +1,146 @@
+{
+  "Cognizant Sub vendor list.xlsx": {
+    "Sheet1": {
+      "rows": 36,
+      "columns": 5,
+      "column_names": [
+        "iTech-Cognizant Sub vendor list",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4"
+      ],
+      "data_types": {
+        "iTech-Cognizant Sub vendor list": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object",
+        "Unnamed: 3": "object",
+        "Unnamed: 4": "object"
+      }
+    }
+  },
+  "Cox Sub vendor list-2.xlsx": {
+    "Sheet1": {
+      "rows": 28,
+      "columns": 5,
+      "column_names": [
+        "Cox Little Sub Vendor List",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4"
+      ],
+      "data_types": {
+        "Cox Little Sub Vendor List": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object",
+        "Unnamed: 3": "object",
+        "Unnamed: 4": "object"
+      }
+    }
+  },
+  "Rise IT Sub Vendor List.xlsx": {
+    "Sheet1": {
+      "rows": 3,
+      "columns": 5,
+      "column_names": [
+        "Rise IT Sub vendor List",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4"
+      ],
+      "data_types": {
+        "Rise IT Sub vendor List": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object",
+        "Unnamed: 3": "object",
+        "Unnamed: 4": "object"
+      }
+    }
+  },
+  "Smartworks Sub vendor list-2.xlsx": {
+    "Sheet1": {
+      "rows": 7,
+      "columns": 5,
+      "column_names": [
+        "Smartworks- Sub Vendor List",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4"
+      ],
+      "data_types": {
+        "Smartworks- Sub Vendor List": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object",
+        "Unnamed: 3": "object",
+        "Unnamed: 4": "object"
+      }
+    }
+  },
+  "TCS Sub vendor list.xlsx": {
+    "Sheet1": {
+      "rows": 251,
+      "columns": 5,
+      "column_names": [
+        "iTech-TCS Sub vendoe list",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4"
+      ],
+      "data_types": {
+        "iTech-TCS Sub vendoe list": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object",
+        "Unnamed: 3": "object",
+        "Unnamed: 4": "float64"
+      }
+    }
+  },
+  "Xela Sub vendor list.xlsx": {
+    "Sheet1": {
+      "rows": 32,
+      "columns": 7,
+      "column_names": [
+        "Xela- Sub Vendor List",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6"
+      ],
+      "data_types": {
+        "Xela- Sub Vendor List": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object",
+        "Unnamed: 3": "object",
+        "Unnamed: 4": "object",
+        "Unnamed: 5": "object",
+        "Unnamed: 6": "object"
+      }
+    }
+  },
+  "iTech Other Sub vendor list-iTech.xlsx": {
+    "Sheet1": {
+      "rows": 15,
+      "columns": 5,
+      "column_names": [
+        "iTech- Other Sub vendor list",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4"
+      ],
+      "data_types": {
+        "iTech- Other Sub vendor list": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object",
+        "Unnamed: 3": "object",
+        "Unnamed: 4": "object"
+      }
+    }
+  }
+}

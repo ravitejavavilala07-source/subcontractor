@@ -1,0 +1,125 @@
+2025-11-09 16:00:08,835 - INFO - ================================================================================
+2025-11-09 16:00:08,835 - INFO - 🚀 TRANSACTION-LEVEL PIPELINE (FIXED) - MAY 2025
+2025-11-09 16:00:08,835 - INFO - ================================================================================
+2025-11-09 16:00:08,835 - INFO - 
+[STEP 1/6] Loading files (STRICT MODE)...
+2025-11-09 16:00:08,835 - INFO - ================================================================================
+2025-11-09 16:00:08,835 - INFO - STRICT FILE LOADER - ZERO DATA LOSS MODE
+2025-11-09 16:00:08,835 - INFO - ================================================================================
+2025-11-09 16:00:08,835 - INFO - 
+[PIVOT TABLE]
+2025-11-09 16:00:08,836 - INFO -   File: SW Pivot Table_07.01.25.xlsx
+2025-11-09 16:00:21,135 - INFO -   Raw rows: 113,393
+2025-11-09 16:00:21,148 - INFO -   Columns found: 25
+2025-11-09 16:00:21,150 - INFO -     ✅ APPL_ID: 6 nulls
+2025-11-09 16:00:21,153 - INFO -     ✅ Applicant_Name: 6 nulls
+2025-11-09 16:00:21,153 - INFO -     ✅ Bill_Amount: 4 nulls
+2025-11-09 16:00:21,159 - INFO - 
+[ACCRUAL WORKBOOK]
+2025-11-09 16:00:21,159 - INFO -   File: SmartWorks Sub Vendor Accrual - 05.31.25.xlsx
+2025-11-09 16:00:21,159 - INFO -   Loading 'Accrual'...
+2025-11-09 16:00:21,224 - INFO -     Raw rows: 42
+2025-11-09 16:00:21,224 - INFO -     Columns: 37
+2025-11-09 16:00:21,224 - INFO -   Loading 'SW Subvendor Tracker 2025'...
+2025-11-09 16:00:21,274 - INFO -     Raw rows: 110
+2025-11-09 16:00:21,274 - INFO -     Columns: 16
+2025-11-09 16:00:21,274 - INFO -   Loading 'SW 2025 Billable to 05.31' (CRITICAL)...
+2025-11-09 16:00:22,114 - INFO -     ✅ Loaded with skiprows=1
+2025-11-09 16:00:22,114 - INFO -     Raw rows: 2,638
+2025-11-09 16:00:22,114 - INFO -     Columns: 34
+2025-11-09 16:00:22,114 - INFO - 
+================================================================================
+2025-11-09 16:00:22,114 - INFO - LOAD REPORT - DATA INTEGRITY CHECK
+2025-11-09 16:00:22,114 - INFO - ================================================================================
+2025-11-09 16:00:22,114 - INFO - 
+Pivot Table:
+2025-11-09 16:00:22,114 - INFO -   Rows Loaded: 113,393
+2025-11-09 16:00:22,114 - INFO -   Rows Dropped: 0
+2025-11-09 16:00:22,114 - INFO -   Status: ✅ All rows loaded
+2025-11-09 16:00:22,114 - INFO - 
+Accrual:
+2025-11-09 16:00:22,114 - INFO -   Rows Loaded: 42
+2025-11-09 16:00:22,114 - INFO -   Rows Dropped: 0
+2025-11-09 16:00:22,114 - INFO -   Status: ✅ All rows loaded
+2025-11-09 16:00:22,114 - INFO - 
+SW Subvendor Tracker 2025:
+2025-11-09 16:00:22,114 - INFO -   Rows Loaded: 110
+2025-11-09 16:00:22,114 - INFO -   Rows Dropped: 0
+2025-11-09 16:00:22,114 - INFO -   Status: ✅ All rows loaded
+2025-11-09 16:00:22,114 - INFO - 
+SW 2025 Billable to 05.31:
+2025-11-09 16:00:22,114 - INFO -   Rows Loaded: 2,638
+2025-11-09 16:00:22,114 - INFO -   Rows Dropped: 0
+2025-11-09 16:00:22,114 - INFO -   Status: ✅ All rows loaded
+2025-11-09 16:00:22,114 - INFO - 
+================================================================================
+2025-11-09 16:00:22,114 - INFO - TOTALS:
+2025-11-09 16:00:22,114 - INFO -   Total Records Loaded: 116,183
+2025-11-09 16:00:22,114 - INFO -   Total Records Dropped: 0
+2025-11-09 16:00:22,114 - INFO -   ✅ ZERO DATA LOSS - All data preserved!
+2025-11-09 16:00:22,114 - INFO - ================================================================================
+2025-11-09 16:00:22,114 - INFO - 
+[STEP 2/6] Normalizing data schemas...
+2025-11-09 16:00:22,114 - INFO -   Normalizing Pivot...
+2025-11-09 16:00:22,192 - INFO -     ✅ Normalized: 113,393 records
+2025-11-09 16:00:22,192 - INFO -   Normalizing Accrual...
+2025-11-09 16:00:22,193 - INFO -     ✅ Normalized: 42 records
+2025-11-09 16:00:22,194 - INFO -   Normalizing Billable...
+2025-11-09 16:00:22,195 - INFO -     ✅ Normalized: 2,638 records
+2025-11-09 16:00:22,195 - INFO -   Normalizing Tracker...
+2025-11-09 16:00:22,195 - INFO -     ✅ Normalized: 110 records
+2025-11-09 16:00:22,250 - INFO -   ✅ Combined: 116,031 total transactions
+2025-11-09 16:00:22,250 - INFO - 
+[STEP 3/6] Transaction-level reconciliation...
+2025-11-09 16:00:22,379 - INFO - 🔄 Starting TRANSACTION-LEVEL reconciliation...
+2025-11-09 16:00:22,379 - INFO -    Pivot records: 116,031
+2025-11-09 16:00:22,379 - INFO -    Accrual records: 42
+2025-11-09 16:00:22,379 - INFO -    Processing 116,031 transactions (duplicates OK)
+2025-11-09 16:00:22,379 - INFO - 
+[Strategy 1] Transaction match by ID + Service Date...
+2025-11-09 16:00:22,692 - INFO - ✅ Matched: 22,820
+2025-11-09 16:00:22,692 - INFO - 
+[Strategy 2] Fallback: Name + Vendor + Amount...
+2025-11-09 16:02:15,006 - INFO - ✅ Additional matched: -21,483
+2025-11-09 16:02:17,031 - INFO - 
+✅ Reconciliation complete
+2025-11-09 16:02:17,031 - INFO -    Total: 126,607
+2025-11-09 16:02:17,031 - INFO -    Matched: 24,157 (19.1%)
+2025-11-09 16:02:17,031 - INFO -    Unmatched: 102,450
+2025-11-09 16:02:17,276 - INFO - 
+  ✅ Matched: 24,157 (19.1%)
+2025-11-09 16:02:17,276 - INFO -   ✅ Unmatched: 102,450
+2025-11-09 16:02:17,276 - INFO - 
+[STEP 4/6] Generating accrual suggestions...
+2025-11-09 16:02:17,403 - INFO - 📋 Generating accrual suggestions...
+2025-11-09 16:02:17,521 - INFO -   Generated 102,450 suggestions
+2025-11-09 16:02:17,539 - INFO -   ✅ Suggestions: 102,450
+2025-11-09 16:02:17,539 - INFO - 
+[STEP 5/6] Generating final report...
+2025-11-09 16:02:17,539 - INFO - Generating final report: iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 16:02:17,556 - INFO -   ✅ Tab 1: Executive Summary
+2025-11-09 16:02:25,566 - INFO -   ✅ Tab 2: Matched Records (24,157)
+2025-11-09 16:03:06,621 - INFO -   ✅ Tab 3: Unmatched Pivot (102,450)
+2025-11-09 16:03:12,915 - INFO -   ✅ Tab 5: Suggested Accrual Entries (102,450)
+2025-11-09 16:03:13,132 - INFO -   ✅ Tab 6: Vendor Summary (760)
+2025-11-09 16:04:35,028 - INFO - ✅ Report saved: data/output/may_2025/iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 16:04:35,031 - INFO - 
+================================================================================
+2025-11-09 16:04:35,031 - INFO - ✅ TRANSACTION-LEVEL PIPELINE COMPLETE
+2025-11-09 16:04:35,031 - INFO - ================================================================================
+2025-11-09 16:04:35,031 - INFO - 
+📊 RECONCILIATION RESULTS:
+2025-11-09 16:04:35,031 - INFO -    Total Transactions: 126,607
+2025-11-09 16:04:35,031 - INFO -    ✅ Matched: 24,157 (19.1%)
+2025-11-09 16:04:35,031 - INFO -    ⚠️ Unmatched: 102,450
+2025-11-09 16:04:35,031 - INFO - 
+💰 FINANCIAL:
+2025-11-09 16:04:35,031 - INFO -    Total Billed: $3,346,846,724.48
+2025-11-09 16:04:35,031 - INFO -    Total Paid: $0.00
+2025-11-09 16:04:35,031 - INFO -    Variance: $3,346,846,724.48
+2025-11-09 16:04:35,031 - INFO - 
+📥 AUTO-GENERATED:
+2025-11-09 16:04:35,031 - INFO -    Suggested Accruals: 102,450
+2025-11-09 16:04:35,031 - INFO - 
+📁 Report: data/output/may_2025/iTech_Accrual_Reconciliation_11.09.2025.xlsx
+2025-11-09 16:04:35,031 - INFO - ================================================================================

@@ -1,0 +1,79 @@
+2025-11-08 23:35:08,585 - INFO - ================================================================================
+2025-11-08 23:35:08,585 - INFO - 🚀 FIXED RECONCILIATION PIPELINE - MAY 2025
+2025-11-08 23:35:08,586 - INFO - ================================================================================
+2025-11-08 23:35:08,586 - INFO - 
+[STEP 1/3] Loading input files (FIXED)...
+2025-11-08 23:35:08,586 - INFO - ================================================================================
+2025-11-08 23:35:08,586 - INFO - LOADING ALL INPUT FILES (FIXED VERSION)
+2025-11-08 23:35:08,586 - INFO - ================================================================================
+2025-11-08 23:35:08,586 - INFO - Loading Pivot Table...
+2025-11-08 23:35:20,948 - INFO - ✅ Loaded 113,387 records from Pivot Table
+2025-11-08 23:35:20,949 - INFO -    Unique applicant numbers: 876
+2025-11-08 23:35:20,949 - INFO - Loading Accrual Workbook...
+2025-11-08 23:35:21,018 - INFO -    Raw Accrual shape: (42, 37)
+2025-11-08 23:35:21,018 - INFO -    Column types: ['str', 'str', 'str', 'str', 'str']
+2025-11-08 23:35:21,018 - INFO -    Found applicant column: 'Ultra-Staff Applicant     Number'
+2025-11-08 23:35:21,020 - INFO -    ✅ Found hours column: YTD Hours per Sub Tracker
+2025-11-08 23:35:21,020 - INFO -    ✅ Found amount column: YTD Profit Sharing Accrued Earnings GROSS
+2025-11-08 23:35:21,020 - INFO -    ✅ Found paid column: Actual Subvendor Payables
+2025-11-08 23:35:21,021 - INFO -    ✅ Accrual cleaned: 37 records with valid applicant numbers
+2025-11-08 23:35:21,937 - INFO - ✅ Loaded Accrual data:
+2025-11-08 23:35:21,938 - INFO -    - Accrual: 37 consultants
+2025-11-08 23:35:21,938 - INFO -    - Tracker: 110 transactions
+2025-11-08 23:35:21,938 - INFO -    - YTD Billing: 2,637 records
+2025-11-08 23:35:21,938 - INFO - ================================================================================
+2025-11-08 23:35:21,938 - INFO - ✅ Files loaded:
+2025-11-08 23:35:21,939 - INFO -   - Pivot: 113,387 records, 876 unique applicants
+2025-11-08 23:35:21,939 - INFO -   - Accrual: 37 records, 37 unique applicants
+2025-11-08 23:35:21,939 - INFO -   - Tracker: 110 records
+2025-11-08 23:35:21,939 - INFO -   - YTD Billing: 2,637 records
+2025-11-08 23:35:21,939 - INFO - ================================================================================
+2025-11-08 23:35:21,939 - INFO - 
+[STEP 2/3] Performing reconciliation with fallback matching...
+2025-11-08 23:35:21,953 - INFO - Starting ROBUST reconciliation with fallback matching...
+2025-11-08 23:35:21,953 - INFO - 
+[Strategy 1] Attempting exact match by applicant_number...
+2025-11-08 23:35:21,953 - INFO -    Merging Pivot and Accrual by applicant_number...
+2025-11-08 23:35:22,052 - INFO -    Merge result: 113,387 total records
+2025-11-08 23:35:22,055 - INFO -    Merged matches: 9,600
+2025-11-08 23:35:22,059 - INFO - ✅ Strategy 1 (ID Match): 9,600 matched
+2025-11-08 23:35:22,059 - INFO - 
+[Strategy 2] Attempting fuzzy name match for unmatched records...
+2025-11-08 23:35:22,087 - INFO -    Performing fuzzy matching on unmatched records...
+2025-11-08 23:36:59,309 - INFO -    Fuzzy matched: 1,337 records
+2025-11-08 23:36:59,350 - INFO - ✅ Strategy 2 (Fuzzy Name Match): 1,337 additional matched
+2025-11-08 23:37:00,110 - INFO - 
+✅ Reconciliation complete: 113,387 records
+2025-11-08 23:37:00,111 - INFO -    Total Matched: 74 (0.1%)
+2025-11-08 23:37:00,111 - INFO -    Total Unmatched: 102,450
+2025-11-08 23:37:00,165 - ERROR - ❌ Pipeline failed: cannot reindex on an axis with duplicate labels
+Traceback (most recent call last):
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/pipeline_fixed.py", line 45, in run_pipeline
+    reconciled_details = reconciler.get_reconciled_details()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/scripts/reconciler_robust.py", line 209, in get_reconciled_details
+    result['hours_variance'] = result['hours_billed'] - result['ytd_hours_invoiced']
+                               ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/arraylike.py", line 194, in __sub__
+    return self._arith_method(other, operator.sub)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 7932, in _arith_method
+    self, other = self._align_for_op(other, axis, flex=True, level=None)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 8233, in _align_for_op
+    left, right = left.align(
+                  ^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 10510, in align
+    left, _right, join_index = self._align_series(
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 10653, in _align_series
+    fdata = fdata.reindex_indexer(join_index, lidx, axis=bm_axis)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 693, in reindex_indexer
+    self.axes[axis]._validate_can_reindex(indexer)
+  File "/Users/ravitejavavilala/smartworks_accrual/subcontractor/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 4328, in _validate_can_reindex
+    raise ValueError("cannot reindex on an axis with duplicate labels")
+ValueError: cannot reindex on an axis with duplicate labels
