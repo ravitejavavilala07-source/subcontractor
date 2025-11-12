@@ -1,4 +1,4 @@
-﻿1,T_INVOICE_COMPANY_NAME,CUST_ID,CUST_NAME,Invoice_Number,Invoice_Date,Bill_Hours,Bill_Rate, Bill_Amount ,Assignment_PeriodEndingDate,Period_StartDate,Period_EndDate,CUST_CITY,CUST_STATE,Record_Status,Pay_Code,LOB,APPL_ID,Applicant_Name,Job_WC_Code, TaxCodeAmount_Detail ,Assignment_Id,Job_State,Pay_Rate,Equlv_Hrs_Rate
+﻿Customer_BillToNumber,T_INVOICE_COMPANY_NAME,CUST_ID,CUST_NAME,Invoice_Number,Invoice_Date,Bill_Hours,Bill_Rate, Bill_Amount ,Assignment_PeriodEndingDate,Period_StartDate,Period_EndDate,CUST_CITY,CUST_STATE,Record_Status,Pay_Code,LOB,APPL_ID,Applicant_Name,Job_WC_Code, TaxCodeAmount_Detail ,Assignment_Id,Job_State,Pay_Rate,Equlv_Hrs_Rate
 510091,Tek Systems,502236,Erie Insurance,,,0,$75.00, -   ,2025-03-01,2025-03-01,2025-03-01,Concord,NC,UBOACC,R,11,500062,"Lokala, Siva",3P/I, -   ,502047,NC,66,4
 510091,Tek Systems,502236,Erie Insurance,,,0,$75.00, -   ,2025-03-31,2025-03-16,2025-03-22,Concord,NC,UBOACC,R,11,500062,"Lokala, Siva",3P/I, -   ,502047,NC,66,4
 510091,Tek Systems,502236,Erie Insurance,54870,2025-01-14,16,$75.00," 1,158.00 ",2025-01-04,2025-01-01,2025-01-04,Concord,NC,UBOACC,R,11,500062,"Lokala, Siva",3P/I, -   ,502047,NC,66,4
